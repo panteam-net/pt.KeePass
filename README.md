@@ -1,7 +1,7 @@
 # pt.KeePass
 A cross platform port of KeePass. Our mission is to keep your passwords under your control.
 
-##Privacy policy
+## Privacy policy
 Protecting your privacy is our goal. You can find our rules [here](PrivacyPolicy.md).
 
 
