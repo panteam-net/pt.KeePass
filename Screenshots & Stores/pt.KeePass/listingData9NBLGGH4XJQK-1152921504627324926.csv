@@ -18,7 +18,11 @@ IT-поддержка:
 - мусорная корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"1.0.42:
+ReleaseNotes,3,Text,,"1.5.0.0:
+- Show password timer is off.
+- Clearing searching field on navigating back. 
+
+1.0.42:
 - Icon packs have been added.
 
 1.0.41:
@@ -54,16 +58,11 @@ pt.KeePass stores all bank card fields in custom fields. That makes it compatibl
 
 1.0.29:
 - All entry's fields are copy-able now. Click on field title to copy;
-- Some design improvements. 
+- Some design improvements.","1.5.0.0:
+- Таймер отображения пароля отключен.
+- Поле поиска очищается при обратной навигации. 
 
-1.0.28:
-- Bug with remembering key file name has been fixed;
-- Layout of the Password generation page has been improved;
-- Exporting to the XML is more secure now.
-
-1.0.27:
-- Crush after removal of the key file of the open database has been fixed;
-- Crush when deleting group has been fixed.","1.0.42:
+1.0.42:
 - Добавлена поддержка наборов иконок.
 
 1.0.41:
@@ -95,16 +94,7 @@ pt.KeePass stores all bank card fields in custom fields. That makes it compatibl
 - Исправлена ошибка при изменении имени группы
 
 1.0.30:
-- Сохранение полей записи без переключения фокуса.
-
-1.0.29:
-- Любое поле записи можно копировать. Для копирования необходимо нажать на название поля;
-- Некоторы�� улучшения дизайна. 
-
-1.0.28:
-- Исправлена ошибка при работе с ключевым файлом;
-- Улучшено расположение элементов на странце генерации паролей;
-- Повыша безопасность при экспорте в XML."
+- Сохранение полей записи без переключения фокуса."
 Title,4,Text,,pt.KeePass,pt.KeePass
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,
