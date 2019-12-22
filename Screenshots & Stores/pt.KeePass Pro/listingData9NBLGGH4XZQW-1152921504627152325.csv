@@ -18,7 +18,10 @@ Password database is encrypted and can be shared among different devices and pla
 - Корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.2.0.0:
+ReleaseNotes,3,Text,,"2.5.0.0:
+- Error message on opening kdbx file fixed. It shows the correct message now when you try to open a newer version of kdbx file.
+
+2.2.0.0:
 - Show password timer is off.
 - Clearing searching field on navigating back. 
 
@@ -54,7 +57,10 @@ pt.KeePass stores all bank card fields in custom fields. That makes it compatibl
 - Bug on changing group's name has been fixed
 
 1.0.30:
-- Saving Entry's fields without changing focus.","2.2.0.0:
+- Saving Entry's fields without changing focus.","2.5.0.0:
+- Исправлено сообщение об ошибке при открытии файла kdbx. Теперь при попытке открыть более новую версию файла kdbx отображается правильное сообщение.
+
+2.2.0.0:
 - Таймер отображения пароля отключен.
 - Поле поиска очищается при обратной навигации. 
 
