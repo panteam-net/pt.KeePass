@@ -1,3 +1,6 @@
+2.6:
+- Login page design has been updated.
+
 2.5.0.0:
 - Error message on opening kdbx file fixed. It shows the correct message now when you try to open a newer version of kdbx file.
 
