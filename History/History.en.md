@@ -1,6 +1,12 @@
 2.5.0.0:
 - Error message on opening kdbx file fixed. It shows the correct message now when you try to open a newer version of kdbx file.
 
+2.4.0.0:
+- Clearing searching field on navigating back for Android & iOS versions.
+- Icon pack #1 fixed.
+- Landing page has been added.
+- Bug with error on deleting an Entry from EntryPage fixed.
+
 2.2.0.0:
 - Show password timer is off.
 - Clearing searching field on navigating back. 
