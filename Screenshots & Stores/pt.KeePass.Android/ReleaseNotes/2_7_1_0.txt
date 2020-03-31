@@ -1,0 +1,4 @@
+<en-US>
+2.7:
+- Sharing as XML & simple text has been added.
+</en-US>

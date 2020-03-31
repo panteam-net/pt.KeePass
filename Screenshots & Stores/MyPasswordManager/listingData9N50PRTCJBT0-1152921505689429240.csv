@@ -10,7 +10,10 @@ It supports:
 - More features are coming. Leave your feedback.
 
 The password database is encrypted and can be shared among different devices and platforms."
-ReleaseNotes,3,Text,,"2.6:
+ReleaseNotes,3,Text,,"2.7:
+- Sharing as XML & simple text has been added.
+
+2.6:
 - Login page design has been updated.
 
 2.5.0.0:

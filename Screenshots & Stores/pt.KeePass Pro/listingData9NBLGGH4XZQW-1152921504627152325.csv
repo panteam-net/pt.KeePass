@@ -18,7 +18,10 @@ Password database is encrypted and can be shared among different devices and pla
 - Корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.6:
+ReleaseNotes,3,Text,,"2.7:
+- Sharing as XML & simple text has been added.
+
+2.6:
 - Login page design has been updated.
 
 2.5.0.0:
@@ -56,11 +59,10 @@ pt.KeePass stores all bank card fields in custom fields. That makes it compatibl
 
 1.0.34:
 - History has been added;
-- Now when you generate password on the generation page you go back automatically and generation page will not appear when you go back from the entry page.
+- Now when you generate password on the generation page you go back automatically and generation page will not appear when you go back from the entry page.","2.7:
+- Добавлен экспорт в формате XML и простой текст.
 
-1.0.33:
-- Login experience for saved credentials has been improved;
-- Searching has been added","2.6:
+2.6:
 - Обновлена страница входа.
 
 2.5.0.0:
@@ -98,11 +100,7 @@ pt.KeePass хранит все поля банковских карт в пол�
 
 1.0.34:
 - Добавлена история изменений записи;
-- Теперь страница генерации пароля не будет появляться пре переходе назад со страцицы записи после генерации пароля.
-
-1.0.33:
-- Ускорено открытие БД для сохраненных учетных данных
-- Добавлен поиск"
+- Теперь страница генерации пароля не будет появляться пре переходе назад со страцицы записи после генерации пароля."
 Title,4,Text,,pt.KeePass Pro,pt.KeePass Pro
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,

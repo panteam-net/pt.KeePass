@@ -1,3 +1,6 @@
+2.7:
+- Sharing as XML & simple text has been added.
+
 2.6:
 - Login page design has been updated.
 
