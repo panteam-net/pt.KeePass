@@ -1,0 +1,806 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CantOpenDatabase" xml:space="preserve">
+    <value>Can't open database, the composite key is invalid</value>
+  </data>
+  <data name="CreateNewDatabaseCommand.Label" xml:space="preserve">
+    <value>Create a new database (Ctrl+N)</value>
+  </data>
+  <data name="FilenameText.Text" xml:space="preserve">
+    <value>Filename:</value>
+  </data>
+  <data name="FilesOpenFileCommand.Label" xml:space="preserve">
+    <value>Browse file: Ctrl+O</value>
+  </data>
+  <data name="FilesOpenSelectedFileCommand.Label" xml:space="preserve">
+    <value>Open file: Enter</value>
+  </data>
+  <data name="FilesPageHeader.Text" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="GeneratePasswordCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Generate password command</value>
+  </data>
+  <data name="GeneratePasswordCommand.Label" xml:space="preserve">
+    <value>Generate password: Ctrl+G</value>
+  </data>
+  <data name="HomeHumburgerMenu.Text" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="InvalidOldPassword" xml:space="preserve">
+    <value>The old password is invalid</value>
+  </data>
+  <data name="LoginPageHeader.Text" xml:space="preserve">
+    <value>Login page</value>
+  </data>
+  <data name="PasswordsAreNotSame" xml:space="preserve">
+    <value>Passwords don't coincide</value>
+  </data>
+  <data name="PasswordText.Text" xml:space="preserve">
+    <value>Master Password:</value>
+  </data>
+  <data name="SaveCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Save command</value>
+  </data>
+  <data name="SaveCommand.Label" xml:space="preserve">
+    <value>Save: Ctrl+S</value>
+  </data>
+  <data name="SettingsHamburgerMenu.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="AddNewEntryCommand.Label" xml:space="preserve">
+    <value>Add a new entry (Ctrl+I)</value>
+  </data>
+  <data name="AddNewGroupCommand.Label" xml:space="preserve">
+    <value>Add a new group</value>
+  </data>
+  <data name="CopyPasswordCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Copy password command</value>
+  </data>
+  <data name="CopyPasswordCommand.Label" xml:space="preserve">
+    <value>Copy password (Ctrl+C)</value>
+  </data>
+  <data name="CopyUserNameCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Copy user name command</value>
+  </data>
+  <data name="CopyUserNameCommand.Label" xml:space="preserve">
+    <value>Copy username (Ctrl+B)</value>
+  </data>
+  <data name="DatabaseOptionsCommand.Label" xml:space="preserve">
+    <value>Database options</value>
+  </data>
+  <data name="GroupOptionsCommand.Label" xml:space="preserve">
+    <value>Group's options</value>
+  </data>
+  <data name="OpenUrlCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Open URL command</value>
+  </data>
+  <data name="OpenUrlCommand.Label" xml:space="preserve">
+    <value>Open URL: Ctrl+U</value>
+  </data>
+  <data name="RemoveGroupCommand.Label" xml:space="preserve">
+    <value>Remove this group</value>
+  </data>
+  <data name="DeleteEntryCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Delete entry command</value>
+  </data>
+  <data name="DeleteEntryCommand.Label" xml:space="preserve">
+    <value>Delete: Del</value>
+  </data>
+  <data name="GroupContainsElements" xml:space="preserve">
+    <value>This group contains one or more elements. Delete?</value>
+  </data>
+  <data name="GroupNameTextBlock.Text" xml:space="preserve">
+    <value>Group name:</value>
+  </data>
+  <data name="GroupOptionsPageHeader.Text" xml:space="preserve">
+    <value>Group options</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="AdditionalChars.Text" xml:space="preserve">
+    <value>Also include the following characters:</value>
+  </data>
+  <data name="Brackets.Text" xml:space="preserve">
+    <value>([, ], {, }, (, ), &lt;, &gt;):</value>
+  </data>
+  <data name="Digits.Text" xml:space="preserve">
+    <value>Digits (0, 1, 2, ...):</value>
+  </data>
+  <data name="ExampleTextBlock.Text" xml:space="preserve">
+    <value>Example:</value>
+  </data>
+  <data name="HiAnsiCharacters.Text" xml:space="preserve">
+    <value>High ANSI characters:</value>
+  </data>
+  <data name="LowerCase.Text" xml:space="preserve">
+    <value>Lower-case (a, b, c, ...):</value>
+  </data>
+  <data name="Minus.Text" xml:space="preserve">
+    <value>Minus (-):</value>
+  </data>
+  <data name="PasswordGeneratePageHeader.Text" xml:space="preserve">
+    <value>Password generator</value>
+  </data>
+  <data name="PasswordLength.Text" xml:space="preserve">
+    <value>Password length:</value>
+  </data>
+  <data name="QualityTextBlock.Text" xml:space="preserve">
+    <value>Quality:</value>
+  </data>
+  <data name="RefreshPasswordExample.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Refresh password example button</value>
+  </data>
+  <data name="Space.Text" xml:space="preserve">
+    <value>Space ( ):</value>
+  </data>
+  <data name="Special.Text" xml:space="preserve">
+    <value>(!, $, %, &amp;, ...):</value>
+  </data>
+  <data name="Underline.Text" xml:space="preserve">
+    <value>Underline (_):</value>
+  </data>
+  <data name="UpperCase.Text" xml:space="preserve">
+    <value>Upper-case (A, B, C, ...):</value>
+  </data>
+  <data name="EntryChangesAreUnsaved" xml:space="preserve">
+    <value>Entry's changes are unsaved. Do you want to leave and lose them?</value>
+  </data>
+  <data name="SaveEntryCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Save entry command</value>
+  </data>
+  <data name="SaveEntryCommand.Label" xml:space="preserve">
+    <value>Save entry: Ctrl+S</value>
+  </data>
+  <data name="UndoEntryChangesCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Undo entry changes command</value>
+  </data>
+  <data name="UndoEntryChangesCommand.Label" xml:space="preserve">
+    <value>Undo changes: Ctrl+Q</value>
+  </data>
+  <data name="UriBadFormat" xml:space="preserve">
+    <value>Bad format of URI</value>
+  </data>
+  <data name="UrlTextBlock.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="Groups.Text" xml:space="preserve">
+    <value>Groups:</value>
+  </data>
+  <data name="Entries.Text" xml:space="preserve">
+    <value>Entries:</value>
+  </data>
+  <data name="NewDatabasePassword.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>New master password</value>
+  </data>
+  <data name="NewDatabasePasswordRepeat.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>New master password repeat</value>
+  </data>
+  <data name="NewPasswordRepeatTextBlock.Text" xml:space="preserve">
+    <value>New password repeat:</value>
+  </data>
+  <data name="NewPasswordTextBlock.Text" xml:space="preserve">
+    <value>New password:</value>
+  </data>
+  <data name="OldDatabasePassword.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Old master password</value>
+  </data>
+  <data name="OldPasswordTextBlock.Text" xml:space="preserve">
+    <value>Old password:</value>
+  </data>
+  <data name="EntryPassword.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Entry password</value>
+  </data>
+  <data name="EntryPasswordRepeat.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Entry password repeat</value>
+  </data>
+  <data name="NotesTextBlock.Text" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="PasswordTextBlock.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="TitleTextBlock.Text" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="UserNameTextBlock.Text" xml:space="preserve">
+    <value>User name:</value>
+  </data>
+  <data name="DeleteSelectedEntryCommand.Label" xml:space="preserve">
+    <value>Delete selected entry: Del</value>
+  </data>
+  <data name="PrivacyStatementFirstParagraph.Text" xml:space="preserve">
+    <value>Protecting your privacy is important to us. We hope the following statement will help you to understand how we collect, use and safeguard your personal information in the application.</value>
+  </data>
+  <data name="PrivacyStatementForthParagraph.Text" xml:space="preserve">
+    <value>Our privacy policy may be changed at any time.</value>
+  </data>
+  <data name="PrivacyStatementForthParagraphHeader.Text" xml:space="preserve">
+    <value>III. Changes of our privacy policy</value>
+  </data>
+  <data name="PrivacyStatementSecondParagraph.Text" xml:space="preserve">
+    <value>We do not collect any personal or identifying information you whatsoever. However if the app requires access to the Internet and network capabilities so that it may download ads to be displayed in order to keep the app free or upload the telemetry data to improve the application's quality.</value>
+  </data>
+  <data name="PrivacyStatementSecondParagraphHeader.Text" xml:space="preserve">
+    <value>I. Type of collected information</value>
+  </data>
+  <data name="PrivacyStatementThirdParagraph.Text" xml:space="preserve">
+    <value>If you have any questions or concerns regarding our privacy policy or how the app can access to your personal information, you may email us at support@panteam.net</value>
+  </data>
+  <data name="PrivacyStatementThirdParagraphHeader.Text" xml:space="preserve">
+    <value>II. How to get more information</value>
+  </data>
+  <data name="UseLightThemeToggleSwitch.Header" xml:space="preserve">
+    <value>Use Light Theme</value>
+  </data>
+  <data name="UseLightThemeToggleSwitch.OffContent" xml:space="preserve">
+    <value>Dark theme</value>
+  </data>
+  <data name="UseLightThemeToggleSwitch.OnContent" xml:space="preserve">
+    <value>Light theme</value>
+  </data>
+  <data name="UseShellDrawnBackButtonToggleSwtich.Header" xml:space="preserve">
+    <value>Use shell-drawn back button</value>
+  </data>
+  <data name="UseShellDrawnBackButtonToggleSwtich.OffContent" xml:space="preserve">
+    <value>Back button in page header</value>
+  </data>
+  <data name="UseShellDrawnBackButtonToggleSwtich.OnContent" xml:space="preserve">
+    <value>Back button in titlebar or taskbar</value>
+  </data>
+  <data name="HamburgerButtonInfoFiles.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Files hamburger menu button</value>
+  </data>
+  <data name="HamburgerButtonInfoSettings.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Settings hamburger menu button</value>
+  </data>
+  <data name="ItemsTextBlock.Text" xml:space="preserve">
+    <value>Items:</value>
+  </data>
+  <data name="OpenItemCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Open selected item</value>
+  </data>
+  <data name="OpenItemCommand.Label" xml:space="preserve">
+    <value>Open item: Enter</value>
+  </data>
+  <data name="GroupsHamburgerMenuText" xml:space="preserve">
+    <value>Database:</value>
+  </data>
+  <data name="PasswordCantBeEmpty" xml:space="preserve">
+    <value>Password can't be empty</value>
+  </data>
+  <data name="LastModificationTime.Text" xml:space="preserve">
+    <value>Last modified:</value>
+  </data>
+  <data name="BrowseKeyFileButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Browse for key file button</value>
+  </data>
+  <data name="KeyFilesComboBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Recent key files combo box</value>
+  </data>
+  <data name="KeyFileTextBlock.Text" xml:space="preserve">
+    <value>Key File:</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="UseWindowsUserAccountToggleSwitch.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Use windows user account to protect your database</value>
+  </data>
+  <data name="WindowsUserAccountTextBlock.Text" xml:space="preserve">
+    <value>Windows User Account</value>
+  </data>
+  <data name="WindowsUserAccountSubTextBlock.Text" xml:space="preserve">
+    <value>(Incompatible with KeePass or other apps)</value>
+  </data>
+  <data name="SaveCredentialsSubTextBlock.Text" xml:space="preserve">
+    <value>(Protect with Windows Hello. Setup pin or face or finger sign-in in windows settings to enable this option)</value>
+  </data>
+  <data name="SaveCredentialsTextBlock.Text" xml:space="preserve">
+    <value>Save credentials</value>
+  </data>
+  <data name="Open.Label" xml:space="preserve">
+    <value>Open: Enter</value>
+  </data>
+  <data name="ReopenDatabase" xml:space="preserve">
+    <value>Can't open database with previous credentials to update with new credentials. Try to reopen the database.</value>
+  </data>
+  <data name="ReadOnlyTextBlock.Text" xml:space="preserve">
+    <value>(Read only)</value>
+  </data>
+  <data name="ExportToXmlCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Select an xml file to export data from this group and subgroups</value>
+  </data>
+  <data name="ExportToXmlCommand.Label" xml:space="preserve">
+    <value>Export to XML...</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>KeePass based passwords manager</value>
+  </data>
+  <data name="AboutPivotItem.Header" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="PrivacyStatementPivotItem.Header" xml:space="preserve">
+    <value>Privacy statement</value>
+  </data>
+  <data name="SettingsPageHeader.Content" xml:space="preserve">
+    <value>Settings page</value>
+  </data>
+  <data name="SettingsPivotItem.Header" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="PurchaseDesriptionTextBlock.Text" xml:space="preserve">
+    <value>You can purshase one of these add-ons</value>
+  </data>
+  <data name="PurchasesHumburgerButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Purchases</value>
+  </data>
+  <data name="PurchasesTextBlock.Text" xml:space="preserve">
+    <value>Purchases</value>
+  </data>
+  <data name="LoadPurchasesText" xml:space="preserve">
+    <value>Load available updates</value>
+  </data>
+  <data name="LoadAvailablePurchasesTextBlock.Text" xml:space="preserve">
+    <value>Load available purchases</value>
+  </data>
+  <data name="BuySelectedPurchaseTextBlock.Text" xml:space="preserve">
+    <value>Buy selected purchase</value>
+  </data>
+  <data name="PriceTextBlock.Text" xml:space="preserve">
+    <value>Price:</value>
+  </data>
+  <data name="MakingThePurchase" xml:space="preserve">
+    <value>Making the purchase</value>
+  </data>
+  <data name="FileNotFoundException" xml:space="preserve">
+    <value>Can't open database, the database file is inaccessible</value>
+  </data>
+  <data name="UserNameCopied" xml:space="preserve">
+    <value>in Clipboard</value>
+  </data>
+  <data name="CantUseWindowsHello" xml:space="preserve">
+    <value>Can't use windows hello to restore credentials.</value>
+  </data>
+  <data name="DatabaseIsInaccessible" xml:space="preserve">
+    <value>Database file is inaccessible. Do you want to try again or continue without saving changes?</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="KeyFileIsInaccessible" xml:space="preserve">
+    <value>Keyfile is inaccessible. Do you want to try again or continue without saving changes?</value>
+  </data>
+  <data name="KeyFileIsIncorrect" xml:space="preserve">
+    <value>Keyfile is incorrect. Do you want to try again or continue without saving changes?</value>
+  </data>
+  <data name="ExportToXmlDisclamer.Text" xml:space="preserve">
+    <value>The operation is not secure. All data from the group will be exported to an unencrypted XML file. Anyone will be able to read the exported file if has access to it.</value>
+  </data>
+  <data name="DatabasePassword.Text" xml:space="preserve">
+    <value>Kdbx password</value>
+  </data>
+  <data name="FilenameToExport.Text" xml:space="preserve">
+    <value>Filename of XML for export</value>
+  </data>
+  <data name="SelectFileToExport.Text" xml:space="preserve">
+    <value>Pick up XML file for export</value>
+  </data>
+  <data name="ExportPageHeader.Text" xml:space="preserve">
+    <value>Export page</value>
+  </data>
+  <data name="ShareCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="ShareCommand.Label" xml:space="preserve">
+    <value>Share: Ctrl+P</value>
+  </data>
+  <data name="ExportedTextBlock.Text" xml:space="preserve">
+    <value>Group has been exported successfully</value>
+  </data>
+  <data name="ExportSharingDescription" xml:space="preserve">
+    <value>XML export passwords from kdbx database</value>
+  </data>
+  <data name="ExportSharingTitle" xml:space="preserve">
+    <value>KDBX XML</value>
+  </data>
+  <data name="CopiedTextBlock.Text" xml:space="preserve">
+    <value>Copied</value>
+  </data>
+  <data name="PasswordRepeatTextBlock.Text" xml:space="preserve">
+    <value>Repeat password:</value>
+  </data>
+  <data name="SlidableListItem.RightLabel" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveMenuItem.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="PrivacyStatementZeroParagraph.Text" xml:space="preserve">
+    <value>Pro version doesn't collect any information at all. Because it has no Internet capability. Operating system blocks any attemts to connect to the Internet.
+
+Non Pro version collects information to make both free and Pro versions better</value>
+  </data>
+  <data name="PrivacyStatementZeroParagraphHeader.Text" xml:space="preserve">
+    <value>Pro version</value>
+  </data>
+  <data name="RemoveMenuBar.Label" xml:space="preserve">
+    <value>Remove: Ctrl+R</value>
+  </data>
+  <data name="BuyProButton.Text" xml:space="preserve">
+    <value>Buy Pro version in the Store...</value>
+  </data>
+  <data name="SearchEntriesBox.PlaceholderText" xml:space="preserve">
+    <value>Search in all subgroups</value>
+  </data>
+  <data name="SearchEntriesBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.AutomationId" xml:space="preserve">
+    <value>SearchField</value>
+  </data>
+  <data name="EntryHistoryTab.Label" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="EntryTab.Label" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="HistoryDataGridSizeColumn.HeaderText" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="HistoryDataGridTitleColumn.HeaderText" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="HistoryDataGridUsernameColumn.HeaderText" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="HistoryDataGridVersionColumn.HeaderText" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="DeleteTextBlock.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RestoreTextBlock.Text" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="ViewTextBlock.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="DatabaseError_Reopen" xml:space="preserve">
+    <value>Database error. Try to reopen the database.</value>
+  </data>
+  <data name="IvalidFieldlName" xml:space="preserve">
+    <value>Invalid field name</value>
+  </data>
+  <data name="EntryStringFieldsTab.Label" xml:space="preserve">
+    <value>Fields</value>
+  </data>
+  <data name="NewFieldIsProtected.Text" xml:space="preserve">
+    <value>Enable in-memory protection</value>
+  </data>
+  <data name="NewFieldName.Text" xml:space="preserve">
+    <value>Field Name</value>
+  </data>
+  <data name="NewFieldValue.Text" xml:space="preserve">
+    <value>Field Value</value>
+  </data>
+  <data name="FieldsDataGridNameColumn.HeaderText" xml:space="preserve">
+    <value>Field Name</value>
+  </data>
+  <data name="FieldsDataGridValueColumn.HeaderText" xml:space="preserve">
+    <value>Field Value</value>
+  </data>
+  <data name="AddOrUpdateTextBlock.Text" xml:space="preserve">
+    <value>Add or update</value>
+  </data>
+  <data name="CopyTextBlock.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="LoadTextBlock.Text" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="RecycleBinName" xml:space="preserve">
+    <value>Recycle Bin</value>
+  </data>
+  <data name="AutoCreateNew" xml:space="preserve">
+    <value>(Automatically create new)</value>
+  </data>
+  <data name="CredentialsTab.Label" xml:space="preserve">
+    <value>Credentials</value>
+  </data>
+  <data name="RecycleBinTextBlock.Text" xml:space="preserve">
+    <value>Recycle bin group:</value>
+  </data>
+  <data name="UseRecycleBinTextBlock.Text" xml:space="preserve">
+    <value>Use a recycle bin</value>
+  </data>
+  <data name="UseRecycleDisclamer.Text" xml:space="preserve">
+    <value>If this option is enabled, pt.KeePass moves entries/groups to the recycle bin group instead of deleting them. Deleting an entry/group from the recycle bin will permanently remove it.</value>
+  </data>
+  <data name="RecycleBinTab.Label" xml:space="preserve">
+    <value>Recycle Bin</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="PasswordIsNotSaved" xml:space="preserve">
+    <value>Credentials are not saved. Do you want to leave the page?</value>
+  </data>
+  <data name="UseEmptyCredentialsTextBlock.Text" xml:space="preserve">
+    <value>Use empty credentials</value>
+  </data>
+  <data name="NewFieldExpander.Header" xml:space="preserve">
+    <value>New field</value>
+  </data>
+  <data name="ptEntryTypeBankCard" xml:space="preserve">
+    <value>Bank card</value>
+  </data>
+  <data name="ptEntryTypeGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="PtEntryType" xml:space="preserve">
+    <value>pt.Entry Type</value>
+  </data>
+  <data name="NotesTab.Label" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="CardNumberTextBlock.Text" xml:space="preserve">
+    <value>Card number</value>
+  </data>
+  <data name="CardValidToMonthTextBlock.Text" xml:space="preserve">
+    <value>Card valid to month</value>
+  </data>
+  <data name="CardValidToTextBlock.Text" xml:space="preserve">
+    <value>Card valid to</value>
+  </data>
+  <data name="CardValidToYearTextBlock.Text" xml:space="preserve">
+    <value>Card valid to year</value>
+  </data>
+  <data name="CardHolderTextBlock.Text" xml:space="preserve">
+    <value>Card holder</value>
+  </data>
+  <data name="ShowTextBlock.Text" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="CardCsvTextBlock.Text" xml:space="preserve">
+    <value>CVC / CVV</value>
+  </data>
+  <data name="CardPinCodeTextBlock.Text" xml:space="preserve">
+    <value>Card PIN code</value>
+  </data>
+  <data name="CardSecretWordTextBlock.Text" xml:space="preserve">
+    <value>Card secret word</value>
+  </data>
+  <data name="ptBankCardCsv" xml:space="preserve">
+    <value>CVC / CVV</value>
+  </data>
+  <data name="ptBankCardHolderName" xml:space="preserve">
+    <value>Cardholder</value>
+  </data>
+  <data name="ptBankCardNumber" xml:space="preserve">
+    <value>Card number</value>
+  </data>
+  <data name="ptBankCardPinCode" xml:space="preserve">
+    <value>Card PIN code</value>
+  </data>
+  <data name="ptBankCardSecretWord" xml:space="preserve">
+    <value>Card's secret word</value>
+  </data>
+  <data name="ptBankCardValidToMonth" xml:space="preserve">
+    <value>Card valid to month</value>
+  </data>
+  <data name="ptBankCardValidToYear" xml:space="preserve">
+    <value>Card valid to year</value>
+  </data>
+  <data name="EmptyFieldName" xml:space="preserve">
+    <value>Field name can't be empty</value>
+  </data>
+  <data name="IconSettingsPivotItem.Header" xml:space="preserve">
+    <value>Icons</value>
+  </data>
+  <data name="IconNameColumn.HeaderText" xml:space="preserve">
+    <value>Icon name</value>
+  </data>
+  <data name="IconPackIconColumn.HeaderText" xml:space="preserve">
+    <value>Icon pack icon</value>
+  </data>
+  <data name="IconsForGroupTextBlock.Text" xml:space="preserve">
+    <value>Icons for group</value>
+  </data>
+  <data name="IconsForKeyTextBlock.Text" xml:space="preserve">
+    <value>Icons for key</value>
+  </data>
+  <data name="IconsPackTextBlock.Text" xml:space="preserve">
+    <value>Icons pack</value>
+  </data>
+  <data name="KeePassImageColumn.HeaderText" xml:space="preserve">
+    <value>KeePass icon</value>
+  </data>
+  <data name="DirectoryTextBlock.Text" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="FilenameTextBlock.Text" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="LastModifiedTextBlock.Text" xml:space="preserve">
+    <value>Last modified</value>
+  </data>
+  <data name="CustomIconsTextBlock.Text" xml:space="preserve">
+    <value>Custom icons</value>
+  </data>
+  <data name="KeePassIconsTextBlock.Text" xml:space="preserve">
+    <value>KeePass icons</value>
+  </data>
+  <data name="GroupTab.Label" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="SetButton.Content" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="DonateTextBlock.Text" xml:space="preserve">
+    <value>Donate:</value>
+  </data>
+  <data name="ThankYouTextBlock.Text" xml:space="preserve">
+    <value>Thank you for your support!</value>
+  </data>
+  <data name="RateUsButton.Content" xml:space="preserve">
+    <value>Rate the app</value>
+  </data>
+  <data name="FileVersionNotSupported" xml:space="preserve">
+    <value>The file version is not supported. pt.KeePass supports kdbx file versions from 2.0 to 2.20. We don't update the core library to keep supporting old versions of Windows 10. You can use MyPasswordManager to open this file.</value>
+  </data>
+  <data name="Password.PlaceholderText" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="TapAnimationToStopAutoOpenTextBlock.Text" xml:space="preserve">
+    <value>Tap the animation to stop auto-opening</value>
+  </data>
+  <data name="AttentionTextBlock.Text" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="Entities" xml:space="preserve">
+    <value>Entities</value>
+  </data>
+  <data name="SharingReloginTextBlock.Text" xml:space="preserve">
+    <value>We will ask you to enter the secure database credentials on the next page. It would not let you use your device's stored password if you have one.</value>
+  </data>
+  <data name="SharingWarningTextBlock.Text" xml:space="preserve">
+    <value>The operation is not secure. The data will be exported unencrypted. Anyone will be able to read the exported data if one got access to them.</value>
+  </data>
+  <data name="SkipThisPageTextBlock.Text" xml:space="preserve">
+    <value>Skip this page next time</value>
+  </data>
+  <data name="ShareXmlCommand.Label" xml:space="preserve">
+    <value>xml: Ctrl+U</value>
+  </data>
+  <data name="AppSettings" xml:space="preserve">
+    <value>App settings</value>
+  </data>
+  <data name="ContributeTranslationText" xml:space="preserve">
+    <value>We're always looking for translation contributions! You can make corrections or help to make this app available in your language by joining our community on GitHub</value>
+  </data>
+  <data name="ContributeTranslationCommandText" xml:space="preserve">
+    <value>Contribute translation</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+</root>

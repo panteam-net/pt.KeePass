@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="ru" original="PT.KEEPASS/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6915.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="PT.KEEPASS/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="FilesHistory" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="final"></target>
+        </trans-unit>
+        <trans-unit id="SelectedIconPack" translate="yes" xml:space="preserve">
+          <source>KeePass</source>
+          <target state="final">KeePass</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en" target-language="ru" original="PT.KEEPASS/STRINGS/APPRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6915.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="PT.KEEPASS/STRINGS/APPRESOURCES.RESX" datatype="resx">
+        <trans-unit id="CantCreateDatabaseMessagesBelowTryAgain" translate="yes" xml:space="preserve">
+          <source>Can't create database. Check messages below and try again.</source>
+          <target state="final">Невозможно создать БД. Проверьте сообщение ниже и попробуйте снова.</target>
+        </trans-unit>
+        <trans-unit id="Cant_Create_Database_File_Exists" translate="yes" xml:space="preserve">
+          <source>The file exists. Change the name.</source>
+          <target state="final">Файл существует. Измените имя.</target>
+        </trans-unit>
+        <trans-unit id="Copy_password" translate="yes" xml:space="preserve">
+          <source>Copy password</source>
+          <target state="final">Копировать пароль</target>
+        </trans-unit>
+        <trans-unit id="Copy_username" translate="yes" xml:space="preserve">
+          <source>Copy username</source>
+          <target state="final">Копировать имя пользователя</target>
+        </trans-unit>
+        <trans-unit id="Delete_item_from_list" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="final">Удалить</target>
+        </trans-unit>
+        <trans-unit id="File" translate="yes" xml:space="preserve">
+          <source>File</source>
+          <target state="final">Файл</target>
+        </trans-unit>
+        <trans-unit id="Filename" translate="yes" xml:space="preserve">
+          <source>Filename</source>
+          <target state="final">Имя файла</target>
+        </trans-unit>
+        <trans-unit id="Files_history_parameter_should_be_in_JSON" translate="yes" xml:space="preserve">
+          <source>Files history parameter should be serialized in JSON. Check inner exception for details.</source>
+          <target state="final">История файлов должна предаваться в формате JSON. Проверье внутренние исключения для деталей.</target>
+        </trans-unit>
+        <trans-unit id="GetKdbxFileCredentials" translate="yes" xml:space="preserve">
+          <source>Restore your kdbx file credentials</source>
+          <target state="final">Восстановить ваши учётные данные для kdbx файла</target>
+        </trans-unit>
+        <trans-unit id="InvalidCredentialsErrorMessage" translate="yes" xml:space="preserve">
+          <source>Invalid credentials.</source>
+          <target state="final">Неверные учетные данные.</target>
+        </trans-unit>
+        <trans-unit id="KeyFile" translate="yes" xml:space="preserve">
+          <source>Key file</source>
+          <target state="final">Файл-ключ</target>
+        </trans-unit>
+        <trans-unit id="MasterPassword" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="final">Пароль</target>
+        </trans-unit>
+        <trans-unit id="MasterPassword_repeat" translate="yes" xml:space="preserve">
+          <source>Repeat password</source>
+          <target state="final">Повторить пароль</target>
+        </trans-unit>
+        <trans-unit id="Menu_FilesPage" translate="yes" xml:space="preserve">
+          <source>Files</source>
+          <target state="final">Файлы</target>
+        </trans-unit>
+        <trans-unit id="Menu_Menu" translate="yes" xml:space="preserve">
+          <source>Menu</source>
+          <target state="final">Меню</target>
+        </trans-unit>
+        <trans-unit id="Menu_SettingsPage" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="final">Настройки</target>
+        </trans-unit>
+        <trans-unit id="New_file" translate="yes" xml:space="preserve">
+          <source>New file</source>
+          <target state="final">Новый файл</target>
+        </trans-unit>
+        <trans-unit id="New_group" translate="yes" xml:space="preserve">
+          <source>Group</source>
+          <target state="final">Группа</target>
+        </trans-unit>
+        <trans-unit id="New_key_entity" translate="yes" xml:space="preserve">
+          <source>Entry</source>
+          <target state="final">Запись</target>
+        </trans-unit>
+        <trans-unit id="Open_item" translate="yes" xml:space="preserve">
+          <source>Open item</source>
+          <target state="final">Открыть запись</target>
+        </trans-unit>
+        <trans-unit id="Policy_Paragraph_1" translate="yes" xml:space="preserve">
+          <source>Protecting your privacy is important to us. We hope the following statement will help you to understand how we collect, use and safeguard your personal information in the application.</source>
+          <target state="final">Защита вашей конфиденциальнсти важна для нас. Мы недеемся следующая информация поможет вам понять как мы собираем, используем и охраняем вашу персональную информацию в приложении.</target>
+        </trans-unit>
+        <trans-unit id="Policy_Paragraph_2" translate="yes" xml:space="preserve">
+          <source>1. Type of collected information</source>
+          <target state="final">1. Тип собираемой информации</target>
+        </trans-unit>
+        <trans-unit id="Policy_Paragraph_3" translate="yes" xml:space="preserve">
+          <source>We do not collect any personal or identifying information you whatsoever. However if the app requires access to the Internet and network capabilities so that it may download ads to be displayed in order to keep the app free or upload the telemetry data to improve the application's quality.</source>
+          <target state="final">Мы не собираем никакой личной или идентифицирующей вас информации вообще. Тем не менее, если приложение требует доступа к Интернету и сетевым возможностям, то это необходимо для загрузки рекламы, чтобы сохранить приложение бесплатным или загружать данные телеметрии для улучшения качества приложения.</target>
+        </trans-unit>
+        <trans-unit id="Policy_Paragraph_4" translate="yes" xml:space="preserve">
+          <source>2. How to get more information</source>
+          <target state="final">2. Как узнать больше</target>
+        </trans-unit>
+        <trans-unit id="Policy_Paragraph_5" translate="yes" xml:space="preserve">
+          <source>If you have any questions or concerns regarding our privacy policy or how the app can access to your personal information, you may email us at support@panteam.net</source>
+          <target state="final">Если у вас есть какие-либо вопросы или опасения относительно нашей политики конфиденциальности или того, как приложение может получить доступ к вашей личной информации, вы можете написать нам по адресу: support@panteam.net</target>
+        </trans-unit>
+        <trans-unit id="Policy_Paragraph_6" translate="yes" xml:space="preserve">
+          <source>3. Changes of our privacy policy</source>
+          <target state="final">3. Изменения нашей политики безопасности</target>
+        </trans-unit>
+        <trans-unit id="Policy_Paragraph_7" translate="yes" xml:space="preserve">
+          <source>Our privacy policy may be changed at any time.</source>
+          <target state="final">Наша политика конфиденциальности может быть изменена в любое время.</target>
+        </trans-unit>
+        <trans-unit id="Privacy_Policy_Title" translate="yes" xml:space="preserve">
+          <source>Privacy policy</source>
+          <target state="final">Политика конфиденциальности</target>
+        </trans-unit>
+        <trans-unit id="SaveCredentials" translate="yes" xml:space="preserve">
+          <source>Save password</source>
+          <target state="final">Сохранить пароль</target>
+        </trans-unit>
+        <trans-unit id="SaveCredentialsDescriptionAndroid" translate="yes" xml:space="preserve">
+          <source>Save password using KeyStore</source>
+          <target state="final">Cохранить пароль используя KeyStore</target>
+        </trans-unit>
+        <trans-unit id="SaveCredentialsDescriptioniOS" translate="yes" xml:space="preserve">
+          <source>Save password using KeyChain</source>
+          <target state="final">Сохранить пароль в KeyChain</target>
+        </trans-unit>
+        <trans-unit id="SaveCredentialsDescriptionWindows" translate="yes" xml:space="preserve">
+          <source>Save password using Data Protection</source>
+          <target state="final">Cохранить пароль используя Data Protection</target>
+        </trans-unit>
+        <trans-unit id="Tab_Policy_Title" translate="yes" xml:space="preserve">
+          <source>Policy</source>
+          <target state="final">Конфиденциальность</target>
+        </trans-unit>
+        <trans-unit id="Toolbar_add_file" translate="yes" xml:space="preserve">
+          <source>Create new</source>
+          <target state="final">Создать</target>
+        </trans-unit>
+        <trans-unit id="Toolbar_open_file" translate="yes" xml:space="preserve">
+          <source>Open existing</source>
+          <target state="final">Открыть существующую</target>
+        </trans-unit>
+        <trans-unit id="None" translate="yes" xml:space="preserve">
+          <source>(None)</source>
+          <target state="final">(Нет)</target>
+        </trans-unit>
+        <trans-unit id="Passwords_mismatch" translate="yes" xml:space="preserve">
+          <source>Passwords mismatch</source>
+          <target state="final">Несоответствие паролей</target>
+        </trans-unit>
+        <trans-unit id="No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="final">Нет</target>
+        </trans-unit>
+        <trans-unit id="Unsaved_changes" translate="yes" xml:space="preserve">
+          <source>Unsaved changes</source>
+          <target state="final">Несохраненные изменения.</target>
+        </trans-unit>
+        <trans-unit id="Unsaved_changes_detail" translate="yes" xml:space="preserve">
+          <source>There're unsaved changes exist on the page. Do you want to leave and loose them?</source>
+          <target state="final">На странице есть несохраненные изменения. Вы хотие уйти и потерять их?</target>
+        </trans-unit>
+        <trans-unit id="Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="final">Да</target>
+        </trans-unit>
+        <trans-unit id="Edit_entry" translate="yes" xml:space="preserve">
+          <source>Edit entry</source>
+          <target state="final">Редактировать запись</target>
+        </trans-unit>
+        <trans-unit id="Title" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <target state="final">Название</target>
+        </trans-unit>
+        <trans-unit id="Notes" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="final">Заметки</target>
+        </trans-unit>
+        <trans-unit id="Password_quality" translate="yes" xml:space="preserve">
+          <source>Password quality</source>
+          <target state="final">Качество пароля</target>
+        </trans-unit>
+        <trans-unit id="Username" translate="yes" xml:space="preserve">
+          <source>Username</source>
+          <target state="final">Имя пользователя</target>
+        </trans-unit>
+        <trans-unit id="Save" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="final">Сохранить</target>
+        </trans-unit>
+        <trans-unit id="Undo" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="final">Отменить</target>
+        </trans-unit>
+        <trans-unit id="Show" translate="yes" xml:space="preserve">
+          <source>Show</source>
+          <target state="final">Показать</target>
+        </trans-unit>
+        <trans-unit id="About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="final">О программе</target>
+        </trans-unit>
+        <trans-unit id="Options" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="final">Настройки</target>
+        </trans-unit>
+        <trans-unit id="Edit_group" translate="yes" xml:space="preserve">
+          <source>Edit group</source>
+          <target state="final">Редактировать группу</target>
+        </trans-unit>
+        <trans-unit id="Password_generator" translate="yes" xml:space="preserve">
+          <source>Password generator</source>
+          <target state="final">Генератор пароля</target>
+        </trans-unit>
+        <trans-unit id="ACopy" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="final">Копировать</target>
+        </trans-unit>
+        <trans-unit id="Example" translate="yes" xml:space="preserve">
+          <source>Example</source>
+          <target state="final">Пример</target>
+        </trans-unit>
+        <trans-unit id="AdditionalCharacters" translate="yes" xml:space="preserve">
+          <source>Also include the following characters</source>
+          <target state="final">Использовать следующие символы</target>
+        </trans-unit>
+        <trans-unit id="Brackets" translate="yes" xml:space="preserve">
+          <source>Brackets ([, ], {, }, (, ), <it id="1" pos="open">&lt;, &gt;</it>)</source>
+          <target state="final">Скобки ([, ], {, }, (, ), <it id="1" pos="open">&lt;, &gt;</it>)</target>
+        </trans-unit>
+        <trans-unit id="Digits" translate="yes" xml:space="preserve">
+          <source>Digits (0, ,1, 2, ...)</source>
+          <target state="final">Цифры (0, ,1, 2, ...)</target>
+        </trans-unit>
+        <trans-unit id="HighAnsiCharacters" translate="yes" xml:space="preserve">
+          <source>High ANSI characters</source>
+          <target state="final">Верхние символы ANSI</target>
+        </trans-unit>
+        <trans-unit id="LowerCase" translate="yes" xml:space="preserve">
+          <source>Lower-case (a, b, c, ...)</source>
+          <target state="final">Нижний регистр (a, b, c, ...)</target>
+        </trans-unit>
+        <trans-unit id="Minus" translate="yes" xml:space="preserve">
+          <source>Minus (-)</source>
+          <target state="final">Минус (-)</target>
+        </trans-unit>
+        <trans-unit id="Share" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="final">Поделиться</target>
+        </trans-unit>
+        <trans-unit id="Space" translate="yes" xml:space="preserve">
+          <source>Space ( )</source>
+          <target state="final">Пробел ( )</target>
+        </trans-unit>
+        <trans-unit id="Special" translate="yes" xml:space="preserve">
+          <source>Special (!, $, %, &amp;, ...)</source>
+          <target state="final">Специальные символы (!, $, %, &amp;, ...)</target>
+        </trans-unit>
+        <trans-unit id="Underline" translate="yes" xml:space="preserve">
+          <source>Underline (_)</source>
+          <target state="final">Подчеркивание (_)</target>
+        </trans-unit>
+        <trans-unit id="UpperCase" translate="yes" xml:space="preserve">
+          <source>Upper-case (A, B, C, ...)</source>
+          <target state="final">Верхний регистр (A, B, C, ...)</target>
+        </trans-unit>
+        <trans-unit id="GeneratePassword" translate="yes" xml:space="preserve">
+          <source>Generate password</source>
+          <target state="final">Сгенерировать пароль</target>
+        </trans-unit>
+        <trans-unit id="AddititonalCharacters" translate="yes" xml:space="preserve">
+          <source>Additional characters</source>
+          <target state="final">Дополнительные символы</target>
+        </trans-unit>
+        <trans-unit id="PasswordLength" translate="yes" xml:space="preserve">
+          <source>Password length</source>
+          <target state="final">Длина пароля</target>
+        </trans-unit>
+        <trans-unit id="Copied" translate="yes" xml:space="preserve">
+          <source>Copied</source>
+          <target state="final">Скопировано</target>
+        </trans-unit>
+        <trans-unit id="Password_is_copied" translate="yes" xml:space="preserve">
+          <source>Password is copied</source>
+          <target state="final">Пароль скопирован</target>
+        </trans-unit>
+        <trans-unit id="Username_is_copied" translate="yes" xml:space="preserve">
+          <source>Username is copied</source>
+          <target state="final">Имя пользователя скопировано</target>
+        </trans-unit>
+        <trans-unit id="Search_in_all_subgroups" translate="yes" xml:space="preserve">
+          <source>Search in all subgroups</source>
+          <target state="final">Искать во всех подгруппах</target>
+        </trans-unit>
+        <trans-unit id="Entry" translate="yes" xml:space="preserve">
+          <source>Entry</source>
+          <target state="final">Запись</target>
+        </trans-unit>
+        <trans-unit id="Fields" translate="yes" xml:space="preserve">
+          <source>Fields</source>
+          <target state="final">Поля</target>
+        </trans-unit>
+        <trans-unit id="History" translate="yes" xml:space="preserve">
+          <source>History</source>
+          <target state="final">История</target>
+        </trans-unit>
+        <trans-unit id="Version" translate="yes" xml:space="preserve">
+          <source>Version</source>
+          <target state="final">Версия</target>
+        </trans-unit>
+        <trans-unit id="Restore" translate="yes" xml:space="preserve">
+          <source>Restore</source>
+          <target state="final">Восстановить</target>
+        </trans-unit>
+        <trans-unit id="View" translate="yes" xml:space="preserve">
+          <source>View</source>
+          <target state="final">Посмотреть</target>
+        </trans-unit>
+        <trans-unit id="EmptyFieldName" translate="yes" xml:space="preserve">
+          <source>The field name can't be empty</source>
+          <target state="final">Название поля не может быть пустым</target>
+        </trans-unit>
+        <trans-unit id="InvlidFieldName" translate="yes" xml:space="preserve">
+          <source>Invalid field name</source>
+          <target state="final">Недопустимое имя поля</target>
+        </trans-unit>
+        <trans-unit id="IvalidFieldlName" translate="yes" xml:space="preserve">
+          <source>The field name is invalid</source>
+          <target state="final">Направильное название поля</target>
+        </trans-unit>
+        <trans-unit id="Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="final">Название</target>
+        </trans-unit>
+        <trans-unit id="Value" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="final">Значение</target>
+        </trans-unit>
+        <trans-unit id="AddOrUpdate" translate="yes" xml:space="preserve">
+          <source>Add or update</source>
+          <target state="final">Добавить или обновить</target>
+        </trans-unit>
+        <trans-unit id="Load" translate="yes" xml:space="preserve">
+          <source>Load</source>
+          <target state="final">Загрузить</target>
+        </trans-unit>
+        <trans-unit id="NewField" translate="yes" xml:space="preserve">
+          <source>New field</source>
+          <target state="final">Новое поле</target>
+        </trans-unit>
+        <trans-unit id="FieldName" translate="yes" xml:space="preserve">
+          <source>Field Name</source>
+          <target state="final">Имя поля</target>
+        </trans-unit>
+        <trans-unit id="FieldValue" translate="yes" xml:space="preserve">
+          <source>Field Value</source>
+          <target state="final">Значение поля</target>
+        </trans-unit>
+        <trans-unit id="EnableInMemoryProtection" translate="yes" xml:space="preserve">
+          <source>Enable in-memory protection</source>
+          <target state="final">Вкл шифрование в памяти</target>
+        </trans-unit>
+        <trans-unit id="CantPickFile" translate="yes" xml:space="preserve">
+          <source>This file provider is not supported yet. We're working already to fix it. Try to open the file from the provider app or save file locally.</source>
+          <target state="final">Этот поставщик файлов пока не поддерживается. Мы уже работаем над тем, чтобы это исправить. Попробуйте открыть файл из приложения поставщика или сохранить файл локально.</target>
+        </trans-unit>
+        <trans-unit id="Error" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <target state="final">Ошибка</target>
+        </trans-unit>
+        <trans-unit id="AutoCreateNew" translate="yes" xml:space="preserve">
+          <source>(Automatically create new)</source>
+          <target state="final">(Создавать новый автоматически)</target>
+        </trans-unit>
+        <trans-unit id="Credentials" translate="yes" xml:space="preserve">
+          <source>Credentials</source>
+          <target state="final">Учётные данные</target>
+        </trans-unit>
+        <trans-unit id="RecycleBin" translate="yes" xml:space="preserve">
+          <source>Recycle bin</source>
+          <target state="final">Корзина</target>
+        </trans-unit>
+        <trans-unit id="RecycleBinGroupName" translate="yes" xml:space="preserve">
+          <source>Recycle bin group:</source>
+          <target state="final">Группа для корзины:</target>
+        </trans-unit>
+        <trans-unit id="UseEmtpyCredentials" translate="yes" xml:space="preserve">
+          <source>Use empty credentials</source>
+          <target state="final">Использовать пустые учётные данные.</target>
+        </trans-unit>
+        <trans-unit id="UseRecycleBin" translate="yes" xml:space="preserve">
+          <source>Use a recycle bin</source>
+          <target state="final">Использовать корзину</target>
+        </trans-unit>
+        <trans-unit id="UseRecycleBinDisclamer" translate="yes" xml:space="preserve">
+          <source>If this option is enabled, the programm moves entries/groups to the recycle bin group instead of deleting them. Deleting an entry/group from the recycle bin will permanently remove it.</source>
+          <target state="final">Если этот параметр включен, программа перемещает записи/группы в группу корзины вместо их удаления. Удаление записи / группы из корзины приведет к ее безвозвратному удалению.</target>
+        </trans-unit>
+        <trans-unit id="ptEntryTypeBankCard" translate="yes" xml:space="preserve">
+          <source>Bank card</source>
+          <target state="final">Банковская карта</target>
+        </trans-unit>
+        <trans-unit id="ptEntryTypeGeneral" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="final">Общие</target>
+        </trans-unit>
+        <trans-unit id="PtEntryType" translate="yes" xml:space="preserve">
+          <source>pt.Entry Type</source>
+          <target state="final">Тип записи</target>
+        </trans-unit>
+        <trans-unit id="ptBankCardCsv" translate="yes" xml:space="preserve">
+          <source>CVC / CVV</source>
+          <target state="final">CVC / CVV</target>
+        </trans-unit>
+        <trans-unit id="ptBankCardHolderName" translate="yes" xml:space="preserve">
+          <source>Cardholder</source>
+          <target state="final">Владелец карты</target>
+        </trans-unit>
+        <trans-unit id="ptBankCardNumber" translate="yes" xml:space="preserve">
+          <source>Card number</source>
+          <target state="final">Номер карты</target>
+        </trans-unit>
+        <trans-unit id="ptBankCardPinCode" translate="yes" xml:space="preserve">
+          <source>Card PIN code</source>
+          <target state="final">PIN код карты</target>
+        </trans-unit>
+        <trans-unit id="ptBankCardSecretWord" translate="yes" xml:space="preserve">
+          <source>Card's secret word</source>
+          <target state="final">Секретное слово карты</target>
+        </trans-unit>
+        <trans-unit id="ptBankCardValidToMonth" translate="yes" xml:space="preserve">
+          <source>Card valid to month</source>
+          <target state="final">Действительно до месяца</target>
+        </trans-unit>
+        <trans-unit id="ptBankCardValidToYear" translate="yes" xml:space="preserve">
+          <source>Card valid to year</source>
+          <target state="final">Действительно до года</target>
+        </trans-unit>
+        <trans-unit id="ValidTo" translate="yes" xml:space="preserve">
+          <source>Valid to</source>
+          <target state="final">Действительно до</target>
+        </trans-unit>
+        <trans-unit id="Icons" translate="yes" xml:space="preserve">
+          <source>Icons</source>
+          <target state="final">Иконки</target>
+        </trans-unit>
+        <trans-unit id="IconsPack" translate="yes" xml:space="preserve">
+          <source>Icons pack</source>
+          <target state="final">Набор иконок</target>
+        </trans-unit>
+        <trans-unit id="Files" translate="yes" xml:space="preserve">
+          <source>Files</source>
+          <target state="final">Файлы</target>
+        </trans-unit>
+        <trans-unit id="OpenDatabase" translate="yes" xml:space="preserve">
+          <source>Open database</source>
+          <target state="final">Открыть БД</target>
+        </trans-unit>
+        <trans-unit id="IconsForGroup" translate="yes" xml:space="preserve">
+          <source>Icons for Group entry</source>
+          <target state="final">Иконки для записи Группа</target>
+        </trans-unit>
+        <trans-unit id="IconsForKey" translate="yes" xml:space="preserve">
+          <source>Icons for Key entry</source>
+          <target state="final">Иконки для запис Ключ</target>
+        </trans-unit>
+        <trans-unit id="IconPackImage" translate="yes" xml:space="preserve">
+          <source>Icon pack</source>
+          <target state="final">Набор иконок</target>
+        </trans-unit>
+        <trans-unit id="KeePassImage" translate="yes" xml:space="preserve">
+          <source>KeePass icon</source>
+          <target state="final">Иконка KeePass</target>
+        </trans-unit>
+        <trans-unit id="CustomIcon" translate="yes" xml:space="preserve">
+          <source>Custom icon</source>
+          <target state="final">Выбранная иконка</target>
+        </trans-unit>
+        <trans-unit id="Directory" translate="yes" xml:space="preserve">
+          <source>Directory</source>
+          <target state="final">Папка</target>
+        </trans-unit>
+        <trans-unit id="LastModificationTime" translate="yes" xml:space="preserve">
+          <source>Last modified</source>
+          <target state="final">Изменено</target>
+        </trans-unit>
+        <trans-unit id="Free" translate="yes" xml:space="preserve">
+          <source>Free</source>
+          <target state="final">Бесплатно</target>
+        </trans-unit>
+        <trans-unit id="AppStoreUnavailable" translate="yes" xml:space="preserve">
+          <source>The store is unavailable. Try again later.</source>
+          <target state="final">Магазин недоступен. Попробуйте позднее.</target>
+        </trans-unit>
+        <trans-unit id="BillingUnavailable" translate="yes" xml:space="preserve">
+          <source>Billing unavailable. Try again later.</source>
+          <target state="final">Биллинг недоступен. Попробуйте позднее.</target>
+        </trans-unit>
+        <trans-unit id="DeveloperError" translate="yes" xml:space="preserve">
+          <source>Develper error. Try again later.</source>
+          <target state="final">Ошибка разработчика. Попробуйте позднее.</target>
+        </trans-unit>
+        <trans-unit id="GeneralError" translate="yes" xml:space="preserve">
+          <source>Error. Try again later.</source>
+          <target state="final">Ошибка. Попробуйте позднее.</target>
+        </trans-unit>
+        <trans-unit id="InvalidProduct" translate="yes" xml:space="preserve">
+          <source>Invalid product. Try again later.</source>
+          <target state="final">Нерпавильный продукт. Попробуйте позднее.</target>
+        </trans-unit>
+        <trans-unit id="ItemUnavailable" translate="yes" xml:space="preserve">
+          <source>Item unavailable. Try again later.</source>
+          <target state="final">Элемент недоступен. Попробуйте позднее.</target>
+        </trans-unit>
+        <trans-unit id="NoInternetConnection" translate="yes" xml:space="preserve">
+          <source>Check internet connection</source>
+          <target state="final">Проверьте интернет-подключение.</target>
+        </trans-unit>
+        <trans-unit id="PaymentInvalid" translate="yes" xml:space="preserve">
+          <source>Invalid payment. Try again later.</source>
+          <target state="final">Неверный платеж. Повторите позднее.</target>
+        </trans-unit>
+        <trans-unit id="Price" translate="yes" xml:space="preserve">
+          <source>Price</source>
+          <target state="final">Цена</target>
+        </trans-unit>
+        <trans-unit id="RestoreFailed" translate="yes" xml:space="preserve">
+          <source>Purchase resotring failed. Try again later.</source>
+          <target state="final">Восстанолвение покупки завершилось неудачей. Попробуйте позднее.</target>
+        </trans-unit>
+        <trans-unit id="ServiceUnavailable" translate="yes" xml:space="preserve">
+          <source>Service unavailable. Try again later.</source>
+          <target state="final">Сервис недоступен. Попробуйте позднее.</target>
+        </trans-unit>
+        <trans-unit id="Set" translate="yes" xml:space="preserve">
+          <source>Set</source>
+          <target state="final">Задать</target>
+        </trans-unit>
+        <trans-unit id="SkipThisPageNextTime" translate="yes" xml:space="preserve">
+          <source>Skip this page next time</source>
+          <target state="final">Пропустить эту страницу в следующий раз</target>
+        </trans-unit>
+        <trans-unit id="UserCancelled" translate="yes" xml:space="preserve">
+          <source>Cancelled by user. Try again.</source>
+          <target state="final">Остановлено пользователем. Попробуйте снова.</target>
+        </trans-unit>
+        <trans-unit id="Donate" translate="yes" xml:space="preserve">
+          <source>Donate</source>
+          <target state="final">Поддержать</target>
+        </trans-unit>
+        <trans-unit id="ThankYou" translate="yes" xml:space="preserve">
+          <source>Thank you for your support!</source>
+          <target state="final">Спасибо за вашу поддержку!</target>
+        </trans-unit>
+        <trans-unit id="CantConnectToTheStore" translate="yes" xml:space="preserve">
+          <source>Can't connect to the Store. Try again later.</source>
+          <target state="final">Невозможно подключится к магазину. Попробуйте позднее.</target>
+        </trans-unit>
+        <trans-unit id="CantOpenFile" translate="yes" xml:space="preserve">
+          <source>The file is not available from this location. Please try to copy it to the app. Message: </source>
+          <target state="final">Файл недоступен из этого расположения. Пожалуйста, попробуйте скопировать его в приложение. Сообщение:</target>
+        </trans-unit>
+        <trans-unit id="TapAnimationToStopAutoOpen" translate="yes" xml:space="preserve">
+          <source>Tap the animation to stop auto-opening</source>
+          <target state="final">Нажмите на анимацию для остановки открытия БД</target>
+        </trans-unit>
+        <trans-unit id="Attention" translate="yes" xml:space="preserve">
+          <source>Attention</source>
+          <target state="final">Внимание</target>
+        </trans-unit>
+        <trans-unit id="ExportWarning" translate="yes" xml:space="preserve">
+          <source>The operation is not secure. The data will be exported unencrypted. Anyone will be able to read the exported data if one got access to them.</source>
+          <target state="final">Эта операция не является безопасной. Данные будут экспортированы в незашифрованном виде. Любой желающий сможет прочитать экспортированные данные, если получит к ним доступ.</target>
+        </trans-unit>
+        <trans-unit id="Entities" translate="yes" xml:space="preserve">
+          <source>Entities</source>
+          <target state="final">Записи</target>
+        </trans-unit>
+        <trans-unit id="Export" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="final">Экспорт</target>
+        </trans-unit>
+        <trans-unit id="SharingRelogin" translate="yes" xml:space="preserve">
+          <source>We will ask you to enter the secure database credentials on the next page. It would not let you use your device's stored password if you have one.</source>
+          <target state="final">Мы попросим вас ввести учетные данные защищенной базы данных на следующей странице без использования сохраненного пароля на вашем устройстве, если он у вас есть.</target>
+        </trans-unit>
+        <trans-unit id="AppSettings" translate="yes" xml:space="preserve">
+          <source>App settings</source>
+          <target state="final">Настройки приложения</target>
+        </trans-unit>
+        <trans-unit id="ContributeTranslationText" translate="yes" xml:space="preserve">
+          <source>We're always looking for translation contributions! You can make corrections or help to make this app available in your language by joining our community on GitHub</source>
+          <target state="final">Мы вседа рады помощи в переводе приложения! Вы можете внести исправления или помочь сделать это приложение доступным на вашем языке, присоединившись к нашему сообществу на GitHub</target>
+        </trans-unit>
+        <trans-unit id="ContributeTranslationCommandText" translate="yes" xml:space="preserve">
+          <source>Contribute translation</source>
+          <target state="final">Учавствовать в переводе</target>
+        </trans-unit>
+        <trans-unit id="Settings" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="final">Настройки</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

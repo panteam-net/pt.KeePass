@@ -1,0 +1,800 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HomeHumburgerMenu.Text" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="SettingsHamburgerMenu.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="CreateNewDatabaseCommand.Label" xml:space="preserve">
+    <value>Новая база: Ctrl+N</value>
+  </data>
+  <data name="FilesOpenFileCommand.Label" xml:space="preserve">
+    <value>Выбрать файл: Ctrl+O</value>
+  </data>
+  <data name="FilesOpenSelectedFileCommand.Label" xml:space="preserve">
+    <value>Открыть файл: Enter</value>
+  </data>
+  <data name="InvalidOldPassword" xml:space="preserve">
+    <value>Старый пароль не подходит</value>
+  </data>
+  <data name="PasswordsAreNotSame" xml:space="preserve">
+    <value>Пароли не совпадают</value>
+  </data>
+  <data name="FilesPageHeader.Text" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="GeneratePasswordCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сгенерировать пароль</value>
+  </data>
+  <data name="GeneratePasswordCommand.Label" xml:space="preserve">
+    <value>Сгенерировать пароль: Ctrl+G</value>
+  </data>
+  <data name="SaveCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="SaveCommand.Label" xml:space="preserve">
+    <value>Сохранить: Ctrl+S</value>
+  </data>
+  <data name="CantOpenDatabase" xml:space="preserve">
+    <value>Невозможно отрыть базу, составной ключ не подходит</value>
+  </data>
+  <data name="LoginPageHeader.Text" xml:space="preserve">
+    <value>Страница входа</value>
+  </data>
+  <data name="FilenameText.Text" xml:space="preserve">
+    <value>Имя файла:</value>
+  </data>
+  <data name="PasswordText.Text" xml:space="preserve">
+    <value>Мастер пароль:</value>
+  </data>
+  <data name="AddNewEntryCommand.Label" xml:space="preserve">
+    <value>Добавить новую запись: Ctrl+I</value>
+  </data>
+  <data name="AddNewGroupCommand.Label" xml:space="preserve">
+    <value>Добавить новую группу</value>
+  </data>
+  <data name="CopyPasswordCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Копировать пароль</value>
+  </data>
+  <data name="CopyPasswordCommand.Label" xml:space="preserve">
+    <value>Копировать пароль: Ctrl+C</value>
+  </data>
+  <data name="CopyUserNameCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Копировать имя пользователя</value>
+  </data>
+  <data name="CopyUserNameCommand.Label" xml:space="preserve">
+    <value>Копировать имя пользователя: Ctrl+B</value>
+  </data>
+  <data name="DatabaseOptionsCommand.Label" xml:space="preserve">
+    <value>Опции базы данных</value>
+  </data>
+  <data name="GroupOptionsCommand.Label" xml:space="preserve">
+    <value>Опции группы</value>
+  </data>
+  <data name="OpenUrlCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Открыть ссылку</value>
+  </data>
+  <data name="OpenUrlCommand.Label" xml:space="preserve">
+    <value>Открыть ссылку: Ctrl+U</value>
+  </data>
+  <data name="RemoveGroupCommand.Label" xml:space="preserve">
+    <value>Удалить эту группу</value>
+  </data>
+  <data name="DeleteEntryCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Удалить запись</value>
+  </data>
+  <data name="DeleteEntryCommand.Label" xml:space="preserve">
+    <value>Удалить: Del</value>
+  </data>
+  <data name="GroupContainsElements" xml:space="preserve">
+    <value>Эта группа содержит элементы. Удалить?</value>
+  </data>
+  <data name="GroupNameTextBlock.Text" xml:space="preserve">
+    <value>Имя группы:</value>
+  </data>
+  <data name="GroupOptionsPageHeader.Text" xml:space="preserve">
+    <value>Опции группы</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="AdditionalChars.Text" xml:space="preserve">
+    <value>Включить следующие символы:</value>
+  </data>
+  <data name="Digits.Text" xml:space="preserve">
+    <value>Цифры (0, 1, 2, ...):</value>
+  </data>
+  <data name="ExampleTextBlock.Text" xml:space="preserve">
+    <value>Пример:</value>
+  </data>
+  <data name="HiAnsiCharacters.Text" xml:space="preserve">
+    <value>Старшие символы табицы ANSI:</value>
+  </data>
+  <data name="LowerCase.Text" xml:space="preserve">
+    <value>Нижний регистр (a, b, c, ...):</value>
+  </data>
+  <data name="Minus.Text" xml:space="preserve">
+    <value>Минус (-):</value>
+  </data>
+  <data name="PasswordGeneratePageHeader.Text" xml:space="preserve">
+    <value>Генератор паролей</value>
+  </data>
+  <data name="PasswordLength.Text" xml:space="preserve">
+    <value>Длина пароля:</value>
+  </data>
+  <data name="QualityTextBlock.Text" xml:space="preserve">
+    <value>Качество:</value>
+  </data>
+  <data name="RefreshPasswordExample.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Обновить пример пароля</value>
+  </data>
+  <data name="Space.Text" xml:space="preserve">
+    <value>Пробел ( ):</value>
+  </data>
+  <data name="Underline.Text" xml:space="preserve">
+    <value>Подчёркивание (_):</value>
+  </data>
+  <data name="UpperCase.Text" xml:space="preserve">
+    <value>Верхний регистр (A, B, C, ...):</value>
+  </data>
+  <data name="SaveEntryCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Сохранить запись</value>
+  </data>
+  <data name="SaveEntryCommand.Label" xml:space="preserve">
+    <value>Сохранить запись: Ctrl+S</value>
+  </data>
+  <data name="UndoEntryChangesCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Отменить изменения записи</value>
+  </data>
+  <data name="UndoEntryChangesCommand.Label" xml:space="preserve">
+    <value>Отменить изменения: Ctrl+Q</value>
+  </data>
+  <data name="EntryChangesAreUnsaved" xml:space="preserve">
+    <value>Изменения записи не сохранены. Вы хотите покинуть страницу и потерять их?</value>
+  </data>
+  <data name="UriBadFormat" xml:space="preserve">
+    <value>Неверный формат ссылки</value>
+  </data>
+  <data name="UrlTextBlock.Text" xml:space="preserve">
+    <value>Ссылка:</value>
+  </data>
+  <data name="Groups.Text" xml:space="preserve">
+    <value>Группы:</value>
+  </data>
+  <data name="NewDatabasePassword.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Новый мастер пароль</value>
+  </data>
+  <data name="NewDatabasePasswordRepeat.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Повтор мастер пароля</value>
+  </data>
+  <data name="NewPasswordRepeatTextBlock.Text" xml:space="preserve">
+    <value>Повтор нового пароля:</value>
+  </data>
+  <data name="NewPasswordTextBlock.Text" xml:space="preserve">
+    <value>Новый пароль:</value>
+  </data>
+  <data name="OldDatabasePassword.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Старый мастер пароль</value>
+  </data>
+  <data name="OldPasswordTextBlock.Text" xml:space="preserve">
+    <value>Старый пароль:</value>
+  </data>
+  <data name="TitleTextBlock.Text" xml:space="preserve">
+    <value>Заголовок:</value>
+  </data>
+  <data name="UserNameTextBlock.Text" xml:space="preserve">
+    <value>Имя пользователя:</value>
+  </data>
+  <data name="PasswordTextBlock.Text" xml:space="preserve">
+    <value>Пароль:</value>
+  </data>
+  <data name="EntryPassword.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Пароль записи</value>
+  </data>
+  <data name="EntryPasswordRepeat.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Повтор пароля записи</value>
+  </data>
+  <data name="NotesTextBlock.Text" xml:space="preserve">
+    <value>Примечания:</value>
+  </data>
+  <data name="Entries.Text" xml:space="preserve">
+    <value>Записи:</value>
+  </data>
+  <data name="DeleteSelectedEntryCommand.Label" xml:space="preserve">
+    <value>Удалить выбранную запись: Del</value>
+  </data>
+  <data name="PrivacyStatementFirstParagraph.Text" xml:space="preserve">
+    <value>Для нас важно защитить вашу частную жизнь. Мы надеемся, что следующая инструкция поможет вам понять, как мы собираем, используем и защищаем вашу личную информацию в приложении.</value>
+  </data>
+  <data name="PrivacyStatementSecondParagraph.Text" xml:space="preserve">
+    <value>Мы не собираем никакой личной или идентифицирующей информации, что бы то ни было. Однако если приложению требуется доступ к сети Интернет и возможности работы с сетью, то это для того чтобы оно могло загружать отображаемые рекламные банеры и загружать необходимые телеметрические данные для улучшения приложения.</value>
+  </data>
+  <data name="PrivacyStatementSecondParagraphHeader.Text" xml:space="preserve">
+    <value>I. Тип собранной информации</value>
+  </data>
+  <data name="PrivacyStatementForthParagraph.Text" xml:space="preserve">
+    <value>Наша политика конфиденциальности может быть изменена в любое время.</value>
+  </data>
+  <data name="PrivacyStatementForthParagraphHeader.Text" xml:space="preserve">
+    <value>III. Изменения нашей политики конфиденциальности</value>
+  </data>
+  <data name="PrivacyStatementThirdParagraph.Text" xml:space="preserve">
+    <value>Если у вас возникнут вопросы или опасения относительно нашей политики конфиденциальности или как приложение может получить доступ к вашей личной информации, вы можете написать нам на support@panteam.net</value>
+  </data>
+  <data name="PrivacyStatementThirdParagraphHeader.Text" xml:space="preserve">
+    <value>II. Как получить дополнительную информацию</value>
+  </data>
+  <data name="UseShellDrawnBackButtonToggleSwtich.Header" xml:space="preserve">
+    <value>Использовать кнопку назад в оболочке</value>
+  </data>
+  <data name="UseShellDrawnBackButtonToggleSwtich.OffContent" xml:space="preserve">
+    <value>Кнопка назад в заголовке страницы</value>
+  </data>
+  <data name="UseShellDrawnBackButtonToggleSwtich.OnContent" xml:space="preserve">
+    <value>Кнопка назад в заголовке окна или на панели задач</value>
+  </data>
+  <data name="UseLightThemeToggleSwitch.Header" xml:space="preserve">
+    <value>Использовать Яркую Тему</value>
+  </data>
+  <data name="UseLightThemeToggleSwitch.OffContent" xml:space="preserve">
+    <value>Темная тема</value>
+  </data>
+  <data name="UseLightThemeToggleSwitch.OnContent" xml:space="preserve">
+    <value>Яркая тема</value>
+  </data>
+  <data name="HamburgerButtonInfoFiles.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="HamburgerButtonInfoSettings.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ItemsTextBlock.Text" xml:space="preserve">
+    <value>Элементы:</value>
+  </data>
+  <data name="OpenItemCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Открыть выбранный элемент</value>
+  </data>
+  <data name="OpenItemCommand.Label" xml:space="preserve">
+    <value>Открыть элемент: Ввод</value>
+  </data>
+  <data name="GroupsHamburgerMenuText" xml:space="preserve">
+    <value>База данных:</value>
+  </data>
+  <data name="PasswordCantBeEmpty" xml:space="preserve">
+    <value>Пароль не может быть пустым</value>
+  </data>
+  <data name="LastModificationTime.Text" xml:space="preserve">
+    <value>Изменено:</value>
+  </data>
+  <data name="KeyFileTextBlock.Text" xml:space="preserve">
+    <value>Файл ключа:</value>
+  </data>
+  <data name="BrowseKeyFileButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Поиск файла ключей</value>
+  </data>
+  <data name="KeyFilesComboBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ранее использованные файлы ключей</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Отсутствует</value>
+  </data>
+  <data name="WindowsUserAccountTextBlock.Text" xml:space="preserve">
+    <value>Учетная запись пользователя Windows</value>
+  </data>
+  <data name="UseWindowsUserAccountToggleSwitch.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Использовать учетную запись пользователя windows для защиты базы данных</value>
+  </data>
+  <data name="WindowsUserAccountSubTextBlock.Text" xml:space="preserve">
+    <value>(Несовместимо с KeePass или другими приложениями)</value>
+  </data>
+  <data name="SaveCredentialsSubTextBlock.Text" xml:space="preserve">
+    <value>(Защита с Windows Hello. Настройте ПИН-код или распознаваие лица или отпечатка пальца для входа в систему в настройках windows, чтобы включить этот параметр)</value>
+  </data>
+  <data name="SaveCredentialsTextBlock.Text" xml:space="preserve">
+    <value>Сохранить учетные данные</value>
+  </data>
+  <data name="Open.Label" xml:space="preserve">
+    <value>Открыть: Ввод</value>
+  </data>
+  <data name="ReopenDatabase" xml:space="preserve">
+    <value>Не удается открыть базу данных с предыдущие учетные данные для обновления с новыми учетными данными. Попробуйте снова открыть базу данных.</value>
+  </data>
+  <data name="ReadOnlyTextBlock.Text" xml:space="preserve">
+    <value>(Только чтение)</value>
+  </data>
+  <data name="ExportToXmlCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Выберите XML-файл для экспорта данных из этой группы и подгрупп</value>
+  </data>
+  <data name="ExportToXmlCommand.Label" xml:space="preserve">
+    <value>Экспорт в XML...</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Менеджер паролей на основе KeePass</value>
+  </data>
+  <data name="PrivacyStatementPivotItem.Header" xml:space="preserve">
+    <value>Заявление о конфиденциальности</value>
+  </data>
+  <data name="AboutPivotItem.Header" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="SettingsPivotItem.Header" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="SettingsPageHeader.Content" xml:space="preserve">
+    <value>Страница настроек</value>
+  </data>
+  <data name="PurchasesHumburgerButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Покупки</value>
+  </data>
+  <data name="PurchasesTextBlock.Text" xml:space="preserve">
+    <value>Покупки</value>
+  </data>
+  <data name="PurchaseDesriptionTextBlock.Text" xml:space="preserve">
+    <value>Вы можете купить одно из этих дополнений</value>
+  </data>
+  <data name="LoadPurchasesText" xml:space="preserve">
+    <value>Загрузить доступные дополнения</value>
+  </data>
+  <data name="BuySelectedPurchaseTextBlock.Text" xml:space="preserve">
+    <value>Купить выбранное</value>
+  </data>
+  <data name="PriceTextBlock.Text" xml:space="preserve">
+    <value>Цена:</value>
+  </data>
+  <data name="LoadAvailablePurchasesTextBlock.Text" xml:space="preserve">
+    <value>Загрузить доступные покупки</value>
+  </data>
+  <data name="MakingThePurchase" xml:space="preserve">
+    <value>Совершение покупки</value>
+  </data>
+  <data name="FileNotFoundException" xml:space="preserve">
+    <value>Невозможно открыть базу паролей. Файл не доступен.</value>
+  </data>
+  <data name="UserNameCopied" xml:space="preserve">
+    <value>В буфере обмена</value>
+  </data>
+  <data name="CantUseWindowsHello" xml:space="preserve">
+    <value>Невозможно использовать Windows Hello для восстановления учетных данных.</value>
+  </data>
+  <data name="DatabaseIsInaccessible" xml:space="preserve">
+    <value>Файл базы паролей недоступен. Вы хотие попробовать снова или продолжить без сохранения изменений?</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="KeyFileIsInaccessible" xml:space="preserve">
+    <value>Файл ключа недоступен. Вы хотие попробовать снова или продолжить без сохранения изменений?</value>
+  </data>
+  <data name="KeyFileIsIncorrect" xml:space="preserve">
+    <value>Ключевой файл поврежден. Вы хотие попробовать снова или продолжить без сохранения изменений?</value>
+  </data>
+  <data name="DatabasePassword.Text" xml:space="preserve">
+    <value>Пароль kdbx файла</value>
+  </data>
+  <data name="FilenameToExport.Text" xml:space="preserve">
+    <value>Имя XML файла для экспорта</value>
+  </data>
+  <data name="SelectFileToExport.Text" xml:space="preserve">
+    <value>Выберите XML файл для экспорта</value>
+  </data>
+  <data name="ExportPageHeader.Text" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="ShareCommand.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Поделиться</value>
+  </data>
+  <data name="ShareCommand.Label" xml:space="preserve">
+    <value>Поделиться: Ctrl+P</value>
+  </data>
+  <data name="ExportSharingDescription" xml:space="preserve">
+    <value>XML файл экспорта паролей из базы kdbx</value>
+  </data>
+  <data name="ExportSharingTitle" xml:space="preserve">
+    <value>KDBX XML</value>
+  </data>
+  <data name="ExportedTextBlock.Text" xml:space="preserve">
+    <value>Группа была успешно экспортирована</value>
+  </data>
+  <data name="ExportToXmlDisclamer.Text" xml:space="preserve">
+    <value>Операция не является безопасной. Все данные из группы будут экспортированы в незашифрованный XML- файл. Любой желающий сможет прочитать экспортированный файл, если имеет к нему доступ.</value>
+  </data>
+  <data name="CopiedTextBlock.Text" xml:space="preserve">
+    <value>Скопировано</value>
+  </data>
+  <data name="PasswordRepeatTextBlock.Text" xml:space="preserve">
+    <value>Повтор пароля:</value>
+  </data>
+  <data name="SlidableListItem.RightLabel" xml:space="preserve">
+    <value>Убрать</value>
+  </data>
+  <data name="RemoveMenuItem.Text" xml:space="preserve">
+    <value>Убрать</value>
+  </data>
+  <data name="PrivacyStatementZeroParagraph.Text" xml:space="preserve">
+    <value>Версия Pro не осуществляет сбор какой-либо информации. Эта версия лишина возможности подключения к Интернету. Операционная система будет осуществлять блокировку любых попыток доступа к Интернету.
+
+Не Pro версия собирает информацию для улучшения обоих продуктов бесплатной версии и Pro версии</value>
+  </data>
+  <data name="PrivacyStatementZeroParagraphHeader.Text" xml:space="preserve">
+    <value>Pro версия</value>
+  </data>
+  <data name="RemoveMenuBar.Label" xml:space="preserve">
+    <value>Удалить (Ctrl+R)</value>
+  </data>
+  <data name="BuyProButton.Text" xml:space="preserve">
+    <value>Купить Pro версию в Магазине...</value>
+  </data>
+  <data name="SearchEntriesBox.PlaceholderText" xml:space="preserve">
+    <value>Искать в подгруппах</value>
+  </data>
+  <data name="SearchEntriesBox.[using:Windows.UI.Xaml.Automation]AutomationProperties.AutomationId" xml:space="preserve">
+    <value>SearchField</value>
+  </data>
+  <data name="EntryHistoryTab.Label" xml:space="preserve">
+    <value>История</value>
+  </data>
+  <data name="EntryTab.Label" xml:space="preserve">
+    <value>Запись</value>
+  </data>
+  <data name="HistoryDataGridSizeColumn.HeaderText" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="HistoryDataGridTitleColumn.HeaderText" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="HistoryDataGridUsernameColumn.HeaderText" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="HistoryDataGridVersionColumn.HeaderText" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="DeleteTextBlock.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="RestoreTextBlock.Text" xml:space="preserve">
+    <value>Восстановить</value>
+  </data>
+  <data name="ViewTextBlock.Text" xml:space="preserve">
+    <value>Просмотреть</value>
+  </data>
+  <data name="DatabaseError_Reopen" xml:space="preserve">
+    <value>Ошибка базы данных. Попробуйте открыть базу данных заново.</value>
+  </data>
+  <data name="IvalidFieldlName" xml:space="preserve">
+    <value>Недопустимое имя поля</value>
+  </data>
+  <data name="EmptyFieldName" xml:space="preserve">
+    <value>Пустое имя поля</value>
+  </data>
+  <data name="EntryStringFieldsTab.Label" xml:space="preserve">
+    <value>Поля</value>
+  </data>
+  <data name="NewFieldIsProtected.Text" xml:space="preserve">
+    <value>Защита данных в памяти</value>
+  </data>
+  <data name="NewFieldName.Text" xml:space="preserve">
+    <value>Имя Поля</value>
+  </data>
+  <data name="NewFieldValue.Text" xml:space="preserve">
+    <value>Значение Поле</value>
+  </data>
+  <data name="FieldsDataGridNameColumn.HeaderText" xml:space="preserve">
+    <value>Field Name</value>
+  </data>
+  <data name="FieldsDataGridValueColumn.HeaderText" xml:space="preserve">
+    <value>Field Value</value>
+  </data>
+  <data name="AddOrUpdateTextBlock.Text" xml:space="preserve">
+    <value>Добавить или изменить</value>
+  </data>
+  <data name="CopyTextBlock.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="LoadTextBlock.Text" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="RecycleBinName" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="AutoCreateNew" xml:space="preserve">
+    <value>(Автоматически создавать новую)</value>
+  </data>
+  <data name="CredentialsTab.Label" xml:space="preserve">
+    <value>Доступ</value>
+  </data>
+  <data name="RecycleBinTextBlock.Text" xml:space="preserve">
+    <value>Группа для корзины:</value>
+  </data>
+  <data name="UseRecycleBinTextBlock.Text" xml:space="preserve">
+    <value>Использовать корзину</value>
+  </data>
+  <data name="UseRecycleDisclamer.Text" xml:space="preserve">
+    <value>Если эта опция активна, pt.KeePass перености записи/группы в группу определенную как корзина вместо удаления. Удаление записи/группы из корзины необратимо.</value>
+  </data>
+  <data name="RecycleBinTab.Label" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="PasswordIsNotSaved" xml:space="preserve">
+    <value>Данные доступа к БД не сохранены. Вы хотите покинуть страницу?</value>
+  </data>
+  <data name="UseEmptyCredentialsTextBlock.Text" xml:space="preserve">
+    <value>Использовать БД без проверки учетных данных</value>
+  </data>
+  <data name="NewFieldExpander.Header" xml:space="preserve">
+    <value>Новое поле</value>
+  </data>
+  <data name="ptEntryTypeBankCard" xml:space="preserve">
+    <value>Банковская карта</value>
+  </data>
+  <data name="ptEntryTypeGeneral" xml:space="preserve">
+    <value>Общая запись</value>
+  </data>
+  <data name="PtEntryType" xml:space="preserve">
+    <value>pt.Тип записи</value>
+  </data>
+  <data name="NotesTab.Label" xml:space="preserve">
+    <value>Прим.</value>
+  </data>
+  <data name="CardNumberTextBlock.Text" xml:space="preserve">
+    <value>Номер карты</value>
+  </data>
+  <data name="CardValidToMonthTextBlock.Text" xml:space="preserve">
+    <value>Месяц действия карты</value>
+  </data>
+  <data name="CardValidToTextBlock.Text" xml:space="preserve">
+    <value>Срок действия карты</value>
+  </data>
+  <data name="CardValidToYearTextBlock.Text" xml:space="preserve">
+    <value>Год действия карты</value>
+  </data>
+  <data name="CardHolderTextBlock.Text" xml:space="preserve">
+    <value>Владелец карты</value>
+  </data>
+  <data name="ShowTextBlock.Text" xml:space="preserve">
+    <value>См.</value>
+  </data>
+  <data name="CardCsvTextBlock.Text" xml:space="preserve">
+    <value>CVC / CVV</value>
+  </data>
+  <data name="CardPinCodeTextBlock.Text" xml:space="preserve">
+    <value>PIN код карты</value>
+  </data>
+  <data name="CardSecretWordTextBlock.Text" xml:space="preserve">
+    <value>Секретное слово карты</value>
+  </data>
+  <data name="ptBankCardCsv" xml:space="preserve">
+    <value>CVC / CVV</value>
+  </data>
+  <data name="ptBankCardHolderName" xml:space="preserve">
+    <value>Владелец карты</value>
+  </data>
+  <data name="ptBankCardNumber" xml:space="preserve">
+    <value>Номер карты</value>
+  </data>
+  <data name="ptBankCardPinCode" xml:space="preserve">
+    <value>PIN код карты</value>
+  </data>
+  <data name="ptBankCardSecretWord" xml:space="preserve">
+    <value>Секретное слово карты</value>
+  </data>
+  <data name="ptBankCardValidToMonth" xml:space="preserve">
+    <value>Месяц дейсвтия карты</value>
+  </data>
+  <data name="ptBankCardValidToYear" xml:space="preserve">
+    <value>Год действия карты</value>
+  </data>
+  <data name="IconSettingsPivotItem.Header" xml:space="preserve">
+    <value>Иконки</value>
+  </data>
+  <data name="IconsPackTextBlock.Text" xml:space="preserve">
+    <value>Иконки</value>
+  </data>
+  <data name="IconNameColumn.HeaderText" xml:space="preserve">
+    <value>Название иконка</value>
+  </data>
+  <data name="IconPackIconColumn.HeaderText" xml:space="preserve">
+    <value>иконка из набора</value>
+  </data>
+  <data name="IconsForGroupTextBlock.Text" xml:space="preserve">
+    <value>Иконки для группы</value>
+  </data>
+  <data name="IconsForKeyTextBlock.Text" xml:space="preserve">
+    <value>Иконки для ключей</value>
+  </data>
+  <data name="KeePassImageColumn.HeaderText" xml:space="preserve">
+    <value>иконка KeePass</value>
+  </data>
+  <data name="DirectoryTextBlock.Text" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="FilenameTextBlock.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="LastModifiedTextBlock.Text" xml:space="preserve">
+    <value>Изменен</value>
+  </data>
+  <data name="CustomIconsTextBlock.Text" xml:space="preserve">
+    <value>Пользовательские иконки</value>
+  </data>
+  <data name="KeePassIconsTextBlock.Text" xml:space="preserve">
+    <value>Иконки KeePass</value>
+  </data>
+  <data name="GroupTab.Label" xml:space="preserve">
+    <value>Группа</value>
+  </data>
+  <data name="SetButton.Content" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="DonateTextBlock.Text" xml:space="preserve">
+    <value>Поддержать:</value>
+  </data>
+  <data name="ThankYouTextBlock.Text" xml:space="preserve">
+    <value>Спасибо за поддержку!</value>
+  </data>
+  <data name="RateUsButton.Content" xml:space="preserve">
+    <value>Оцените это приложение</value>
+  </data>
+  <data name="FileVersionNotSupported" xml:space="preserve">
+    <value>Версия файла не поддерживается. pt.KeePass поддерживает версии файлов kdbx от 2.0 до 2.20. Мы не обновляем библиотеку программы, чтобы сохранить поддержку старых версий Windows 10. Вы можете испольовать MyPasswordManager, чтобы открыть этот файл.</value>
+  </data>
+  <data name="Password.PlaceholderText" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="TapAnimationToStopAutoOpenTextBlock.Text" xml:space="preserve">
+    <value>Нажмите на анимацию, чтобы остановить автоматическое открытие</value>
+  </data>
+  <data name="AttentionTextBlock.Text" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="Entities" xml:space="preserve">
+    <value>Объекты</value>
+  </data>
+  <data name="SharingReloginTextBlock.Text" xml:space="preserve">
+    <value>Мы попросим вас ввести учетные данные защищенной базы данных на следующей странице. Он не позволит вам использовать сохраненный пароль вашего устройства, если он у вас есть.</value>
+  </data>
+  <data name="SharingWarningTextBlock.Text" xml:space="preserve">
+    <value>Эта операция не является безопасной. Данные будут экспортированы в незашифрованном виде. Любой желающий сможет прочитать экспортированные данные, если получит к ним доступ.</value>
+  </data>
+  <data name="SkipThisPageTextBlock.Text" xml:space="preserve">
+    <value>Пропускать эту страницу последующие разы</value>
+  </data>
+  <data name="ShareXmlCommand.Label" xml:space="preserve">
+    <value>xml: Ctrl+U</value>
+  </data>
+  <data name="AppSettings" xml:space="preserve">
+    <value>Настройки приложения</value>
+  </data>
+  <data name="ContributeTranslationText" xml:space="preserve">
+    <value>Мы вседа рады помощи в переводе приложения! Вы можете внести исправления или помочь сделать это приложение доступным на вашем языке, присоединившись к нашему сообществу на GitHub</value>
+  </data>
+  <data name="ContributeTranslationCommandText" xml:space="preserve">
+    <value>Учавствовать в переводе</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+</root>
