@@ -780,7 +780,7 @@ Non Pro version collects information to make both free and Pro versions better</
     <value>Entities</value>
   </data>
   <data name="SharingReloginTextBlock.Text" xml:space="preserve">
-    <value>We will ask you to enter the secure database credentials on the next page. It would not let you use your device's stored password if you have one.</value>
+    <value>If you're exporting more than one entity we will ask you to enter the secure database credentials on the next page. It would not let you use your device's stored password if you have one.</value>
   </data>
   <data name="SharingWarningTextBlock.Text" xml:space="preserve">
     <value>The operation is not secure. The data will be exported unencrypted. Anyone will be able to read the exported data if one got access to them.</value>
@@ -802,5 +802,11 @@ Non Pro version collects information to make both free and Pro versions better</
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Settings</value>
+  </data>
+  <data name="ShareMenuFlyoutItem.Text" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="ClipboardCleaningTimeoutSecondsTextBlock.Text" xml:space="preserve">
+    <value>Clipboard cleaning timeout (seconds)</value>
   </data>
 </root>

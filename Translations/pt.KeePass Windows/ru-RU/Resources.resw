@@ -774,7 +774,7 @@
     <value>Объекты</value>
   </data>
   <data name="SharingReloginTextBlock.Text" xml:space="preserve">
-    <value>Мы попросим вас ввести учетные данные защищенной базы данных на следующей странице. Он не позволит вам использовать сохраненный пароль вашего устройства, если он у вас есть.</value>
+    <value>Если вы экспортируете несколько объектов, мы попросим вас ввести учетные данные защищенной базы данных на следующей странице без использования сохраненного пароля на вашем устройстве, если он у вас есть.</value>
   </data>
   <data name="SharingWarningTextBlock.Text" xml:space="preserve">
     <value>Эта операция не является безопасной. Данные будут экспортированы в незашифрованном виде. Любой желающий сможет прочитать экспортированные данные, если получит к ним доступ.</value>
@@ -796,5 +796,11 @@
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Настройки</value>
+  </data>
+  <data name="ShareMenuFlyoutItem.Text" xml:space="preserve">
+    <value>Поделиться</value>
+  </data>
+  <data name="ClipboardCleaningTimeoutSecondsTextBlock.Text" xml:space="preserve">
+    <value>Тайм-аут очистки буфера обмена (секунды)</value>
   </data>
 </root>

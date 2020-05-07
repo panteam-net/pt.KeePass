@@ -1,3 +1,9 @@
+2.8:
+- Added russian translation.
+- Added kdbx file sharing.
+- Added exporting one entity without reentering credentials.
+- Added clipboard cleaning timeout.
+
 2.7:
 - Sharing as XML & simple text has been added.
 

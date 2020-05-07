@@ -604,8 +604,8 @@
           <target state="final">Экспорт</target>
         </trans-unit>
         <trans-unit id="SharingRelogin" translate="yes" xml:space="preserve">
-          <source>We will ask you to enter the secure database credentials on the next page. It would not let you use your device's stored password if you have one.</source>
-          <target state="final">Мы попросим вас ввести учетные данные защищенной базы данных на следующей странице без использования сохраненного пароля на вашем устройстве, если он у вас есть.</target>
+          <source>If you're exporting more than one entity we will ask you to enter the secure database credentials on the next page. It would not let you use your device's stored password if you have one.</source>
+          <target state="final">Если вы экспортируете несколько объектов, мы попросим вас ввести учетные данные защищенной базы данных на следующей странице без использования сохраненного пароля на вашем устройстве, если он у вас есть.</target>
         </trans-unit>
         <trans-unit id="AppSettings" translate="yes" xml:space="preserve">
           <source>App settings</source>
@@ -622,6 +622,10 @@
         <trans-unit id="Settings" translate="yes" xml:space="preserve">
           <source>Settings</source>
           <target state="final">Настройки</target>
+        </trans-unit>
+        <trans-unit id="ClipboardCleaningTimeoutSeconds" translate="yes" xml:space="preserve">
+          <source>Clipboard cleaning timeout (seconds)</source>
+          <target state="final">Тайм-аут очистки буфера обмена (секунды)</target>
         </trans-unit>
       </group>
     </body>
