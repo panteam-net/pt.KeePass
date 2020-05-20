@@ -1,4 +1,4 @@
-﻿Field,ID,Type (Type),default,en-us
+﻿Field,ID,Type (Type),default,en-us,ru
 Description,2,Text,,"Your feedback is welcome. Password manager. It's based on the KeePass project. Supports the KeePass 2.x database format. 
 It supports:
 - Bank cards!
@@ -9,8 +9,23 @@ It supports:
 - Recycle Bin.
 - More features are coming. Leave your feedback.
 
-The password database is encrypted and can be shared among different devices and platforms."
-ReleaseNotes,3,Text,,"2.7:
+The password database is encrypted and can be shared among different devices and platforms.","Ваши отзывы приветствуются. Менеджер паролей. Он основан на проекте KeePass. Поддерживает KeePass 2.X формат базы данных.
+Он поддерживает:
+- Банковские карты!
+- История для записей.
+- Пароль и ключевой файл для защиты вашей базы данных.
+- Поиск.
+- Настраиваемых поля.
+- Корзина.
+- Скоро появятся новые функции. Оставьте свой отзыв.
+
+База данных паролей зашифрована и может быть разделена между различными устройствами и платформами."
+ReleaseNotes,3,Text,,"2.8:
+- Added kdbx file sharing.
+- Added exporting one entity without reentering credentials.
+- Added clipboard cleaning timeout.
+
+2.7:
 - Sharing as XML & simple text has been added.
 
 2.6:
@@ -44,212 +59,240 @@ pt.KeePass stores all bank card fields in custom fields. That makes it compatibl
 - Recycle Bin support has been added.
 
 1.0.38:
-- Custom string fields have been added.
+- Custom string fields have been added.","2.8:
+- Добавлен общий доступ к файлам kdbx.
+- Добавлен экспорт одной записи без повторного ввода учетных данных.
+- Добавлен тайм-аут очистки буфера обмена.
 
-1.0.36:
-- Crushing when try to leave EntryPage with unsaved changes has been fixed
+2.7:
+- Добавлен экспорт в формате XML и простой текст.
 
-1.0.34:
-- History has been added;
-- Now when you generate password on the generation page you go back automatically and generation page will not appear when you go back from the entry page.
+2.6:
+- Обновлена страница входа.
 
-1.0.33:
-- Login experience for saved credentials has been improved;
-- Searching has been added"
-Title,4,Text,,MyPasswordManager
-ShortTitle,5,Text,,
-SortTitle,6,Text,,
-VoiceTitle,7,Text,,
-ShortDescription,8,Text,,
-DevStudio,9,Text,,Panteam
-CopyrightTrademarkInformation,12,Text,,
-AdditionalLicenseTerms,13,Text,,
-DesktopScreenshot1,100,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-01-iconpack.png
-DesktopScreenshot2,101,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-02-password-genrator.png
-DesktopScreenshot3,102,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-03-enter-page.png
-DesktopScreenshot4,103,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-04-custom-fields.png
-DesktopScreenshot5,104,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-05-groups-entries.png
-DesktopScreenshot6,105,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-06-bank-card.png
-DesktopScreenshot7,106,Relative path (or URL to file in Partner Center),,
-DesktopScreenshot8,107,Relative path (or URL to file in Partner Center),,
-DesktopScreenshot9,108,Relative path (or URL to file in Partner Center),,
-DesktopScreenshot10,109,Relative path (or URL to file in Partner Center),,
-DesktopScreenshotCaption1,150,Text,,Use Windows Hello to save your credentials
-DesktopScreenshotCaption2,151,Text,,Icon packs
-DesktopScreenshotCaption3,152,Text,,Custom fields
-DesktopScreenshotCaption4,153,Text,,Password generator
-DesktopScreenshotCaption5,154,Text,,Groups
-DesktopScreenshotCaption6,155,Text,,Bank card fields
-DesktopScreenshotCaption7,156,Text,,
-DesktopScreenshotCaption8,157,Text,,
-DesktopScreenshotCaption9,158,Text,,
-DesktopScreenshotCaption10,159,Text,,
-MobileScreenshot1,200,Relative path (or URL to file in Partner Center),,
-MobileScreenshot2,201,Relative path (or URL to file in Partner Center),,
-MobileScreenshot3,202,Relative path (or URL to file in Partner Center),,
-MobileScreenshot4,203,Relative path (or URL to file in Partner Center),,
-MobileScreenshot5,204,Relative path (or URL to file in Partner Center),,
-MobileScreenshot6,205,Relative path (or URL to file in Partner Center),,
-MobileScreenshot7,206,Relative path (or URL to file in Partner Center),,
-MobileScreenshot8,207,Relative path (or URL to file in Partner Center),,
-MobileScreenshot9,208,Relative path (or URL to file in Partner Center),,
-MobileScreenshot10,209,Relative path (or URL to file in Partner Center),,
-MobileScreenshotCaption1,250,Text,,
-MobileScreenshotCaption2,251,Text,,
-MobileScreenshotCaption3,252,Text,,
-MobileScreenshotCaption4,253,Text,,
-MobileScreenshotCaption5,254,Text,,
-MobileScreenshotCaption6,255,Text,,
-MobileScreenshotCaption7,256,Text,,
-MobileScreenshotCaption8,257,Text,,
-MobileScreenshotCaption9,258,Text,,
-MobileScreenshotCaption10,259,Text,,
-XboxScreenshot1,300,Relative path (or URL to file in Partner Center),,
-XboxScreenshot2,301,Relative path (or URL to file in Partner Center),,
-XboxScreenshot3,302,Relative path (or URL to file in Partner Center),,
-XboxScreenshot4,303,Relative path (or URL to file in Partner Center),,
-XboxScreenshot5,304,Relative path (or URL to file in Partner Center),,
-XboxScreenshot6,305,Relative path (or URL to file in Partner Center),,
-XboxScreenshot7,306,Relative path (or URL to file in Partner Center),,
-XboxScreenshot8,307,Relative path (or URL to file in Partner Center),,
-XboxScreenshot9,308,Relative path (or URL to file in Partner Center),,
-XboxScreenshot10,309,Relative path (or URL to file in Partner Center),,
-XboxScreenshotCaption1,350,Text,,
-XboxScreenshotCaption2,351,Text,,
-XboxScreenshotCaption3,352,Text,,
-XboxScreenshotCaption4,353,Text,,
-XboxScreenshotCaption5,354,Text,,
-XboxScreenshotCaption6,355,Text,,
-XboxScreenshotCaption7,356,Text,,
-XboxScreenshotCaption8,357,Text,,
-XboxScreenshotCaption9,358,Text,,
-XboxScreenshotCaption10,359,Text,,
-HolographicScreenshot1,400,Relative path (or URL to file in Partner Center),,
-HolographicScreenshot2,401,Relative path (or URL to file in Partner Center),,
-HolographicScreenshot3,402,Relative path (or URL to file in Partner Center),,
-HolographicScreenshot4,403,Relative path (or URL to file in Partner Center),,
-HolographicScreenshot5,404,Relative path (or URL to file in Partner Center),,
-HolographicScreenshot6,405,Relative path (or URL to file in Partner Center),,
-HolographicScreenshot7,406,Relative path (or URL to file in Partner Center),,
-HolographicScreenshot8,407,Relative path (or URL to file in Partner Center),,
-HolographicScreenshot9,408,Relative path (or URL to file in Partner Center),,
-HolographicScreenshot10,409,Relative path (or URL to file in Partner Center),,
-HolographicScreenshotCaption1,450,Text,,
-HolographicScreenshotCaption2,451,Text,,
-HolographicScreenshotCaption3,452,Text,,
-HolographicScreenshotCaption4,453,Text,,
-HolographicScreenshotCaption5,454,Text,,
-HolographicScreenshotCaption6,455,Text,,
-HolographicScreenshotCaption7,456,Text,,
-HolographicScreenshotCaption8,457,Text,,
-HolographicScreenshotCaption9,458,Text,,
-HolographicScreenshotCaption10,459,Text,,
-StoreLogo720x1080,600,Relative path (or URL to file in Partner Center),,
-StoreLogo1080x1080,601,Relative path (or URL to file in Partner Center),,
-StoreLogo300x300,602,Relative path (or URL to file in Partner Center),,
-OverrideLogosForWin10,603,True/False,,FALSE
-StoreLogoOverride150x150,604,Relative path (or URL to file in Partner Center),,
-StoreLogoOverride71x71,605,Relative path (or URL to file in Partner Center),,
-PromoImage1920x1080,606,Relative path (or URL to file in Partner Center),,
-PromoImage2400x1200,607,Relative path (or URL to file in Partner Center),,
-XboxBrandedKeyArt584x800,608,Relative path (or URL to file in Partner Center),,
-XboxTitledHero1920x1080,609,Relative path (or URL to file in Partner Center),,
-XboxFeaturedPromo1080x1080,610,Relative path (or URL to file in Partner Center),,
-OptionalPromo358x358,611,Relative path (or URL to file in Partner Center),,
-OptionalPromo1000x800,612,Relative path (or URL to file in Partner Center),,
-OptionalPromo414x180,613,Relative path (or URL to file in Partner Center),,
-Feature1,700,Text,,KeePass
-Feature2,701,Text,,Bank cards
-Feature3,702,Text,,Export entites
-Feature4,703,Text,,Password manager
-Feature5,704,Text,,Password generator
-Feature6,705,Text,,Icon packs
-Feature7,706,Text,,
-Feature8,707,Text,,
-Feature9,708,Text,,
-Feature10,709,Text,,
-Feature11,710,Text,,
-Feature12,711,Text,,
-Feature13,712,Text,,
-Feature14,713,Text,,
-Feature15,714,Text,,
-Feature16,715,Text,,
-Feature17,716,Text,,
-Feature18,717,Text,,
-Feature19,718,Text,,
-Feature20,719,Text,,
-MinimumHardwareReq1,800,Text,,
-MinimumHardwareReq2,801,Text,,
-MinimumHardwareReq3,802,Text,,
-MinimumHardwareReq4,803,Text,,
-MinimumHardwareReq5,804,Text,,
-MinimumHardwareReq6,805,Text,,
-MinimumHardwareReq7,806,Text,,
-MinimumHardwareReq8,807,Text,,
-MinimumHardwareReq9,808,Text,,
-MinimumHardwareReq10,809,Text,,
-MinimumHardwareReq11,810,Text,,
-RecommendedHardwareReq1,850,Text,,
-RecommendedHardwareReq2,851,Text,,
-RecommendedHardwareReq3,852,Text,,
-RecommendedHardwareReq4,853,Text,,
-RecommendedHardwareReq5,854,Text,,
-RecommendedHardwareReq6,855,Text,,
-RecommendedHardwareReq7,856,Text,,
-RecommendedHardwareReq8,857,Text,,
-RecommendedHardwareReq9,858,Text,,
-RecommendedHardwareReq10,859,Text,,
-RecommendedHardwareReq11,860,Text,,
-SearchTerm1,900,Text,,
-SearchTerm2,901,Text,,
-SearchTerm3,902,Text,,
-SearchTerm4,903,Text,,
-SearchTerm5,904,Text,,
-SearchTerm6,905,Text,,
-SearchTerm7,906,Text,,
-TrailerToPlayAtTopOfListing,999,Relative path (or URL to file in Partner Center),,
-Trailer1,1000,Relative path (or URL to file in Partner Center),,
-Trailer2,1001,Relative path (or URL to file in Partner Center),,
-Trailer3,1002,Relative path (or URL to file in Partner Center),,
-Trailer4,1003,Relative path (or URL to file in Partner Center),,
-Trailer5,1004,Relative path (or URL to file in Partner Center),,
-Trailer6,1005,Relative path (or URL to file in Partner Center),,
-Trailer7,1006,Relative path (or URL to file in Partner Center),,
-Trailer8,1007,Relative path (or URL to file in Partner Center),,
-Trailer9,1008,Relative path (or URL to file in Partner Center),,
-Trailer10,1009,Relative path (or URL to file in Partner Center),,
-Trailer11,1010,Relative path (or URL to file in Partner Center),,
-Trailer12,1011,Relative path (or URL to file in Partner Center),,
-Trailer13,1012,Relative path (or URL to file in Partner Center),,
-Trailer14,1013,Relative path (or URL to file in Partner Center),,
-Trailer15,1014,Relative path (or URL to file in Partner Center),,
-TrailerTitle1,1020,Text,,
-TrailerTitle2,1021,Text,,
-TrailerTitle3,1022,Text,,
-TrailerTitle4,1023,Text,,
-TrailerTitle5,1024,Text,,
-TrailerTitle6,1025,Text,,
-TrailerTitle7,1026,Text,,
-TrailerTitle8,1027,Text,,
-TrailerTitle9,1028,Text,,
-TrailerTitle10,1029,Text,,
-TrailerTitle11,1030,Text,,
-TrailerTitle12,1031,Text,,
-TrailerTitle13,1032,Text,,
-TrailerTitle14,1033,Text,,
-TrailerTitle15,1034,Text,,
-TrailerThumbnail1,1040,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail2,1041,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail3,1042,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail4,1043,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail5,1044,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail6,1045,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail7,1046,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail8,1047,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail9,1048,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail10,1049,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail11,1050,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail12,1051,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail13,1052,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail14,1053,Relative path (or URL to file in Partner Center),,
-TrailerThumbnail15,1054,Relative path (or URL to file in Partner Center),,
+2.5.0.0:
+- Исправлено сообщение об ошибке при открытии файла kdbx. Теперь при попытке открыть более новую версию файла kdbx отображается правильное сообщение.
+
+2.4.0.0:
+- Очистка поля поиска при навигации назад для версий Android и iOS.
+- Исправлен набор иконок №1.
+- Добавлена начальная страница.
+- Исправлена ошибка при удалении записи со страницы записи.
+
+2.2.0.0:
+- Таймер отображения пароля отключен.
+- Поле поиска очищается при обратной навигации. 
+
+1.0.42:
+- Добавлена поддержка наборов иконок.
+
+1.0.41:
+-Добавлена поддержка банковских карт! 
+Вы можете скопировать номер карты, дату, имя владельца, CVC, дату, нажав на имя поля.
+pt.KeePass хранит все поля банковских карт в пользовательских полях. Это делает его совместимым с любым портом KeePass. pt.KeePass может изменить вид сущности, чтобы показать поля банковских карт.
+
+1.0.40:
+- Небольшие исправления ошибок и улучшения дизайна
+
+1.0.39:
+- Добавлена поддержка Корзины
+
+1.0.38:
+- Добавлена поддержка пользовательских строковых полей."
+Title,4,Text,,MyPasswordManager,MyPasswordManager
+ShortTitle,5,Text,,,
+SortTitle,6,Text,,,
+VoiceTitle,7,Text,,,
+ShortDescription,8,Text,,,
+DevStudio,9,Text,,Panteam,Пантим
+CopyrightTrademarkInformation,12,Text,,,
+AdditionalLicenseTerms,13,Text,,,
+DesktopScreenshot1,100,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-01-iconpack.png,MyPasswordManager/ru-01-iconpack.png
+DesktopScreenshot2,101,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-02-password-genrator.png,MyPasswordManager/ru-02-password-genrator.png
+DesktopScreenshot3,102,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-03-enter-page.png,MyPasswordManager/ru-03-enter-page.png
+DesktopScreenshot4,103,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-04-custom-fields.png,MyPasswordManager/ru-04-custom-fields.png
+DesktopScreenshot5,104,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-05-groups-entries.png,MyPasswordManager/ru-05-groups-entries.png
+DesktopScreenshot6,105,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-06-bank-card.png,MyPasswordManager/ru-06-bank-card.png
+DesktopScreenshot7,106,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshot8,107,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshot9,108,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshot10,109,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshotCaption1,150,Text,,Use Windows Hello to save your credentials,Используйте Windows Hello для сохранения пароля БД
+DesktopScreenshotCaption2,151,Text,,Icon packs,Наборы иконок
+DesktopScreenshotCaption3,152,Text,,Custom fields,Пользовательские поля
+DesktopScreenshotCaption4,153,Text,,Password generator,Генератор паролей
+DesktopScreenshotCaption5,154,Text,,Groups,Группы
+DesktopScreenshotCaption6,155,Text,,Bank card fields,Банковские карты
+DesktopScreenshotCaption7,156,Text,,,
+DesktopScreenshotCaption8,157,Text,,,
+DesktopScreenshotCaption9,158,Text,,,
+DesktopScreenshotCaption10,159,Text,,,
+MobileScreenshot1,200,Relative path (or URL to file in Partner Center),,,
+MobileScreenshot2,201,Relative path (or URL to file in Partner Center),,,
+MobileScreenshot3,202,Relative path (or URL to file in Partner Center),,,
+MobileScreenshot4,203,Relative path (or URL to file in Partner Center),,,
+MobileScreenshot5,204,Relative path (or URL to file in Partner Center),,,
+MobileScreenshot6,205,Relative path (or URL to file in Partner Center),,,
+MobileScreenshot7,206,Relative path (or URL to file in Partner Center),,,
+MobileScreenshot8,207,Relative path (or URL to file in Partner Center),,,
+MobileScreenshot9,208,Relative path (or URL to file in Partner Center),,,
+MobileScreenshot10,209,Relative path (or URL to file in Partner Center),,,
+MobileScreenshotCaption1,250,Text,,,
+MobileScreenshotCaption2,251,Text,,,
+MobileScreenshotCaption3,252,Text,,,
+MobileScreenshotCaption4,253,Text,,,
+MobileScreenshotCaption5,254,Text,,,
+MobileScreenshotCaption6,255,Text,,,
+MobileScreenshotCaption7,256,Text,,,
+MobileScreenshotCaption8,257,Text,,,
+MobileScreenshotCaption9,258,Text,,,
+MobileScreenshotCaption10,259,Text,,,
+XboxScreenshot1,300,Relative path (or URL to file in Partner Center),,,
+XboxScreenshot2,301,Relative path (or URL to file in Partner Center),,,
+XboxScreenshot3,302,Relative path (or URL to file in Partner Center),,,
+XboxScreenshot4,303,Relative path (or URL to file in Partner Center),,,
+XboxScreenshot5,304,Relative path (or URL to file in Partner Center),,,
+XboxScreenshot6,305,Relative path (or URL to file in Partner Center),,,
+XboxScreenshot7,306,Relative path (or URL to file in Partner Center),,,
+XboxScreenshot8,307,Relative path (or URL to file in Partner Center),,,
+XboxScreenshot9,308,Relative path (or URL to file in Partner Center),,,
+XboxScreenshot10,309,Relative path (or URL to file in Partner Center),,,
+XboxScreenshotCaption1,350,Text,,,
+XboxScreenshotCaption2,351,Text,,,
+XboxScreenshotCaption3,352,Text,,,
+XboxScreenshotCaption4,353,Text,,,
+XboxScreenshotCaption5,354,Text,,,
+XboxScreenshotCaption6,355,Text,,,
+XboxScreenshotCaption7,356,Text,,,
+XboxScreenshotCaption8,357,Text,,,
+XboxScreenshotCaption9,358,Text,,,
+XboxScreenshotCaption10,359,Text,,,
+HolographicScreenshot1,400,Relative path (or URL to file in Partner Center),,,
+HolographicScreenshot2,401,Relative path (or URL to file in Partner Center),,,
+HolographicScreenshot3,402,Relative path (or URL to file in Partner Center),,,
+HolographicScreenshot4,403,Relative path (or URL to file in Partner Center),,,
+HolographicScreenshot5,404,Relative path (or URL to file in Partner Center),,,
+HolographicScreenshot6,405,Relative path (or URL to file in Partner Center),,,
+HolographicScreenshot7,406,Relative path (or URL to file in Partner Center),,,
+HolographicScreenshot8,407,Relative path (or URL to file in Partner Center),,,
+HolographicScreenshot9,408,Relative path (or URL to file in Partner Center),,,
+HolographicScreenshot10,409,Relative path (or URL to file in Partner Center),,,
+HolographicScreenshotCaption1,450,Text,,,
+HolographicScreenshotCaption2,451,Text,,,
+HolographicScreenshotCaption3,452,Text,,,
+HolographicScreenshotCaption4,453,Text,,,
+HolographicScreenshotCaption5,454,Text,,,
+HolographicScreenshotCaption6,455,Text,,,
+HolographicScreenshotCaption7,456,Text,,,
+HolographicScreenshotCaption8,457,Text,,,
+HolographicScreenshotCaption9,458,Text,,,
+HolographicScreenshotCaption10,459,Text,,,
+StoreLogo720x1080,600,Relative path (or URL to file in Partner Center),,,
+StoreLogo1080x1080,601,Relative path (or URL to file in Partner Center),,,
+StoreLogo300x300,602,Relative path (or URL to file in Partner Center),,,
+OverrideLogosForWin10,603,True/False,,FALSE,FALSE
+StoreLogoOverride150x150,604,Relative path (or URL to file in Partner Center),,,
+StoreLogoOverride71x71,605,Relative path (or URL to file in Partner Center),,,
+PromoImage1920x1080,606,Relative path (or URL to file in Partner Center),,,
+PromoImage2400x1200,607,Relative path (or URL to file in Partner Center),,,
+XboxBrandedKeyArt584x800,608,Relative path (or URL to file in Partner Center),,,
+XboxTitledHero1920x1080,609,Relative path (or URL to file in Partner Center),,,
+XboxFeaturedPromo1080x1080,610,Relative path (or URL to file in Partner Center),,,
+OptionalPromo358x358,611,Relative path (or URL to file in Partner Center),,,
+OptionalPromo1000x800,612,Relative path (or URL to file in Partner Center),,,
+OptionalPromo414x180,613,Relative path (or URL to file in Partner Center),,,
+Feature1,700,Text,,KeePass,KeePass
+Feature2,701,Text,,Bank cards,Банковские карты
+Feature3,702,Text,,Export entites,Экспорт записей
+Feature4,703,Text,,Password manager,Менеджер паролей
+Feature5,704,Text,,Password generator,Генератор паролей
+Feature6,705,Text,,Icon packs,Наборы иконок
+Feature7,706,Text,,,
+Feature8,707,Text,,,
+Feature9,708,Text,,,
+Feature10,709,Text,,,
+Feature11,710,Text,,,
+Feature12,711,Text,,,
+Feature13,712,Text,,,
+Feature14,713,Text,,,
+Feature15,714,Text,,,
+Feature16,715,Text,,,
+Feature17,716,Text,,,
+Feature18,717,Text,,,
+Feature19,718,Text,,,
+Feature20,719,Text,,,
+MinimumHardwareReq1,800,Text,,,
+MinimumHardwareReq2,801,Text,,,
+MinimumHardwareReq3,802,Text,,,
+MinimumHardwareReq4,803,Text,,,
+MinimumHardwareReq5,804,Text,,,
+MinimumHardwareReq6,805,Text,,,
+MinimumHardwareReq7,806,Text,,,
+MinimumHardwareReq8,807,Text,,,
+MinimumHardwareReq9,808,Text,,,
+MinimumHardwareReq10,809,Text,,,
+MinimumHardwareReq11,810,Text,,,
+RecommendedHardwareReq1,850,Text,,,
+RecommendedHardwareReq2,851,Text,,,
+RecommendedHardwareReq3,852,Text,,,
+RecommendedHardwareReq4,853,Text,,,
+RecommendedHardwareReq5,854,Text,,,
+RecommendedHardwareReq6,855,Text,,,
+RecommendedHardwareReq7,856,Text,,,
+RecommendedHardwareReq8,857,Text,,,
+RecommendedHardwareReq9,858,Text,,,
+RecommendedHardwareReq10,859,Text,,,
+RecommendedHardwareReq11,860,Text,,,
+SearchTerm1,900,Text,,,
+SearchTerm2,901,Text,,,
+SearchTerm3,902,Text,,,
+SearchTerm4,903,Text,,,
+SearchTerm5,904,Text,,,
+SearchTerm6,905,Text,,,
+SearchTerm7,906,Text,,,
+TrailerToPlayAtTopOfListing,999,Relative path (or URL to file in Partner Center),,,
+Trailer1,1000,Relative path (or URL to file in Partner Center),,,
+Trailer2,1001,Relative path (or URL to file in Partner Center),,,
+Trailer3,1002,Relative path (or URL to file in Partner Center),,,
+Trailer4,1003,Relative path (or URL to file in Partner Center),,,
+Trailer5,1004,Relative path (or URL to file in Partner Center),,,
+Trailer6,1005,Relative path (or URL to file in Partner Center),,,
+Trailer7,1006,Relative path (or URL to file in Partner Center),,,
+Trailer8,1007,Relative path (or URL to file in Partner Center),,,
+Trailer9,1008,Relative path (or URL to file in Partner Center),,,
+Trailer10,1009,Relative path (or URL to file in Partner Center),,,
+Trailer11,1010,Relative path (or URL to file in Partner Center),,,
+Trailer12,1011,Relative path (or URL to file in Partner Center),,,
+Trailer13,1012,Relative path (or URL to file in Partner Center),,,
+Trailer14,1013,Relative path (or URL to file in Partner Center),,,
+Trailer15,1014,Relative path (or URL to file in Partner Center),,,
+TrailerTitle1,1020,Text,,,
+TrailerTitle2,1021,Text,,,
+TrailerTitle3,1022,Text,,,
+TrailerTitle4,1023,Text,,,
+TrailerTitle5,1024,Text,,,
+TrailerTitle6,1025,Text,,,
+TrailerTitle7,1026,Text,,,
+TrailerTitle8,1027,Text,,,
+TrailerTitle9,1028,Text,,,
+TrailerTitle10,1029,Text,,,
+TrailerTitle11,1030,Text,,,
+TrailerTitle12,1031,Text,,,
+TrailerTitle13,1032,Text,,,
+TrailerTitle14,1033,Text,,,
+TrailerTitle15,1034,Text,,,
+TrailerThumbnail1,1040,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail2,1041,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail3,1042,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail4,1043,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail5,1044,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail6,1045,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail7,1046,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail8,1047,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail9,1048,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail10,1049,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail11,1050,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail12,1051,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail13,1052,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail14,1053,Relative path (or URL to file in Partner Center),,,
+TrailerThumbnail15,1054,Relative path (or URL to file in Partner Center),,,

@@ -1,0 +1,14 @@
+<en-US>
+2.8:
+- Added Russian translation.
+- Added kdbx file sharing.
+- Added exporting one entity without reentering credentials.
+- Added clipboard cleaning timeout.
+</en-US>
+<ru-RU>
+2.8:
+- Добавлен русский перевод.
+- Добавлен общий доступ к файлам kdbx.
+- Добавлен экспорт одной записи без повторного ввода учетных данных.
+- Добавлен тайм-аут очистки буфера обмена.
+</ru-RU>
