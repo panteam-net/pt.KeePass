@@ -1,3 +1,8 @@
+2.9:
+- Added Open in another app button for kdbx files.
+- Added OneDrive files provider.
+- Fixed Icon Pack #1.
+
 2.8:
 - Added Russian translation.
 - Added kdbx file sharing.

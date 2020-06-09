@@ -803,4 +803,22 @@
   <data name="ClipboardCleaningTimeoutSecondsTextBlock.Text" xml:space="preserve">
     <value>Тайм-аут очистки буфера обмена (секунды)</value>
   </data>
+  <data name="OpenInAnotherAppMenuFlyoutItem.Text" xml:space="preserve">
+    <value>Открыть в другом приложении...</value>
+  </data>
+  <data name="FileProviders" xml:space="preserve">
+    <value>Поставщики файлов</value>
+  </data>
+  <data name="LocalFolderTextBlock.Text" xml:space="preserve">
+    <value>Локальная папка...</value>
+  </data>
+  <data name="OneDriveTextBlock.Text" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="LocalStorage" xml:space="preserve">
+    <value>Диск</value>
+  </data>
 </root>

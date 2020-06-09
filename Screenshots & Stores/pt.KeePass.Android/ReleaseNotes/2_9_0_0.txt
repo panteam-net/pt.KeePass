@@ -1,0 +1,12 @@
+<en-US>
+2.9:
+- Added Open in another app button for kdbx files.
+- Added OneDrive files provider.
+- Fixed Icon Pack #1.
+</en-US>
+<ru-RU>
+2.9:
+- Добавлена кнопка Открыть в другом приложении для файлов kdbx.
+- Добавлен поставщик файлов OneDrive.
+- Исправлен Набор иконок #1.
+</ru-RU>
