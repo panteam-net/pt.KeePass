@@ -1,3 +1,8 @@
+2.10:
+- Fixed a crash on removing Recycle Bin.
+- Fixed a crash for databases with custom icons.
+- Added a feature to send an entry to the notifications to be able to copy the entry's data (username & password) to the clipboard right from the notifications.
+
 2.9:
 - Added Open in another app button for kdbx files.
 - Added OneDrive files provider.

@@ -18,7 +18,12 @@ IT-поддержка:
 - мусорная корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.9:
+ReleaseNotes,3,Text,,"2.10:
+- Fixed a crash on removing Recycle Bin.
+- Fixed a crash for databases with custom icons.
+- Added a feature to send an entry to the notifications to be able to copy the entry's data (username & password) to the clipboard right from the notifications.
+
+2.9:
 - Added Open in another app button for kdbx files.
 - Added OneDrive files provider.
 - Fixed Icon Pack #1.
@@ -53,13 +58,12 @@ ReleaseNotes,3,Text,,"2.9:
 1.0.41:
 - Bank cards support has been added! 
 You can copy card number, date, owner's name, cvc, date by tapping on field name.
-pt.KeePass stores all bank card fields in custom fields. That makes it compatible with any KeePass port. pt.KeePass can change view of an entity to show bank card fields.
+pt.KeePass stores all bank card fields in custom fields. That makes it compatible with any KeePass port. pt.KeePass can change view of an entity to show bank card fields.","2.10:
+- Исправлена ошибка при удалении корзины.
+- Исправлен сбой для баз данных с пользовательскими иконками.
+- Добавлена функция отправки записи в уведомления, чтобы иметь возможность копировать данные записи (имя пользователя и пароль) в буфер обмена прямо из уведомлений.
 
-1.0.40:
-- Small bug fixing and design improvements.
-
-1.0.39:
-- Recycle Bin support has been added.","2.9:
+2.9:
 - Добавлена кнопка Открыть в другом приложении для файлов kdbx.
 - Добавлен поставщик файлов OneDrive.
 - Исправлен Набор иконок #1.
@@ -94,13 +98,7 @@ pt.KeePass stores all bank card fields in custom fields. That makes it compatibl
 1.0.41:
 -Добавлена поддержка банковских карт! 
 Вы можете скопировать номер карты, дату, имя владельца, CVC, дату, нажав на имя поля.
-pt.KeePass хранит все поля банковских карт в пользовательских полях. Это делает его совместимым с любым портом KeePass. pt.KeePass может изменить вид сущности, чтобы показать поля банковских карт.
-
-1.0.40:
-- Небольшие исправления ошибок и улучшения дизайна
-
-1.0.39:
-- Добавлена поддержка Корзины"
+pt.KeePass хранит все поля банковских карт в пользовательских полях. Это делает его совместимым с любым портом KeePass. pt.KeePass может изменить вид сущности, чтобы показать поля банковских карт."
 Title,4,Text,,pt.KeePass,pt.KeePass
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,
