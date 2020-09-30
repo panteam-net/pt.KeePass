@@ -20,7 +20,12 @@ The password database is encrypted and can be shared among different devices and
 - Скоро появятся новые функции. Оставьте свой отзыв.
 
 База данных паролей зашифрована и может быть разделена между различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.10:
+ReleaseNotes,3,Text,,"2.11:
+- Fixed a crash on sharing a whole group as XML.
+- Fixed a crash on deleting an item when searching.
+- Fixed bug & improved user interface on setting passwords.
+
+2.10:
 - Fixed a crash on removing Recycle Bin.
 - Fixed a crash for databases with custom icons.
 - Added a feature to send an entry to the notifications to be able to copy the entry's data (username & password) to the clipboard right from the notifications.
@@ -55,12 +60,12 @@ ReleaseNotes,3,Text,,"2.10:
 - Clearing searching field on navigating back. 
 
 1.0.42:
-- Icon packs have been added.
+- Icon packs have been added.","2.11:
+- Исправлено падение приложения при выборе поделиться как XML для группы.
+- Исправлено падение приложения при удалении элемента при поиске.
+- Исправлена ошибка и улучшен пользовательский интерфейс при установке паролей.
 
-1.0.41:
-- Bank cards support has been added! 
-You can copy card number, date, owner's name, cvc, date by tapping on field name.
-pt.KeePass stores all bank card fields in custom fields. That makes it compatible with any KeePass port. pt.KeePass can change view of an entity to show bank card fields.","2.10:
+2.10:
 - Исправлена ошибка при удалении корзины.
 - Исправлен сбой для баз данных с пользовательскими иконками.
 - Добавлена функция отправки записи в уведомления, чтобы иметь возможность копировать данные записи (имя пользователя и пароль) в буфер обмена прямо из уведомлений.
@@ -95,12 +100,7 @@ pt.KeePass stores all bank card fields in custom fields. That makes it compatibl
 - Поле поиска очищается при обратной навигации. 
 
 1.0.42:
-- Добавлена поддержка наборов иконок.
-
-1.0.41:
--Добавлена поддержка банковских карт! 
-Вы можете скопировать номер карты, дату, имя владельца, CVC, дату, нажав на имя поля.
-pt.KeePass хранит все поля банковских карт в пользовательских полях. Это делает его совместимым с любым портом KeePass. pt.KeePass может изменить вид сущности, чтобы показать поля банковских карт."
+- Добавлена поддержка наборов иконок."
 Title,4,Text,,MyPasswordManager,MyPasswordManager
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,

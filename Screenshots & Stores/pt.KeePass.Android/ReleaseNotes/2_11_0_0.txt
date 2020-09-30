@@ -1,0 +1,12 @@
+<en-US>
+2.11:
+- Fixed a crash on sharing a whole group as XML.
+- Fixed a crash on deleting an item when searching.
+- Fixed bug & improved user interface on setting passwords.
+</en-US>
+<ru-RU>
+2.11:
+- Исправлено падение приложения при выборе поделиться как XML для группы.
+- Исправлено падение приложения при удалении элемента при поиске.
+- Исправлена ошибка и улучшен пользовательский интерфейс при установке паролей.
+</ru-RU>

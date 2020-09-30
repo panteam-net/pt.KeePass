@@ -1,3 +1,8 @@
+2.11:
+- Fixed a crash on sharing a whole group as XML.
+- Fixed a crash on deleting an item when searching.
+- Fixed bug & improved user interface on setting passwords.
+
 2.10:
 - Fixed a crash on removing Recycle Bin.
 - Fixed a crash for databases with custom icons.
