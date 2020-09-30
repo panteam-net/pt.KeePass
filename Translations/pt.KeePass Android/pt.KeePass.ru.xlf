@@ -687,6 +687,26 @@
           <source>Getting user info</source>
           <target state="final">Получение информации о пользователе</target>
         </trans-unit>
+        <trans-unit id="FileIsReadOnly" translate="yes" xml:space="preserve">
+          <source>The file is read only</source>
+          <target state="final">Файл только для чтения</target>
+        </trans-unit>
+        <trans-unit id="CopyToClipboardDescription" translate="yes" xml:space="preserve">
+          <source>Copy entry's data to the clipboard</source>
+          <target state="final">Скопировать данные записи в буфер обмена</target>
+        </trans-unit>
+        <trans-unit id="PasswordButtonName" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="final">Пароль</target>
+        </trans-unit>
+        <trans-unit id="UsernameButtonName" translate="yes" xml:space="preserve">
+          <source>Username</source>
+          <target state="final">Имя пользователя</target>
+        </trans-unit>
+        <trans-unit id="SendToNotifications" translate="yes" xml:space="preserve">
+          <source>Send to notifications</source>
+          <target state="final">Отправить в уведомления</target>
+        </trans-unit>
       </group>
     </body>
   </file>

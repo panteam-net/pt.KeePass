@@ -33,7 +33,7 @@
         </trans-unit>
         <trans-unit id="Copy_password" translate="yes" xml:space="preserve">
           <source>Copy password</source>
-          <target state="final">Copy password</target>
+          <target state="translated">Copy password</target>
         </trans-unit>
         <trans-unit id="Copy_username" translate="yes" xml:space="preserve">
           <source>Copy username</source>
@@ -686,6 +686,26 @@
         <trans-unit id="GettingUserInfo" translate="yes" xml:space="preserve">
           <source>Getting user info</source>
           <target state="final">Getting user info</target>
+        </trans-unit>
+        <trans-unit id="FileIsReadOnly" translate="yes" xml:space="preserve">
+          <source>The file is read only</source>
+          <target state="final">The file is read only</target>
+        </trans-unit>
+        <trans-unit id="CopyToClipboardDescription" translate="yes" xml:space="preserve">
+          <source>Copy entry's data to the clipboard</source>
+          <target state="final">Copy entry's data to the clipboard</target>
+        </trans-unit>
+        <trans-unit id="PasswordButtonName" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="final">Password</target>
+        </trans-unit>
+        <trans-unit id="UsernameButtonName" translate="yes" xml:space="preserve">
+          <source>Username</source>
+          <target state="final">Username</target>
+        </trans-unit>
+        <trans-unit id="SendToNotifications" translate="yes" xml:space="preserve">
+          <source>Send to notifications</source>
+          <target state="final">Send to notifications</target>
         </trans-unit>
       </group>
     </body>

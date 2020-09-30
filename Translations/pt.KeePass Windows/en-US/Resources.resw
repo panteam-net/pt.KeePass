@@ -735,7 +735,7 @@ Non Pro version collects information to make both free and Pro versions better</
     <value>KeePass icon</value>
   </data>
   <data name="DirectoryTextBlock.Text" xml:space="preserve">
-    <value>Directory</value>
+    <value>Directory:</value>
   </data>
   <data name="FilenameTextBlock.Text" xml:space="preserve">
     <value>Filename</value>
@@ -755,8 +755,8 @@ Non Pro version collects information to make both free and Pro versions better</
   <data name="SetButton.Content" xml:space="preserve">
     <value>Set</value>
   </data>
-  <data name="DonateTextBlock.Text" xml:space="preserve">
-    <value>Donate:</value>
+  <data name="DonateBtcTextBlock.Text" xml:space="preserve">
+    <value>Donate BTC:</value>
   </data>
   <data name="ThankYouTextBlock.Text" xml:space="preserve">
     <value>Thank you for your support!</value>
@@ -826,5 +826,35 @@ Non Pro version collects information to make both free and Pro versions better</
   </data>
   <data name="LocalStorage" xml:space="preserve">
     <value>Local storage</value>
+  </data>
+  <data name="FileIsReadOnly" xml:space="preserve">
+    <value>The file is read only</value>
+  </data>
+  <data name="CopyToClipboardDescription" xml:space="preserve">
+    <value>Copy entry's data to the clipboard</value>
+  </data>
+  <data name="PasswordButtonName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="UsernameButtonName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="AddSelectedEntityToNotificationAppBarButton.Label" xml:space="preserve">
+    <value>Send to notifications: Ctrl+N</value>
+  </data>
+  <data name="Cant_Create_Database_File_Exists" xml:space="preserve">
+    <value>Can't create database. File exists.</value>
+  </data>
+  <data name="Passwords_mismatch" xml:space="preserve">
+    <value>Passwords mismatch</value>
+  </data>
+  <data name="InvalidCredentialsErrorMessage" xml:space="preserve">
+    <value>Can't open database, the composite key is invalid</value>
+  </data>
+  <data name="EditSeletedEntityCommand.Label" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="RecycleBin" xml:space="preserve">
+    <value>Recycle Bin</value>
   </data>
 </root>

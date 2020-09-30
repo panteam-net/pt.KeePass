@@ -749,8 +749,8 @@
   <data name="SetButton.Content" xml:space="preserve">
     <value>Выбрать</value>
   </data>
-  <data name="DonateTextBlock.Text" xml:space="preserve">
-    <value>Поддержать:</value>
+  <data name="DonateBtcTextBlock.Text" xml:space="preserve">
+    <value>Поддержать BTC:</value>
   </data>
   <data name="ThankYouTextBlock.Text" xml:space="preserve">
     <value>Спасибо за поддержку!</value>
@@ -820,5 +820,35 @@
   </data>
   <data name="LocalStorage" xml:space="preserve">
     <value>Диск</value>
+  </data>
+  <data name="FileIsReadOnly" xml:space="preserve">
+    <value>Файл только для чтения</value>
+  </data>
+  <data name="CopyToClipboardDescription" xml:space="preserve">
+    <value>Скопировать данные записи в буфер обмена</value>
+  </data>
+  <data name="PasswordButtonName" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="UsernameButtonName" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="AddSelectedEntityToNotificationAppBarButton.Label" xml:space="preserve">
+    <value>Отправить в уведомления: Ctrl+N</value>
+  </data>
+  <data name="Cant_Create_Database_File_Exists" xml:space="preserve">
+    <value>Не удается создать базу данных. Файл существует.</value>
+  </data>
+  <data name="Passwords_mismatch" xml:space="preserve">
+    <value>Пароли не совпадают</value>
+  </data>
+  <data name="InvalidCredentialsErrorMessage" xml:space="preserve">
+    <value>Невозможно отрыть базу, составной ключ не подходит</value>
+  </data>
+  <data name="EditSeletedEntityCommand.Label" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="RecycleBin" xml:space="preserve">
+    <value>Корзина</value>
   </data>
 </root>
