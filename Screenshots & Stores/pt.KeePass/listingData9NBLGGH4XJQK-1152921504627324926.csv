@@ -18,7 +18,11 @@ IT-поддержка:
 - мусорная корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.11:
+ReleaseNotes,3,Text,,"2.12:
+- Added an FTP files provider.
+- Updated the user interface design.
+
+2.11:
 - Fixed a crash on sharing a whole group as XML.
 - Fixed a crash on deleting an item when searching.
 - Fixed bug & improved user interface on setting passwords.
@@ -55,10 +59,11 @@ ReleaseNotes,3,Text,,"2.11:
 
 2.2.0.0:
 - Show password timer is off.
-- Clearing searching field on navigating back. 
+- Clearing searching field on navigating back.","2.12:
+- Добавлен поставщик файлов FTP.
+- Обновлён дизайн пользовательского интерфейса.
 
-1.0.42:
-- Icon packs have been added.","2.11:
+2.11:
 - Исправлено падение приложения при выборе поделиться как XML для группы.
 - Исправлено падение приложения при удалении элемента при поиске.
 - Исправлена ошибка и улучшен пользовательский интерфейс при установке паролей.
@@ -95,10 +100,7 @@ ReleaseNotes,3,Text,,"2.11:
 
 2.2.0.0:
 - Таймер отображения пароля отключен.
-- Поле поиска очищается при обратной навигации. 
-
-1.0.42:
-- Добавлена поддержка наборов иконок."
+- Поле поиска очищается при обратной навигации."
 Title,4,Text,,pt.KeePass,pt.KeePass
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,
@@ -107,24 +109,24 @@ ShortDescription,8,Text,,,
 DevStudio,9,Text,,,
 CopyrightTrademarkInformation,12,Text,,Panteam, Пантим
 AdditionalLicenseTerms,13,Text,,,
-DesktopScreenshot1,100,Relative path (or URL to file in Partner Center),,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655043378/listingassets/1152921504740321948,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655063790/listingassets/1152921504714366844
-DesktopScreenshot2,101,Relative path (or URL to file in Partner Center),,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655043378/listingassets/1152921504714296943,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655063790/listingassets/1152921504714366846
-DesktopScreenshot3,102,Relative path (or URL to file in Partner Center),,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655043378/listingassets/1152921504714297125,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655063790/listingassets/1152921504714366959
-DesktopScreenshot4,103,Relative path (or URL to file in Partner Center),,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655043378/listingassets/1152921504714296886,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655063790/listingassets/1152921504714366960
-DesktopScreenshot5,104,Relative path (or URL to file in Partner Center),,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655043378/listingassets/1152921504740321833,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655063790/listingassets/1152921504714366301
-DesktopScreenshot6,105,Relative path (or URL to file in Partner Center),,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655043378/listingassets/1152921504740321919,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655063790/listingassets/1152921504714366963
-DesktopScreenshot7,106,Relative path (or URL to file in Partner Center),,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655043378/listingassets/1152921504740321920,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655063790/listingassets/1152921504740322054
-DesktopScreenshot8,107,Relative path (or URL to file in Partner Center),,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655043378/listingassets/1152921504744354170,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655063790/listingassets/1152921504740321969
-DesktopScreenshot9,108,Relative path (or URL to file in Partner Center),,,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655063790/listingassets/1152921504744354231
+DesktopScreenshot1,100,Relative path (or URL to file in Partner Center),,pt.KeePass/En_Dark_01_FilesPage.png,pt.KeePass/Ru_Dark_01_FilesPage.png
+DesktopScreenshot2,101,Relative path (or URL to file in Partner Center),,pt.KeePass/En_Dark_02_FileProviders.png,pt.KeePass/Ru_Dark_02_FileProviders.png
+DesktopScreenshot3,102,Relative path (or URL to file in Partner Center),,pt.KeePass/En_Dark_03_LoginPage.png,pt.KeePass/Ru_Dark_03_LoginPage.png
+DesktopScreenshot4,103,Relative path (or URL to file in Partner Center),,pt.KeePass/En_Dark_04_GroupsPage.png,pt.KeePass/Ru_Dark_04_GroupsPage.png
+DesktopScreenshot5,104,Relative path (or URL to file in Partner Center),,pt.KeePass/En_Dark_05_GeneratePasswordPage.png,pt.KeePass/Ru_Dark_05_GeneratePasswordPage.png
+DesktopScreenshot6,105,Relative path (or URL to file in Partner Center),,pt.KeePass/En_Dark_06_BankCardFields.png,pt.KeePass/Ru_Dark_06_BankCardFields.png
+DesktopScreenshot7,106,Relative path (or URL to file in Partner Center),,pt.KeePass/En_Dark_07_IconPacks.png,pt.KeePass/Ru_Dark_07_IconPacks.png
+DesktopScreenshot8,107,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshot9,108,Relative path (or URL to file in Partner Center),,,
 DesktopScreenshot10,109,Relative path (or URL to file in Partner Center),,,
-DesktopScreenshotCaption1,150,Text,,,
-DesktopScreenshotCaption2,151,Text,,"Protect your data with Password, KeyFile, Windows User Account and Windows Hello",Выберите сущестующий файл паролей формата kdbx или создайте новый
-DesktopScreenshotCaption3,152,Text,,Passwords generation,"Для защиты паролей можно испльзовать мастер пароль, файл-ключ, Ваш логин Windows и Windows Hello."
-DesktopScreenshotCaption4,153,Text,,Passwords generation,"Для защиты паролей можно использовать мастер пароль, файл-ключ, Ваш логин Windows и Windows Hello."
-DesktopScreenshotCaption5,154,Text,,,Создание надежных паролей
-DesktopScreenshotCaption6,155,Text,,Safe your bank cards fields,Создание надежных паролей
-DesktopScreenshotCaption7,156,Text,,Safe your bank cards fields,Поля банковских карт
-DesktopScreenshotCaption8,157,Text,,"Protect your data with Password, KeyFile, Windows User Account and Windows Hello",Поля банковских карт
+DesktopScreenshotCaption1,150,Text,,Many kdbx databases in one App,Поддержка множества баз kdbx в одной программе
+DesktopScreenshotCaption2,151,Text,,Select an existing kdbx password file or create a new one,Выберите сущестующий файл паролей формата kdbx или создайте новый
+DesktopScreenshotCaption3,152,Text,,"Protect your data with Password, KeyFile, Windows User Account and Windows Hello","Для защиты паролей можно испльзовать мастер пароль, файл-ключ, Ваш логин Windows и Windows Hello."
+DesktopScreenshotCaption4,153,Text,,Searching in subgroups,Поиск в подгруппах
+DesktopScreenshotCaption5,154,Text,,Strong passwords generation,Создание надежных паролей
+DesktopScreenshotCaption6,155,Text,,Safe your bank cards fields,Поля банковских карт
+DesktopScreenshotCaption7,156,Text,,Icon packs,Наборы иконок
+DesktopScreenshotCaption8,157,Text,,,
 DesktopScreenshotCaption9,158,Text,,,
 DesktopScreenshotCaption10,159,Text,,,
 MobileScreenshot1,200,Relative path (or URL to file in Partner Center),,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655043378/listingassets/1152921504714296109,https://developer.microsoft.com/en-us/dashboard/apps/9NBLGGH4XJQK/submissions/1152921504627324926/listings/1152921504655063790/listingassets/1152921504714360185

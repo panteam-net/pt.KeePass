@@ -1,3 +1,7 @@
+2.12:
+- Added an FTP files provider.
+- Updated the user interface design.
+
 2.11:
 - Fixed a crash on sharing a whole group as XML.
 - Fixed a crash on deleting an item when searching.
