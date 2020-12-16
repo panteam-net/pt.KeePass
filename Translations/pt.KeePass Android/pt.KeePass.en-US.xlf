@@ -33,7 +33,7 @@
         </trans-unit>
         <trans-unit id="Copy_password" translate="yes" xml:space="preserve">
           <source>Copy password</source>
-          <target state="translated">Copy password</target>
+          <target state="final">Copy password</target>
         </trans-unit>
         <trans-unit id="Copy_username" translate="yes" xml:space="preserve">
           <source>Copy username</source>
@@ -680,8 +680,8 @@
           <target state="final">Can't sign in</target>
         </trans-unit>
         <trans-unit id="DownloadingFilesList" translate="yes" xml:space="preserve">
-          <source>Downloading files list</source>
-          <target state="final">Downloading files list</target>
+          <source>Downloading files list...</source>
+          <target state="final">Downloading files list...</target>
         </trans-unit>
         <trans-unit id="GettingUserInfo" translate="yes" xml:space="preserve">
           <source>Getting user info</source>
@@ -706,6 +706,78 @@
         <trans-unit id="SendToNotifications" translate="yes" xml:space="preserve">
           <source>Send to notifications</source>
           <target state="final">Send to notifications</target>
+        </trans-unit>
+        <trans-unit id="DatabaseOptions" translate="yes" xml:space="preserve">
+          <source>Database options</source>
+          <target state="final">Database options</target>
+        </trans-unit>
+        <trans-unit id="TapTheAnimationToStopRemoteFileSyncing" translate="yes" xml:space="preserve">
+          <source>Tap the animation to stop remote file syncing</source>
+          <target state="final">Tap the animation to stop remote file syncing</target>
+        </trans-unit>
+        <trans-unit id="FtpExplicitEncryption" translate="yes" xml:space="preserve">
+          <source>Explicit encryption (FTP over TLS, FTPS)</source>
+          <target state="final">Explicit encryption (FTP over TLS, FTPS)</target>
+        </trans-unit>
+        <trans-unit id="FtpNoEncryption" translate="yes" xml:space="preserve">
+          <source>No encryption (FTP)</source>
+          <target state="final">No encryption (FTP)</target>
+        </trans-unit>
+        <trans-unit id="ErrorFtpPort" translate="yes" xml:space="preserve">
+          <source>Port should be a number between 1 &amp; 65535</source>
+          <target state="final">Port should be a number between 1 &amp; 65535</target>
+        </trans-unit>
+        <trans-unit id="ConnectTo" translate="yes" xml:space="preserve">
+          <source>Connect to:</source>
+          <target state="final">Connect to:</target>
+        </trans-unit>
+        <trans-unit id="Host" translate="yes" xml:space="preserve">
+          <source>Host: myftphost.com or 127.0.0.1</source>
+          <target state="final">Host: myftphost.com or 127.0.0.1</target>
+        </trans-unit>
+        <trans-unit id="ConnectionEncryption" translate="yes" xml:space="preserve">
+          <source>Connection encryption</source>
+          <target state="final">Connection encryption</target>
+        </trans-unit>
+        <trans-unit id="InitialDirectoryOptional" translate="yes" xml:space="preserve">
+          <source>Initial directory (optional)</source>
+          <target state="final">Initial directory (optional)</target>
+        </trans-unit>
+        <trans-unit id="ErrorHostMustNotBeEmpty" translate="yes" xml:space="preserve">
+          <source>The host must not be empty</source>
+          <target state="final">The host must not be empty</target>
+        </trans-unit>
+        <trans-unit id="Password" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="final">Password</target>
+        </trans-unit>
+        <trans-unit id="UseAnonymous" translate="yes" xml:space="preserve">
+          <source>Use anonymous</source>
+          <target state="final">Use anonymous</target>
+        </trans-unit>
+        <trans-unit id="Testing" translate="yes" xml:space="preserve">
+          <source>Testing...</source>
+          <target state="final">Testing...</target>
+        </trans-unit>
+        <trans-unit id="TheConnectionIsValid" translate="yes" xml:space="preserve">
+          <source>The connection is valid</source>
+          <target state="final">The connection is valid</target>
+        </trans-unit>
+        <trans-unit id="Auto" translate="yes" xml:space="preserve">
+          <source>Auto</source>
+          <target state="final">Auto</target>
+        </trans-unit>
+        <trans-unit id="BrowseForAKdbxFile" translate="yes" xml:space="preserve">
+          <source>Browse for a kdbx file</source>
+          <target state="final">Browse for a kdbx file</target>
+        </trans-unit>
+        <trans-unit id="Update" translate="yes" xml:space="preserve">
+          <source>Update</source>
+          <target state="final">Update</target>
+        </trans-unit>
+        <trans-unit id="FtpImplicitEncrytpion" translate="yes" xml:space="preserve">
+          <source>Implicit encryption (FTP over TLS, FTPS)</source>
+          <target state="final">Implicit encryption (FTP over TLS, FTPS)</target>
         </trans-unit>
       </group>
     </body>

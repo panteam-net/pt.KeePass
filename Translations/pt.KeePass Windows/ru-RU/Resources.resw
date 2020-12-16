@@ -166,7 +166,7 @@
     <value>Мастер пароль:</value>
   </data>
   <data name="AddNewEntryCommand.Label" xml:space="preserve">
-    <value>Добавить новую запись: Ctrl+I</value>
+    <value>Добавить новую запись</value>
   </data>
   <data name="AddNewGroupCommand.Label" xml:space="preserve">
     <value>Добавить новую группу</value>
@@ -322,7 +322,7 @@
     <value>Записи:</value>
   </data>
   <data name="DeleteSelectedEntryCommand.Label" xml:space="preserve">
-    <value>Удалить выбранную запись: Del</value>
+    <value>Удалить выбранную запись</value>
   </data>
   <data name="PrivacyStatementFirstParagraph.Text" xml:space="preserve">
     <value>Для нас важно защитить вашу частную жизнь. Мы надеемся, что следующая инструкция поможет вам понять, как мы собираем, используем и защищаем вашу личную информацию в приложении.</value>
@@ -505,7 +505,7 @@
     <value>Поделиться</value>
   </data>
   <data name="ShareCommand.Label" xml:space="preserve">
-    <value>Поделиться: Ctrl+P</value>
+    <value>Поделиться</value>
   </data>
   <data name="ExportSharingDescription" xml:space="preserve">
     <value>XML файл экспорта паролей из базы kdbx</value>
@@ -540,7 +540,7 @@
     <value>Pro версия</value>
   </data>
   <data name="RemoveMenuBar.Label" xml:space="preserve">
-    <value>Удалить (Ctrl+R)</value>
+    <value>Удалить</value>
   </data>
   <data name="BuyProButton.Text" xml:space="preserve">
     <value>Купить Pro версию в Магазине...</value>
@@ -600,10 +600,10 @@
     <value>Значение Поле</value>
   </data>
   <data name="FieldsDataGridNameColumn.HeaderText" xml:space="preserve">
-    <value>Field Name</value>
+    <value>Имя поля</value>
   </data>
   <data name="FieldsDataGridValueColumn.HeaderText" xml:space="preserve">
-    <value>Field Value</value>
+    <value>Значение поля</value>
   </data>
   <data name="AddOrUpdateTextBlock.Text" xml:space="preserve">
     <value>Добавить или изменить</value>
@@ -630,7 +630,7 @@
     <value>Использовать корзину</value>
   </data>
   <data name="UseRecycleDisclamer.Text" xml:space="preserve">
-    <value>Если эта опция активна, pt.KeePass перености записи/группы в группу определенную как корзина вместо удаления. Удаление записи/группы из корзины необратимо.</value>
+    <value>Если эта опция активна, pt.KeePass переносит записи/группы в группу определенную как корзина вместо удаления. Удаление записи/группы из корзины необратимо.</value>
   </data>
   <data name="RecycleBinTab.Label" xml:space="preserve">
     <value>Корзина</value>
@@ -834,7 +834,7 @@
     <value>Имя пользователя</value>
   </data>
   <data name="AddSelectedEntityToNotificationAppBarButton.Label" xml:space="preserve">
-    <value>Отправить в уведомления: Ctrl+N</value>
+    <value>Отправить в уведомления</value>
   </data>
   <data name="Cant_Create_Database_File_Exists" xml:space="preserve">
     <value>Не удается создать базу данных. Файл существует.</value>
@@ -850,5 +850,116 @@
   </data>
   <data name="RecycleBin" xml:space="preserve">
     <value>Корзина</value>
+  </data>
+  <data name="EditSelectedEntityCommand.Label" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="FilesNavigationViewMenuItem.Content" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="DeleteSwipeItem.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="DatabaseOptions" xml:space="preserve">
+    <value>Настройки базы данных</value>
+  </data>
+  <data name="OpenedFilesNavigationViewMenuItem.Content" xml:space="preserve">
+    <value>Открытые файлы</value>
+  </data>
+  <data name="PurchasesNavigationViewItem.Content" xml:space="preserve">
+    <value>Покупки</value>
+  </data>
+  <data name="SettingsNavigationViewItem.Content" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="OpenDatabase" xml:space="preserve">
+    <value>Открыть базу данных</value>
+  </data>
+  <data name="TapTheAnimationToRemoteFileSyncingTextBlock.Text" xml:space="preserve">
+    <value>Нажмите на анимацию для остановки синхронизации файла</value>
+  </data>
+  <data name="Credentials" xml:space="preserve">
+    <value>Параметры подключения</value>
+  </data>
+  <data name="FtpExplicitEncryption" xml:space="preserve">
+    <value>Явное шифрование (FTP через TLS, FTPS)</value>
+  </data>
+  <data name="FtpNoEncryption" xml:space="preserve">
+    <value>Без шифрования (FTP)</value>
+  </data>
+  <data name="ErrorFtpPort" xml:space="preserve">
+    <value>Порт должен быть числом от 1 до 65535</value>
+  </data>
+  <data name="ConnectionEncryptionTextBlock.Text" xml:space="preserve">
+    <value>Шифрование подключения</value>
+  </data>
+  <data name="ConnectToTextBlock.Text" xml:space="preserve">
+    <value>Подключаться к:</value>
+  </data>
+  <data name="HostTextBlock.Text" xml:space="preserve">
+    <value>Хост</value>
+  </data>
+  <data name="HostTextBox.PlaceholderText" xml:space="preserve">
+    <value>my.ftp.com или 127.0.0.1</value>
+  </data>
+  <data name="InitialDirectoryTextBlock.Text" xml:space="preserve">
+    <value>Начальная директория</value>
+  </data>
+  <data name="InitialDirectoryTextBox.PlaceholderText" xml:space="preserve">
+    <value>(Опционально)</value>
+  </data>
+  <data name="PortTextBlock.Text" xml:space="preserve">
+    <value>Порт</value>
+  </data>
+  <data name="PortTextBox.PlaceholderText" xml:space="preserve">
+    <value>1-65535</value>
+  </data>
+  <data name="ErrorHostMustNotBeEmpty" xml:space="preserve">
+    <value>Поле хост не заполнено</value>
+  </data>
+  <data name="TestingTextBlock.Text" xml:space="preserve">
+    <value>Тестирование...</value>
+  </data>
+  <data name="TheConnectionIsValidTextBlock.Text" xml:space="preserve">
+    <value>Подключение корректно</value>
+  </data>
+  <data name="TestConnectionCommand.Label" xml:space="preserve">
+    <value>Тестировать подключение</value>
+  </data>
+  <data name="SaveAppBarButton.Label" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="UseAnonymousTextBlock.Text" xml:space="preserve">
+    <value>Использовать anonymous</value>
+  </data>
+  <data name="PasswordPasswordBox.PlaceholderText" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="UsernameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>Автоматически</value>
+  </data>
+  <data name="FtpImplicitEncryption" xml:space="preserve">
+    <value>Неявное шифрование (FTP через TLS, FTPS)</value>
+  </data>
+  <data name="BrowseForAKdbxFile" xml:space="preserve">
+    <value>Выбор файла kdbx</value>
+  </data>
+  <data name="DownloadingFilesList" xml:space="preserve">
+    <value>Загрузка списка файлов...</value>
+  </data>
+  <data name="NameTextBlock.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="FileProviderTextBlock.Text" xml:space="preserve">
+    <value>Провайдер:</value>
+  </data>
+  <data name="NextAppBarButton.Label" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="PasswordGeneratorPage" xml:space="preserve">
+    <value>Генерация надёжного пароля</value>
   </data>
 </root>

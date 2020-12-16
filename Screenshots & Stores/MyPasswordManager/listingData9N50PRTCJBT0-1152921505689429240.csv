@@ -20,7 +20,11 @@ The password database is encrypted and can be shared among different devices and
 - Скоро появятся новые функции. Оставьте свой отзыв.
 
 База данных паролей зашифрована и может быть разделена между различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.11:
+ReleaseNotes,3,Text,,"2.12:
+- Added an FTP files provider.
+- Updated the user interface design.
+
+2.11:
 - Fixed a crash on sharing a whole group as XML.
 - Fixed a crash on deleting an item when searching.
 - Fixed bug & improved user interface on setting passwords.
@@ -57,10 +61,11 @@ ReleaseNotes,3,Text,,"2.11:
 
 2.2.0.0:
 - Show password timer is off.
-- Clearing searching field on navigating back. 
+- Clearing searching field on navigating back.","2.12:
+- Добавлен поставщик файлов FTP.
+- Обновлён дизайн пользовательского интерфейса.
 
-1.0.42:
-- Icon packs have been added.","2.11:
+2.11:
 - Исправлено падение приложения при выборе поделиться как XML для группы.
 - Исправлено падение приложения при удалении элемента при поиске.
 - Исправлена ошибка и улучшен пользовательский интерфейс при установке паролей.
@@ -97,10 +102,7 @@ ReleaseNotes,3,Text,,"2.11:
 
 2.2.0.0:
 - Таймер отображения пароля отключен.
-- Поле поиска очищается при обратной навигации. 
-
-1.0.42:
-- Добавлена поддержка наборов иконок."
+- Поле поиска очищается при обратной навигации."
 Title,4,Text,,MyPasswordManager,MyPasswordManager
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,
@@ -115,7 +117,7 @@ DesktopScreenshot3,102,Relative path (or URL to file in Partner Center),,MyPassw
 DesktopScreenshot4,103,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-04-custom-fields.png,MyPasswordManager/ru-04-custom-fields.png
 DesktopScreenshot5,104,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-05-groups-entries.png,MyPasswordManager/ru-05-groups-entries.png
 DesktopScreenshot6,105,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-06-bank-card.png,MyPasswordManager/ru-06-bank-card.png
-DesktopScreenshot7,106,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshot7,106,Relative path (or URL to file in Partner Center),,MyPasswordManager/en-07-file-providers.png,MyPasswordManager/ru-07-file-providers.png
 DesktopScreenshot8,107,Relative path (or URL to file in Partner Center),,,
 DesktopScreenshot9,108,Relative path (or URL to file in Partner Center),,,
 DesktopScreenshot10,109,Relative path (or URL to file in Partner Center),,,
@@ -125,7 +127,7 @@ DesktopScreenshotCaption3,152,Text,,Custom fields,Пользовательски
 DesktopScreenshotCaption4,153,Text,,Password generator,Генератор паролей
 DesktopScreenshotCaption5,154,Text,,Groups,Группы
 DesktopScreenshotCaption6,155,Text,,Bank card fields,Банковские карты
-DesktopScreenshotCaption7,156,Text,,,
+DesktopScreenshotCaption7,156,Text,,File providers,Поставщики файлов
 DesktopScreenshotCaption8,157,Text,,,
 DesktopScreenshotCaption9,158,Text,,,
 DesktopScreenshotCaption10,159,Text,,,

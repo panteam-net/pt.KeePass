@@ -397,7 +397,7 @@
         </trans-unit>
         <trans-unit id="Credentials" translate="yes" xml:space="preserve">
           <source>Credentials</source>
-          <target state="final">Учётные данные</target>
+          <target state="final">Параметры подключения</target>
         </trans-unit>
         <trans-unit id="RecycleBin" translate="yes" xml:space="preserve">
           <source>Recycle bin</source>
@@ -680,8 +680,8 @@
           <target state="final">Невозможно войти</target>
         </trans-unit>
         <trans-unit id="DownloadingFilesList" translate="yes" xml:space="preserve">
-          <source>Downloading files list</source>
-          <target state="final">Загрузка списка файлов</target>
+          <source>Downloading files list...</source>
+          <target state="final">Загрузка списка файлов...</target>
         </trans-unit>
         <trans-unit id="GettingUserInfo" translate="yes" xml:space="preserve">
           <source>Getting user info</source>
@@ -706,6 +706,78 @@
         <trans-unit id="SendToNotifications" translate="yes" xml:space="preserve">
           <source>Send to notifications</source>
           <target state="final">Отправить в уведомления</target>
+        </trans-unit>
+        <trans-unit id="DatabaseOptions" translate="yes" xml:space="preserve">
+          <source>Database options</source>
+          <target state="final">Настройки базы данных</target>
+        </trans-unit>
+        <trans-unit id="TapTheAnimationToStopRemoteFileSyncing" translate="yes" xml:space="preserve">
+          <source>Tap the animation to stop remote file syncing</source>
+          <target state="final">Нажмите на анимацию для остановки синхронизации файла</target>
+        </trans-unit>
+        <trans-unit id="FtpExplicitEncryption" translate="yes" xml:space="preserve">
+          <source>Explicit encryption (FTP over TLS, FTPS)</source>
+          <target state="final">Явное шифрование (FTP через TLS, FTPS)</target>
+        </trans-unit>
+        <trans-unit id="FtpNoEncryption" translate="yes" xml:space="preserve">
+          <source>No encryption (FTP)</source>
+          <target state="final">Без шифрования (FTP)</target>
+        </trans-unit>
+        <trans-unit id="ErrorFtpPort" translate="yes" xml:space="preserve">
+          <source>Port should be a number between 1 &amp; 65535</source>
+          <target state="final">Порт должен быть числом от 1 до 65535</target>
+        </trans-unit>
+        <trans-unit id="ConnectTo" translate="yes" xml:space="preserve">
+          <source>Connect to:</source>
+          <target state="final">Подключаться к:</target>
+        </trans-unit>
+        <trans-unit id="Host" translate="yes" xml:space="preserve">
+          <source>Host: myftphost.com or 127.0.0.1</source>
+          <target state="final">Хост: myftphost.com или 127.0.0.1</target>
+        </trans-unit>
+        <trans-unit id="ConnectionEncryption" translate="yes" xml:space="preserve">
+          <source>Connection encryption</source>
+          <target state="final">Шифрования подключения</target>
+        </trans-unit>
+        <trans-unit id="InitialDirectoryOptional" translate="yes" xml:space="preserve">
+          <source>Initial directory (optional)</source>
+          <target state="final">Начальная директория (опционально)</target>
+        </trans-unit>
+        <trans-unit id="ErrorHostMustNotBeEmpty" translate="yes" xml:space="preserve">
+          <source>The host must not be empty</source>
+          <target state="final">Хост не задан</target>
+        </trans-unit>
+        <trans-unit id="Password" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="final">Пароль</target>
+        </trans-unit>
+        <trans-unit id="UseAnonymous" translate="yes" xml:space="preserve">
+          <source>Use anonymous</source>
+          <target state="final">Использовать anonymous</target>
+        </trans-unit>
+        <trans-unit id="Testing" translate="yes" xml:space="preserve">
+          <source>Testing...</source>
+          <target state="final">Тестирование...</target>
+        </trans-unit>
+        <trans-unit id="TheConnectionIsValid" translate="yes" xml:space="preserve">
+          <source>The connection is valid</source>
+          <target state="final">Подключение корректно</target>
+        </trans-unit>
+        <trans-unit id="Auto" translate="yes" xml:space="preserve">
+          <source>Auto</source>
+          <target state="final">Автоматически</target>
+        </trans-unit>
+        <trans-unit id="BrowseForAKdbxFile" translate="yes" xml:space="preserve">
+          <source>Browse for a kdbx file</source>
+          <target state="final">Поиск файла kdbx</target>
+        </trans-unit>
+        <trans-unit id="Update" translate="yes" xml:space="preserve">
+          <source>Update</source>
+          <target state="final">Обновить</target>
+        </trans-unit>
+        <trans-unit id="FtpImplicitEncrytpion" translate="yes" xml:space="preserve">
+          <source>Implicit encryption (FTP over TLS, FTPS)</source>
+          <target state="final">Неявное шифрование (FTP через TLS, FTPS)</target>
         </trans-unit>
       </group>
     </body>

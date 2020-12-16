@@ -1,0 +1,10 @@
+<en-US>
+2.12:
+- Added an FTP files provider.
+- Updated the user interface design.
+</en-US>
+<ru-RU>
+2.12:
+- Добавлен поставщик файлов FTP.
+- Обновлён дизайн пользовательского интерфейса.
+</ru-RU>

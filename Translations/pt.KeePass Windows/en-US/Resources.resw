@@ -166,7 +166,7 @@
     <value>Settings</value>
   </data>
   <data name="AddNewEntryCommand.Label" xml:space="preserve">
-    <value>Add a new entry (Ctrl+I)</value>
+    <value>Add a new entry</value>
   </data>
   <data name="AddNewGroupCommand.Label" xml:space="preserve">
     <value>Add a new group</value>
@@ -328,7 +328,7 @@
     <value>User name:</value>
   </data>
   <data name="DeleteSelectedEntryCommand.Label" xml:space="preserve">
-    <value>Delete selected entry: Del</value>
+    <value>Delete selected entry</value>
   </data>
   <data name="PrivacyStatementFirstParagraph.Text" xml:space="preserve">
     <value>Protecting your privacy is important to us. We hope the following statement will help you to understand how we collect, use and safeguard your personal information in the application.</value>
@@ -514,7 +514,7 @@
     <value>Share</value>
   </data>
   <data name="ShareCommand.Label" xml:space="preserve">
-    <value>Share: Ctrl+P</value>
+    <value>Share</value>
   </data>
   <data name="ExportedTextBlock.Text" xml:space="preserve">
     <value>Group has been exported successfully</value>
@@ -546,7 +546,7 @@ Non Pro version collects information to make both free and Pro versions better</
     <value>Pro version</value>
   </data>
   <data name="RemoveMenuBar.Label" xml:space="preserve">
-    <value>Remove: Ctrl+R</value>
+    <value>Remove</value>
   </data>
   <data name="BuyProButton.Text" xml:space="preserve">
     <value>Buy Pro version in the Store...</value>
@@ -840,7 +840,7 @@ Non Pro version collects information to make both free and Pro versions better</
     <value>Username</value>
   </data>
   <data name="AddSelectedEntityToNotificationAppBarButton.Label" xml:space="preserve">
-    <value>Send to notifications: Ctrl+N</value>
+    <value>Send to notifications</value>
   </data>
   <data name="Cant_Create_Database_File_Exists" xml:space="preserve">
     <value>Can't create database. File exists.</value>
@@ -856,5 +856,116 @@ Non Pro version collects information to make both free and Pro versions better</
   </data>
   <data name="RecycleBin" xml:space="preserve">
     <value>Recycle Bin</value>
+  </data>
+  <data name="EditSelectedEntityCommand.Label" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="FilesNavigationViewMenuItem.Content" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="DeleteSwipeItem.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="DatabaseOptions" xml:space="preserve">
+    <value>Database options</value>
+  </data>
+  <data name="OpenedFilesNavigationViewMenuItem.Content" xml:space="preserve">
+    <value>Opened files</value>
+  </data>
+  <data name="PurchasesNavigationViewItem.Content" xml:space="preserve">
+    <value>Purchases</value>
+  </data>
+  <data name="SettingsNavigationViewItem.Content" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="OpenDatabase" xml:space="preserve">
+    <value>Open database</value>
+  </data>
+  <data name="TapTheAnimationToRemoteFileSyncingTextBlock.Text" xml:space="preserve">
+    <value>Tap the animation to stop remote file syncing</value>
+  </data>
+  <data name="Credentials" xml:space="preserve">
+    <value>Credentials</value>
+  </data>
+  <data name="FtpExplicitEncryption" xml:space="preserve">
+    <value>Explicit encryption (FTP over TLS, FTPS)</value>
+  </data>
+  <data name="FtpNoEncryption" xml:space="preserve">
+    <value>No encryption (FTP)</value>
+  </data>
+  <data name="ErrorFtpPort" xml:space="preserve">
+    <value>Port should be a number between 1 &amp; 65535</value>
+  </data>
+  <data name="ConnectionEncryptionTextBlock.Text" xml:space="preserve">
+    <value>Connection encryption</value>
+  </data>
+  <data name="ConnectToTextBlock.Text" xml:space="preserve">
+    <value>Connect to:</value>
+  </data>
+  <data name="HostTextBlock.Text" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="HostTextBox.PlaceholderText" xml:space="preserve">
+    <value>my.ftp.com or 127.0.0.1</value>
+  </data>
+  <data name="InitialDirectoryTextBlock.Text" xml:space="preserve">
+    <value>Initial directory</value>
+  </data>
+  <data name="InitialDirectoryTextBox.PlaceholderText" xml:space="preserve">
+    <value>(Optional)</value>
+  </data>
+  <data name="PortTextBlock.Text" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="PortTextBox.PlaceholderText" xml:space="preserve">
+    <value>1-65535</value>
+  </data>
+  <data name="ErrorHostMustNotBeEmpty" xml:space="preserve">
+    <value>The host must not be empty</value>
+  </data>
+  <data name="TestingTextBlock.Text" xml:space="preserve">
+    <value>Testing...</value>
+  </data>
+  <data name="TheConnectionIsValidTextBlock.Text" xml:space="preserve">
+    <value>The connection is valid</value>
+  </data>
+  <data name="TestConnectionCommand.Label" xml:space="preserve">
+    <value>Test connection</value>
+  </data>
+  <data name="SaveAppBarButton.Label" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="UseAnonymousTextBlock.Text" xml:space="preserve">
+    <value>Use anonymous</value>
+  </data>
+  <data name="PasswordPasswordBox.PlaceholderText" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="UsernameTextBox.PlaceholderText" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="FtpImplicitEncryption" xml:space="preserve">
+    <value>Implicit encryption (FTP over TLS, FTPS)</value>
+  </data>
+  <data name="BrowseForAKdbxFile" xml:space="preserve">
+    <value>Browse for a kdbx file</value>
+  </data>
+  <data name="DownloadingFilesList" xml:space="preserve">
+    <value>Downloading files list...</value>
+  </data>
+  <data name="NameTextBlock.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="FileProviderTextBlock.Text" xml:space="preserve">
+    <value>Provider:</value>
+  </data>
+  <data name="NextAppBarButton.Label" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="PasswordGeneratorPage" xml:space="preserve">
+    <value>Generate strong password</value>
   </data>
 </root>
