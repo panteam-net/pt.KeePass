@@ -18,7 +18,12 @@ Password database is encrypted and can be shared among different devices and pla
 - Корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.12:
+ReleaseNotes,3,Text,,"2.13:
+- Improved Dark theme support.
+- Bug fixes & minor improvements.
+
+2.12:
+- Added an FTP files provider.
 - Updated the user interface design.
 
 2.11:
@@ -54,11 +59,12 @@ ReleaseNotes,3,Text,,"2.12:
 - Clearing searching field on navigating back for Android & iOS versions.
 - Icon pack #1 fixed.
 - Landing page has been added.
-- Bug with error on deleting an Entry from EntryPage fixed.
+- Bug with error on deleting an Entry from EntryPage fixed.","2.13:
+- Улучшена поддержка темной темы.
+- Исправления ошибок и незначительные улучшения.
 
-2.2.0.0:
-- Show password timer is off.
-- Clearing searching field on navigating back.","2.12:
+2.12:
+- Добавлен поставщик файлов FTP.
 - Обновлён дизайн пользовательского интерфейса.
 
 2.11:
@@ -94,11 +100,7 @@ ReleaseNotes,3,Text,,"2.12:
 - Очистка поля поиска при навигации назад для версий Android и iOS.
 - Исправлен набор иконок №1.
 - Добавлена начальная страница.
-- Исправлена ошибка при удалении записи со страницы записи.
-
-2.2.0.0:
-- Таймер отображения пароля отключен.
-- Поле поиска очищается при обратной навигации."
+- Исправлена ошибка при удалении записи со страницы записи."
 Title,4,Text,,pt.KeePass Pro,pt.KeePass Pro
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,

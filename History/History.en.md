@@ -1,3 +1,7 @@
+2.13:
+- Improved Dark theme support.
+- Bug fixes & minor improvements.
+
 2.12:
 - Added an FTP files provider.
 - Updated the user interface design.

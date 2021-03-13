@@ -1,0 +1,10 @@
+<en-US>
+2.13:
+- Improved Dark theme support.
+- Bug fixes & minor improvements.
+</en-US>
+<ru-RU>
+2.13:
+- Улучшена поддержка темной темы.
+- Исправления ошибок и незначительные улучшения.
+</ru-RU>
