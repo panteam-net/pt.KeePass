@@ -779,6 +779,38 @@
           <source>Implicit encryption (FTP over TLS, FTPS)</source>
           <target state="final">Implicit encryption (FTP over TLS, FTPS)</target>
         </trans-unit>
+        <trans-unit id="Dark" translate="yes" xml:space="preserve">
+          <source>Dark</source>
+          <target state="final">Dark</target>
+        </trans-unit>
+        <trans-unit id="Light" translate="yes" xml:space="preserve">
+          <source>Light</source>
+          <target state="final">Light</target>
+        </trans-unit>
+        <trans-unit id="System" translate="yes" xml:space="preserve">
+          <source>System</source>
+          <target state="final">System</target>
+        </trans-unit>
+        <trans-unit id="Theme" translate="yes" xml:space="preserve">
+          <source>Theme</source>
+          <target state="final">Theme</target>
+        </trans-unit>
+        <trans-unit id="DownloadRemoteFileRequest" translate="yes" xml:space="preserve">
+          <source>Download remote file &amp; replace the local version?</source>
+          <target state="final">Download remote file &amp; replace the local version?</target>
+        </trans-unit>
+        <trans-unit id="UploadLocalFileRequest" translate="yes" xml:space="preserve">
+          <source>Upload local file &amp; replace the remote version?</source>
+          <target state="final">Upload local file &amp; replace the remote version?</target>
+        </trans-unit>
+        <trans-unit id="Donwload" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <target state="final">Download</target>
+        </trans-unit>
+        <trans-unit id="Upload" translate="yes" xml:space="preserve">
+          <source>Upload</source>
+          <target state="final">Upload</target>
+        </trans-unit>
       </group>
     </body>
   </file>

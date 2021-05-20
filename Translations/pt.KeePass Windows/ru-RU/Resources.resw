@@ -962,4 +962,28 @@
   <data name="PasswordGeneratorPage" xml:space="preserve">
     <value>Генерация надёжного пароля</value>
   </data>
+  <data name="Dark" xml:space="preserve">
+    <value>Темная</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Светлая</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>Системная</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="DownloadRemoteFileRequest" xml:space="preserve">
+    <value>Скачать удалённый файл и заменить локальную версию?</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="UploadLocalFileRequest" xml:space="preserve">
+    <value>Загрузить локальный файл и заменить удалённую версию?</value>
+  </data>
 </root>

@@ -1,3 +1,7 @@
+2.14:
+- Added remote file download/upload request dialogs.
+- Fixed broken search on navigating back at the entities page.
+
 2.13:
 - Improved Dark theme support.
 - Bug fixes & minor improvements.

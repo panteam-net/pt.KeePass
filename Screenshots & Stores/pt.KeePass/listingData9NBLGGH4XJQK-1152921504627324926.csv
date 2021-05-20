@@ -18,7 +18,11 @@ IT-поддержка:
 - мусорная корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.13:
+ReleaseNotes,3,Text,,"2.14:
+- Added remote file download/upload request dialogs.
+- Fixed broken search on navigating back at the entities page.
+
+2.13:
 - Improved Dark theme support.
 - Bug fixes & minor improvements.
 
@@ -53,13 +57,11 @@ ReleaseNotes,3,Text,,"2.13:
 - Login page design has been updated.
 
 2.5.0.0:
-- Error message on opening kdbx file fixed. It shows the correct message now when you try to open a newer version of kdbx file.
+- Error message on opening kdbx file fixed. It shows the correct message now when you try to open a newer version of kdbx file.","2.14:
+- Добавлены диалоговые окна запроса на загрузку/отправку файлов.
+- Исправлена ошибка поиска при переходе обратно на страницу сущностей.
 
-2.4.0.0:
-- Clearing searching field on navigating back for Android & iOS versions.
-- Icon pack #1 fixed.
-- Landing page has been added.
-- Bug with error on deleting an Entry from EntryPage fixed.","2.13:
+2.13:
 - Улучшена поддержка темной темы.
 - Исправления ошибок и незначительные улучшения.
 
@@ -94,13 +96,7 @@ ReleaseNotes,3,Text,,"2.13:
 - Обновлена страница входа.
 
 2.5.0.0:
-- Исправлено сообщение об ошибке при открытии файла kdbx. Теперь при попытке открыть более новую версию файла kdbx отображается правильное сообщение.
-
-2.4.0.0:
-- Очистка поля поиска при навигации назад для версий Android и iOS.
-- Исправлен набор иконок №1.
-- Добавлена начальная страница.
-- Исправлена ошибка при удалении записи со страницы записи."
+- Исправлено сообщение об ошибке при открытии файла kdbx. Теперь при попытке открыть более новую версию файла kdbx отображается правильное сообщение."
 Title,4,Text,,pt.KeePass,pt.KeePass
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,
