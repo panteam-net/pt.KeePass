@@ -18,7 +18,12 @@ Password database is encrypted and can be shared among different devices and pla
 - Корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.14:
+ReleaseNotes,3,Text,,"2.15:
+- Fixed iOS badge number after notification.
+- Fixed group icon selection.
+- Fixed crash on trying to get data from OneDrive.
+
+2.14:
 - Added remote file download/upload request dialogs.
 - Fixed broken search on navigating back at the entities page.
 
@@ -55,9 +60,12 @@ ReleaseNotes,3,Text,,"2.14:
 
 2.6:
 - Login page design has been updated.
+","2.15:
+- Исправлен номер над иконкой iOS после получения уведомления.
+- Исправлен выбор иконки для группы.
+- Исправлена ошибка при попытке получить данные из OneDrive.
 
-2.5.0.0:
-- Error message on opening kdbx file fixed. It shows the correct message now when you try to open a newer version of kdbx file.","2.14:
+2.14:
 - Добавлены диалоговые окна запроса на загрузку/отправку файлов.
 - Исправлена ошибка поиска при переходе обратно на страницу сущностей.
 
@@ -93,10 +101,7 @@ ReleaseNotes,3,Text,,"2.14:
 - Добавлен экспорт в формате XML и простой текст.
 
 2.6:
-- Обновлена страница входа.
-
-2.5.0.0:
-- Исправлено сообщение об ошибке при открытии файла kdbx. Теперь при попытке открыть более новую версию файла kdbx отображается правильное сообщение."
+- Обновлена страница входа."
 Title,4,Text,,pt.KeePass Pro,pt.KeePass Pro
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,

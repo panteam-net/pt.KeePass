@@ -1,3 +1,8 @@
+2.15:
+- Fixed iOS badge number after notification.
+- Fixed group icon selection.
+- Fixed crash on trying to get data from OneDrive.
+
 2.14:
 - Added remote file download/upload request dialogs.
 - Fixed broken search on navigating back at the entities page.

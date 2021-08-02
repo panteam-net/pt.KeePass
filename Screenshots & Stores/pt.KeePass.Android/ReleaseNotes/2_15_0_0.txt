@@ -1,0 +1,12 @@
+<en-US>
+2.15:
+- Fixed iOS badge number after notification.
+- Fixed group icon selection.
+- Fixed crash on trying to get data from OneDrive.
+</en-US>
+<ru-RU>
+2.15:
+- Исправлен номер над иконкой iOS после получения уведомления.
+- Исправлен выбор иконки для группы.
+- Исправлена ошибка при попытке получить данные из OneDrive.
+</ru-RU>
