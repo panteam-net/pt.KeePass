@@ -1,0 +1,10 @@
+<en-US>
+2.16:
+- Updated to KeePass 2.49.
+- Fixed some bugs.
+</en-US>
+<ru-RU>
+2.16:
+- Обновлено до KeePass 2.49.
+- Исправление ошибок.
+</ru-RU>

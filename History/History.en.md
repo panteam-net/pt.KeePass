@@ -1,3 +1,7 @@
+2.16:
+- Updated to KeePass 2.49.
+- Fixed some bugs.
+
 2.15:
 - Fixed iOS badge number after notification.
 - Fixed group icon selection.
