@@ -1,3 +1,7 @@
+2.17:
+- Fixed searching bug.
+- Added browsing OneDrive files.
+
 2.16:
 - Updated to KeePass 2.49.
 - Fixed some bugs.

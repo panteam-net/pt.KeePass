@@ -18,7 +18,11 @@ IT-поддержка:
 - мусорная корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.16:
+ReleaseNotes,3,Text,,"2.17:
+- Fixed searching bug.
+- Added browsing OneDrive files.
+
+2.16:
 - Updated to KeePass 2.49.
 - Fixed some bugs.
 
@@ -57,10 +61,11 @@ ReleaseNotes,3,Text,,"2.16:
 2.8:
 - Added kdbx file sharing.
 - Added exporting one entity without reentering credentials.
-- Added clipboard cleaning timeout.
+- Added clipboard cleaning timeout.","2.17:
+- Исправлена ошибка поиска.
+- Добавлен просмотр файлов OneDrive.
 
-2.7:
-- Sharing as XML & simple text has been added.","2.16:
+2.16:
 - Обновлено до KeePass 2.49.
 - Исправление ошибок.
 
@@ -99,10 +104,7 @@ ReleaseNotes,3,Text,,"2.16:
 2.8:
 - Добавлен общий доступ к файлам kdbx.
 - Добавлен экспорт одной записи без повторного ввода учетных данных.
-- Добавлен тайм-аут очистки буфера обмена.
-
-2.7:
-- Добавлен экспорт в формате XML и простой текст."
+- Добавлен тайм-аут очистки буфера обмена."
 Title,4,Text,,pt.KeePass,pt.KeePass
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,

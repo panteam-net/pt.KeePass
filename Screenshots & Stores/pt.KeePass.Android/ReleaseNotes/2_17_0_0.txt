@@ -1,0 +1,10 @@
+<en-US>
+2.17:
+- Fixed searching bug.
+- Added browsing OneDrive files.
+</en-US>
+<ru-RU>
+2.17:
+- Исправлена ошибка поиска.
+- Добавлен просмотр файлов OneDrive.
+</ru-RU>
