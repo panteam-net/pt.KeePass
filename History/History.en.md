@@ -1,3 +1,7 @@
+2.18:
+- Added application log & telemetry management.
+- Updated pt.KeePassLibStd core library to 2.50 version.
+
 2.17:
 - Fixed searching bug.
 - Added browsing OneDrive files.

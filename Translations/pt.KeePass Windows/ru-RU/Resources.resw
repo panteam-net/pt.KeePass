@@ -986,4 +986,37 @@
   <data name="UploadLocalFileRequest" xml:space="preserve">
     <value>Загрузить локальный файл и заменить удалённую версию?</value>
   </data>
+  <data name="LogTextBlock.Text" xml:space="preserve">
+    <value>Лог:</value>
+  </data>
+  <data name="ShareLog" xml:space="preserve">
+    <value>Отправить лог</value>
+  </data>
+  <data name="ShareLogFileButton.Label" xml:space="preserve">
+    <value>Отправить лог...</value>
+  </data>
+  <data name="ShareUsageStatisticDescriptionTextBlock.Text" xml:space="preserve">
+    <value>Отправлять лог автоматически для улучшения приложения.</value>
+  </data>
+  <data name="ShareUsageStatisticProDescriptionTextBlock.Text" xml:space="preserve">
+    <value>Это Про версия. Он не имеет доступа в Интернет и никогда не отправляет никаких данных без команды пользователя.</value>
+  </data>
+  <data name="ShareUsageStatisticTextBlock.Text" xml:space="preserve">
+    <value>Отправлять лог:</value>
+  </data>
+  <data name="Telemetry" xml:space="preserve">
+    <value>Телеметрия</value>
+  </data>
+  <data name="TelemetryNavigationViewItem.Content" xml:space="preserve">
+    <value>Телеметрия</value>
+  </data>
+  <data name="UserIdDescriptionTextBlock.Text" xml:space="preserve">
+    <value>Поделитесь своим идентификатором пользователя со службой поддержки, чтобы найти данные о вашем использовании на серверах. Вы можете изменить свой идентификатор пользователя в любое время, чтобы убедиться, что он анонимный.</value>
+  </data>
+  <data name="UserIdRegenerateTextBlock.Text" xml:space="preserve">
+    <value>Изменить идентификатор пользователя</value>
+  </data>
+  <data name="UserIdTextBlock.Text" xml:space="preserve">
+    <value>Идентификатор пользователя:</value>
+  </data>
 </root>

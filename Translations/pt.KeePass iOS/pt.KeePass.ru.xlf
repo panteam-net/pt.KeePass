@@ -672,7 +672,7 @@
           <target state="final">Синхронизация с OneDrive</target>
         </trans-unit>
         <trans-unit id="SigningIn" translate="yes" xml:space="preserve">
-          <source>Siging in...</source>
+          <source>Signing in...</source>
           <target state="final">Вход...</target>
         </trans-unit>
         <trans-unit id="CantSignIn" translate="yes" xml:space="preserve">
@@ -810,6 +810,38 @@
         <trans-unit id="Upload" translate="yes" xml:space="preserve">
           <source>Upload</source>
           <target state="final">Отправить</target>
+        </trans-unit>
+        <trans-unit id="LogsLabel" translate="yes" xml:space="preserve">
+          <source>Logs:</source>
+          <target state="final">Лог:</target>
+        </trans-unit>
+        <trans-unit id="ShareLog" translate="yes" xml:space="preserve">
+          <source>Share log...</source>
+          <target state="final">Отправить лог...</target>
+        </trans-unit>
+        <trans-unit id="ShareUsageStatistic" translate="yes" xml:space="preserve">
+          <source>Share log:</source>
+          <target state="final">Отправлять лог:</target>
+        </trans-unit>
+        <trans-unit id="ShareUsageStatisticDescription" translate="yes" xml:space="preserve">
+          <source>Send the log automatically to improve the app.</source>
+          <target state="final">Отправлять лог автоматически для улучшения приложения.</target>
+        </trans-unit>
+        <trans-unit id="Telemetry" translate="yes" xml:space="preserve">
+          <source>Telemetry</source>
+          <target state="final">Телеметрия</target>
+        </trans-unit>
+        <trans-unit id="UserId" translate="yes" xml:space="preserve">
+          <source>User ID:</source>
+          <target state="final">Идентификатор пользователя:</target>
+        </trans-unit>
+        <trans-unit id="UserIdDescription" translate="yes" xml:space="preserve">
+          <source>Share your user ID with support to find your usage data on the servers. You can change your user ID at any time to make sure that it's anonymous.</source>
+          <target state="final">Поделитесь своим идентификатором пользователя со службой поддержки, чтобы найти данные о вашем использовании на серверах. Вы можете изменить свой идентификатор пользователя в любое время, чтобы убедиться, что он анонимный.</target>
+        </trans-unit>
+        <trans-unit id="UserIdRegenerate" translate="yes" xml:space="preserve">
+          <source>Change user ID</source>
+          <target state="final">Изменить идентификатор пользователя</target>
         </trans-unit>
       </group>
     </body>

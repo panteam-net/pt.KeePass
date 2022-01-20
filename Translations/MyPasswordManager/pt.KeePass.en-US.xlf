@@ -672,8 +672,8 @@
           <target state="final">Syncing with OneDrive</target>
         </trans-unit>
         <trans-unit id="SigningIn" translate="yes" xml:space="preserve">
-          <source>Siging in...</source>
-          <target state="final">Siging in...</target>
+          <source>Signing in...</source>
+          <target state="final">Signing in...</target>
         </trans-unit>
         <trans-unit id="CantSignIn" translate="yes" xml:space="preserve">
           <source>Can't sign in</source>
@@ -810,6 +810,38 @@
         <trans-unit id="Upload" translate="yes" xml:space="preserve">
           <source>Upload</source>
           <target state="final">Upload</target>
+        </trans-unit>
+        <trans-unit id="LogsLabel" translate="yes" xml:space="preserve">
+          <source>Logs:</source>
+          <target state="final">Logs:</target>
+        </trans-unit>
+        <trans-unit id="ShareLog" translate="yes" xml:space="preserve">
+          <source>Share log...</source>
+          <target state="final">Share log...</target>
+        </trans-unit>
+        <trans-unit id="ShareUsageStatistic" translate="yes" xml:space="preserve">
+          <source>Share log:</source>
+          <target state="final">Share log:</target>
+        </trans-unit>
+        <trans-unit id="ShareUsageStatisticDescription" translate="yes" xml:space="preserve">
+          <source>Send the log automatically to improve the app.</source>
+          <target state="final">Send the log automatically to improve the app.</target>
+        </trans-unit>
+        <trans-unit id="Telemetry" translate="yes" xml:space="preserve">
+          <source>Telemetry</source>
+          <target state="final">Telemetry</target>
+        </trans-unit>
+        <trans-unit id="UserId" translate="yes" xml:space="preserve">
+          <source>User ID:</source>
+          <target state="final">User ID:</target>
+        </trans-unit>
+        <trans-unit id="UserIdDescription" translate="yes" xml:space="preserve">
+          <source>Share your user ID with support to find your usage data on the servers. You can change your user ID at any time to make sure that it's anonymous.</source>
+          <target state="final">Share your user ID with support to find your usage data on the servers. You can change your user ID at any time to make sure that it's anonymous.</target>
+        </trans-unit>
+        <trans-unit id="UserIdRegenerate" translate="yes" xml:space="preserve">
+          <source>Change user ID</source>
+          <target state="final">Change user ID</target>
         </trans-unit>
       </group>
     </body>

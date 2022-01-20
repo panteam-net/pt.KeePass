@@ -992,4 +992,40 @@ Non Pro version collects information to make both free and Pro versions better</
   <data name="UploadLocalFileRequest" xml:space="preserve">
     <value>Upload local file &amp; replace the remote version?</value>
   </data>
+  <data name="NameWithColonTextBlock.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="ShareLog" xml:space="preserve">
+    <value>Share log</value>
+  </data>
+  <data name="ShareLogFileButton.Label" xml:space="preserve">
+    <value>Share log...</value>
+  </data>
+  <data name="Telemetry" xml:space="preserve">
+    <value>Telemetry</value>
+  </data>
+  <data name="TelemetryNavigationViewItem.Content" xml:space="preserve">
+    <value>Telemetry</value>
+  </data>
+  <data name="LogTextBlock.Text" xml:space="preserve">
+    <value>Log:</value>
+  </data>
+  <data name="ShareUsageStatisticDescriptionTextBlock.Text" xml:space="preserve">
+    <value>Send the log automatically to improve the app.</value>
+  </data>
+  <data name="ShareUsageStatisticTextBlock.Text" xml:space="preserve">
+    <value>Share log:</value>
+  </data>
+  <data name="UserIdDescriptionTextBlock.Text" xml:space="preserve">
+    <value>Share your user ID with support to find your usage data on the servers. You can change your user ID at any time to make sure that it's anonymous.</value>
+  </data>
+  <data name="UserIdRegenerateTextBlock.Text" xml:space="preserve">
+    <value>Change user ID</value>
+  </data>
+  <data name="UserIdTextBlock.Text" xml:space="preserve">
+    <value>User ID:</value>
+  </data>
+  <data name="ShareUsageStatisticProDescriptionTextBlock.Text" xml:space="preserve">
+    <value>This is a Pro version. It has no Internet capabilities &amp; never sends any data without user command.</value>
+  </data>
 </root>

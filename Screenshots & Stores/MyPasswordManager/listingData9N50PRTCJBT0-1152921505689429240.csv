@@ -20,7 +20,11 @@ The password database is encrypted and can be shared among different devices and
 - Скоро появятся новые функции. Оставьте свой отзыв.
 
 База данных паролей зашифрована и может быть разделена между различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.17:
+ReleaseNotes,3,Text,,"2.18:
+- Added application log & telemetry management.
+- Updated pt.KeePassLibStd core library to 2.50 version.
+
+2.17:
 - Fixed searching bug.
 - Added browsing OneDrive files.
 
@@ -58,12 +62,11 @@ ReleaseNotes,3,Text,,"2.17:
 2.9:
 - Added Open in another app button for kdbx files.
 - Added OneDrive files provider.
-- Fixed Icon Pack #1.
+- Fixed Icon Pack #1.","2.18:
+- Добавлено управление логом приложения и телеметрией.
+- Обновлена основная библиотека pt.KeePassLibStd до версии 2.50.
 
-2.8:
-- Added kdbx file sharing.
-- Added exporting one entity without reentering credentials.
-- Added clipboard cleaning timeout.","2.17:
+2.17:
 - Исправлена ошибка поиска.
 - Добавлен просмотр файлов OneDrive.
 
@@ -101,12 +104,7 @@ ReleaseNotes,3,Text,,"2.17:
 2.9:
 - Добавлена кнопка Открыть в другом приложении для файлов kdbx.
 - Добавлен поставщик файлов OneDrive.
-- Исправлен Набор иконок #1.
-
-2.8:
-- Добавлен общий доступ к файлам kdbx.
-- Добавлен экспорт одной записи без повторного ввода учетных данных.
-- Добавлен тайм-аут очистки буфера обмена."
+- Исправлен Набор иконок #1."
 Title,4,Text,,MyPasswordManager,MyPasswordManager
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,
