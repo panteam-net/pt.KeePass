@@ -1028,4 +1028,19 @@ Non Pro version collects information to make both free and Pro versions better</
   <data name="ShareUsageStatisticProDescriptionTextBlock.Text" xml:space="preserve">
     <value>This is a Pro version. It has no Internet capabilities &amp; never sends any data without user command.</value>
   </data>
+  <data name="RemoteFile" xml:space="preserve">
+    <value>Remote file</value>
+  </data>
+  <data name="RemoteFileSyncDisclaimer" xml:space="preserve">
+    <value>Your local or remote file can be overwritten. Ensure you have backups.</value>
+  </data>
+  <data name="DownloadRemoteFile" xml:space="preserve">
+    <value>Download remote file</value>
+  </data>
+  <data name="OpenSelectedFileTextBlock.Text" xml:space="preserve">
+    <value>Open selected file</value>
+  </data>
+  <data name="UploadLocalFile" xml:space="preserve">
+    <value>Upload local file</value>
+  </data>
 </root>

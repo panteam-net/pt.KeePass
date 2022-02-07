@@ -18,7 +18,10 @@ Password database is encrypted and can be shared among different devices and pla
 - Корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.18:
+ReleaseNotes,3,Text,,"2.19:
+- Added a remote file synchronization page.
+
+2.18:
 - Added application log & telemetry management.
 - Updated pt.KeePassLibStd core library to 2.50 version.
 
@@ -55,12 +58,10 @@ ReleaseNotes,3,Text,,"2.18:
 2.10:
 - Fixed a crash on removing Recycle Bin.
 - Fixed a crash for databases with custom icons.
-- Added a feature to send an entry to the notifications to be able to copy the entry's data (username & password) to the clipboard right from the notifications.
+- Added a feature to send an entry to the notifications to be able to copy the entry's data (username & password) to the clipboard right from the notifications.","2.19:
+- Добавлена страница отправки и загрузки файла с удалённого сервера.
 
-2.9:
-- Added Open in another app button for kdbx files.
-- Added OneDrive files provider.
-- Fixed Icon Pack #1.","2.18:
+2.18:
 - Добавлено управление логом приложения и телеметрией.
 - Обновлена основная библиотека pt.KeePassLibStd до версии 2.50.
 
@@ -97,12 +98,7 @@ ReleaseNotes,3,Text,,"2.18:
 2.10:
 - Исправлена ошибка при удалении корзины.
 - Исправлен сбой для баз данных с пользовательскими иконками.
-- Добавлена функция отправки записи в уведомления, чтобы иметь возможность копировать данные записи (имя пользователя и пароль) в буфер обмена прямо из уведомлений.
-
-2.9:
-- Добавлена кнопка Открыть в другом приложении для файлов kdbx.
-- Добавлен поставщик файлов OneDrive.
-- Исправлен Набор иконок #1."
+- Добавлена функция отправки записи в уведомления, чтобы иметь возможность копировать данные записи (имя пользователя и пароль) в буфер обмена прямо из уведомлений."
 Title,4,Text,,pt.KeePass Pro,pt.KeePass Pro
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,

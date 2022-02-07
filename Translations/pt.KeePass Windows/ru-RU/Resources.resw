@@ -1019,4 +1019,19 @@
   <data name="UserIdTextBlock.Text" xml:space="preserve">
     <value>Идентификатор пользователя:</value>
   </data>
+  <data name="RemoteFile" xml:space="preserve">
+    <value>Синхронизация</value>
+  </data>
+  <data name="RemoteFileSyncDisclaimer" xml:space="preserve">
+    <value>Ваш локальный или удалённый файл может быть перезаписан. Убедитесь, что у вас есть резервные копии.</value>
+  </data>
+  <data name="DownloadRemoteFile" xml:space="preserve">
+    <value>Скачать файл с сервера</value>
+  </data>
+  <data name="OpenSelectedFileTextBlock.Text" xml:space="preserve">
+    <value>Открыть выбранный файл</value>
+  </data>
+  <data name="UploadLocalFile" xml:space="preserve">
+    <value>Отправить файл на сервер</value>
+  </data>
 </root>

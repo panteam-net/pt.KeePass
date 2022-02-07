@@ -843,6 +843,22 @@
           <source>Change user ID</source>
           <target state="final">Change user ID</target>
         </trans-unit>
+        <trans-unit id="RemoteFile" translate="yes" xml:space="preserve">
+          <source>Remote file</source>
+          <target state="final">Remote file</target>
+        </trans-unit>
+        <trans-unit id="RemoteFileSyncDisclaimer" translate="yes" xml:space="preserve">
+          <source>Your local or remote file can be overwritten. Ensure you have backups.</source>
+          <target state="final">Your local or remote file can be overwritten. Ensure you have backups.</target>
+        </trans-unit>
+        <trans-unit id="DownloadRemoteFile" translate="yes" xml:space="preserve">
+          <source>Download remote file</source>
+          <target state="final">Download remote file</target>
+        </trans-unit>
+        <trans-unit id="UploadLocalFile" translate="yes" xml:space="preserve">
+          <source>Upload local file</source>
+          <target state="final">Upload local file</target>
+        </trans-unit>
       </group>
     </body>
   </file>

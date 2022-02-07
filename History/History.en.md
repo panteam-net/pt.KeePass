@@ -1,3 +1,6 @@
+2.19:
+- Added a remote file synchronization page.
+
 2.18:
 - Added application log & telemetry management.
 - Updated pt.KeePassLibStd core library to 2.50 version.
