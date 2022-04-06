@@ -1,3 +1,7 @@
+2.20:
+- Fixed the crash on auto login bug.
+- Fixed custom icons support.
+
 2.19:
 - Added a remote file synchronization page.
 

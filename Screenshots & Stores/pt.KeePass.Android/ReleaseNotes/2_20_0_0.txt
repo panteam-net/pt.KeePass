@@ -1,0 +1,10 @@
+<en-US>
+2.20:
+- Fixed the crash on auto login bug.
+- Fixed custom icons support.
+</en-US>
+<ru-RU>
+2.20:
+- Исправлен сбой при автоматическом входе в систему.
+- Исправлена поддержка пользовательских иконок.
+</ru-RU>
