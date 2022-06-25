@@ -1,3 +1,7 @@
+2.21:
+- Fixed opening remote file as readonly after app updating.
+- Fixed saved entry type activation after UI language changing.
+
 2.20:
 - Fixed the crash on auto login bug.
 - Fixed custom icons support.

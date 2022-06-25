@@ -18,7 +18,11 @@ IT-поддержка:
 - мусорная корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.20:
+ReleaseNotes,3,Text,,"2.21:
+- Fixed opening remote file as readonly after app updating.
+- Fixed saved entry type activation after UI language changing.
+
+2.20:
 - Fixed the crash on auto login bug.
 - Fixed custom icons support.
 
@@ -52,12 +56,11 @@ ReleaseNotes,3,Text,,"2.20:
 
 2.12:
 - Added an FTP files provider.
-- Updated the user interface design.
+- Updated the user interface design.","2.21:
+- Исправлено открытие OneDrive файла в режиме только чтение после обновления приложения.
+- Исправлено активация выбранного типа записи после смены язка приложения.
 
-2.11:
-- Fixed a crash on sharing a whole group as XML.
-- Fixed a crash on deleting an item when searching.
-- Fixed bug & improved user interface on setting passwords.","2.20:
+2.20:
 - Исправлен сбой при автоматическом входе в систему.
 - Исправлена поддержка пользовательских иконок.
 
@@ -91,12 +94,7 @@ ReleaseNotes,3,Text,,"2.20:
 
 2.12:
 - Добавлен поставщик файлов FTP.
-- Обновлён дизайн пользовательского интерфейса.
-
-2.11:
-- Исправлено падение приложения при выборе поделиться как XML для группы.
-- Исправлено падение приложения при удалении элемента при поиске.
-- Исправлена ошибка и улучшен пользовательский интерфейс при установке паролей."
+- Обновлён дизайн пользовательского интерфейса."
 Title,4,Text,,pt.KeePass,pt.KeePass
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,

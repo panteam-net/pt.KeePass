@@ -1,0 +1,10 @@
+<en-US>
+2.21:
+- Fixed opening remote file as readonly after app updating.
+- Fixed saved entry type activation after UI language changing.
+</en-US>
+<ru-RU>
+2.21:
+- Исправлено открытие OneDrive файла в режиме только чтение после обновления приложения.
+- Исправлено активация выбранного типа записи после смены язка приложения.
+</ru-RU>
