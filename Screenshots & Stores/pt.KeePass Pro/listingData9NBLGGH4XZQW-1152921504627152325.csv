@@ -1,4 +1,4 @@
-﻿Field,ID,Type (Type),default,en-us,ru-ru
+Field,ID,Type (Type),default,en-us,ru-ru
 Description,2,Text,,"Internet free all features included version of pt.KeePass. Your feedback is welcome. Password manager. It's based on KeePass project. Supports KeePass 2.x database format. 
 It supports:
 - Bank cards!
@@ -18,7 +18,11 @@ Password database is encrypted and can be shared among different devices and pla
 - Корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.21:
+ReleaseNotes,3,Text,,"2.22:
+- Fixed adding a key file with locked permissions bug.
+- Fixed bug on opening remote-sync file without Internet.
+
+2.21:
 - Fixed opening remote file as readonly after app updating.
 - Fixed saved entry type activation after UI language changing.
 
@@ -52,11 +56,11 @@ ReleaseNotes,3,Text,,"2.21:
 
 2.13:
 - Improved Dark theme support.
-- Bug fixes & minor improvements.
+- Bug fixes & minor improvements.","2.22:
+- Исправлена ошибка при добавлении ключевого файла с заблокированными разрешениями.
+- Исправлена ошибка при открытии файла удаленной синхронизации без Интернета.
 
-2.12:
-- Added an FTP files provider.
-- Updated the user interface design.","2.21:
+2.21:
 - Исправлено открытие OneDrive файла в режиме только чтение после обновления приложения.
 - Исправлено активация выбранного типа записи после смены язка приложения.
 
@@ -90,16 +94,7 @@ ReleaseNotes,3,Text,,"2.21:
 
 2.13:
 - Улучшена поддержка темной темы.
-- Исправления ошибок и незначительные улучшения.
-
-2.12:
-- Добавлен поставщик файлов FTP.
-- Обновлён дизайн пользовательского интерфейса.
-
-2.11:
-- Исправлено падение приложения при выборе поделиться как XML для группы.
-- Исправлено падение приложения при удалении элемента при поиске.
-- Исправлена ошибка и улучшен пользовательский интерфейс при установке паролей."
+- Исправления ошибок и незначительные улучшения."
 Title,4,Text,,pt.KeePass Pro,pt.KeePass Pro
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,

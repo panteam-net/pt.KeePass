@@ -14,6 +14,10 @@
           <source>KeePass</source>
           <target state="final">KeePass</target>
         </trans-unit>
+        <trans-unit id="CantSyncTheRemoteFileCheckYourInternetConnection" translate="yes" xml:space="preserve">
+          <source>Can't sync the file. Check your Internet.</source>
+          <target state="final">Can't sync the file. Check your Internet.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -1034,4 +1034,7 @@
   <data name="UploadLocalFile" xml:space="preserve">
     <value>Отправить файл на сервер</value>
   </data>
+  <data name="CantSyncTheRemoteFileCheckYourInternetConnection" xml:space="preserve">
+    <value>Не удаётся синхронизировать файл. Проверьте свой Интернет.</value>
+  </data>
 </root>

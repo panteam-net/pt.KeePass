@@ -1,0 +1,10 @@
+<en-US>
+2.22:
+- Fixed adding a key file with locked permissions bug.
+- Fixed bug on opening remote-sync file without Internet.
+</en-US>
+<ru-RU>
+2.22:
+- Исправлена ошибка при добавлении ключевого файла с заблокированными разрешениями.
+- Исправлена ошибка при открытии файла удаленной синхронизации без Интернета.
+</ru-RU>

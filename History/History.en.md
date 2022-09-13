@@ -1,3 +1,7 @@
+2.22:
+- Fixed adding a key file with locked permissions bug.
+- Fixed bug on opening remote-sync file without Internet.
+
 2.21:
 - Fixed opening remote file as read-only after app updating.
 - Fixed saved entry type activation after UI language changing.

@@ -1043,4 +1043,7 @@ Non Pro version collects information to make both free and Pro versions better</
   <data name="UploadLocalFile" xml:space="preserve">
     <value>Upload local file</value>
   </data>
+  <data name="CantSyncTheRemoteFileCheckYourInternetConnection" xml:space="preserve">
+    <value>Can't sync the file. Check your Internet.</value>
+  </data>
 </root>
