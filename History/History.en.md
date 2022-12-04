@@ -1,3 +1,6 @@
+2.23:
+- Service update.
+
 2.22:
 - Fixed adding a key file with locked permissions bug.
 - Fixed bug on opening remote-sync file without Internet.

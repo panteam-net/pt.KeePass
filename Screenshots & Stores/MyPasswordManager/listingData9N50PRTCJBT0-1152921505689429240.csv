@@ -20,7 +20,10 @@ The password database is encrypted and can be shared among different devices and
 - Скоро появятся новые функции. Оставьте свой отзыв.
 
 База данных паролей зашифрована и может быть разделена между различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.22:
+ReleaseNotes,3,Text,,"2.23:
+- Service update.
+
+2.22:
 - Fixed adding a key file with locked permissions bug.
 - Fixed bug on opening remote-sync file without Internet.
 
@@ -54,11 +57,10 @@ ReleaseNotes,3,Text,,"2.22:
 
 2.14:
 - Added remote file download/upload request dialogs.
-- Fixed broken search on navigating back at the entities page.
+- Fixed broken search on navigating back at the entities page.","2.23:
+- Сервисное обновление. 
 
-2.13:
-- Improved Dark theme support.
-- Bug fixes & minor improvements.","2.22:
+2.22:
 - Исправлена ошибка при добавлении ключевого файла с заблокированными разрешениями.
 - Исправлена ошибка при открытии файла удаленной синхронизации без Интернета.
 
@@ -92,11 +94,7 @@ ReleaseNotes,3,Text,,"2.22:
 
 2.14:
 - Добавлены диалоговые окна запроса на загрузку/отправку файлов.
-- Исправлена ошибка поиска при переходе обратно на страницу сущностей.
-
-2.13:
-- Улучшена поддержка темной темы.
-- Исправления ошибок и незначительные улучшения."
+- Исправлена ошибка поиска при переходе обратно на страницу сущностей."
 Title,4,Text,,MyPasswordManager,MyPasswordManager
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,
