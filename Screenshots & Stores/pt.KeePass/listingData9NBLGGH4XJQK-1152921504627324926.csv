@@ -18,7 +18,10 @@ IT-поддержка:
 - мусорная корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.23:
+ReleaseNotes,3,Text,,"2.24:
+- Service update.
+
+2.23:
 - Service update.
 
 2.22:
@@ -51,11 +54,10 @@ ReleaseNotes,3,Text,,"2.23:
 2.15:
 - Fixed iOS badge number after notification.
 - Fixed group icon selection.
-- Fixed crash on trying to get data from OneDrive.
+- Fixed crash on trying to get data from OneDrive.","2.24:
+- Сервисное обновление. 
 
-2.14:
-- Added remote file download/upload request dialogs.
-- Fixed broken search on navigating back at the entities page.","2.23:
+2.23:
 - Сервисное обновление. 
 
 2.22:
@@ -88,11 +90,7 @@ ReleaseNotes,3,Text,,"2.23:
 2.15:
 - Исправлен номер над иконкой iOS после получения уведомления.
 - Исправлен выбор иконки для группы.
-- Исправлена ошибка при попытке получить данные из OneDrive.
-
-2.14:
-- Добавлены диалоговые окна запроса на загрузку/отправку файлов.
-- Исправлена ошибка поиска при переходе обратно на страницу сущностей."
+- Исправлена ошибка при попытке получить данные из OneDrive."
 Title,4,Text,,pt.KeePass,pt.KeePass
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,

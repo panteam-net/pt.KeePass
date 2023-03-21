@@ -1,3 +1,6 @@
+2.24:
+- Service update.
+
 2.23:
 - Service update.
 
