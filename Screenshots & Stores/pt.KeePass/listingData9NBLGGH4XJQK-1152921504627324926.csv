@@ -18,7 +18,10 @@ IT-поддержка:
 - мусорная корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.24:
+ReleaseNotes,3,Text,,"2.25:
+- Updated to KeePass 2.55.
+
+2.24:
 - Service update.
 
 2.23:
@@ -49,12 +52,10 @@ ReleaseNotes,3,Text,,"2.24:
 
 2.16:
 - Updated to KeePass 2.49.
-- Fixed some bugs.
+- Fixed some bugs.","2.25:
+- Обновлено до KeePass 2.55.
 
-2.15:
-- Fixed iOS badge number after notification.
-- Fixed group icon selection.
-- Fixed crash on trying to get data from OneDrive.","2.24:
+2.24:
 - Сервисное обновление. 
 
 2.23:
@@ -85,12 +86,7 @@ ReleaseNotes,3,Text,,"2.24:
 
 2.16:
 - Обновлено до KeePass 2.49.
-- Исправление ошибок.
-
-2.15:
-- Исправлен номер над иконкой iOS после получения уведомления.
-- Исправлен выбор иконки для группы.
-- Исправлена ошибка при попытке получить данные из OneDrive."
+- Исправление ошибок."
 Title,4,Text,,pt.KeePass,pt.KeePass
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,
