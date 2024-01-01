@@ -1,0 +1,8 @@
+<en-US>
+2.25:
+- Updated to KeePass 2.55.
+</en-US>
+<ru-RU>
+2.25:
+- Обновлено до KeePass 2.55.
+</ru-RU>

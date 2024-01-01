@@ -1,3 +1,6 @@
+2.25:
+- Updated to KeePass 2.55.
+
 2.24:
 - Service update.
 

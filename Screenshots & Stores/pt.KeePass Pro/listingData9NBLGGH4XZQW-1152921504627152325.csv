@@ -18,7 +18,13 @@ Password database is encrypted and can be shared among different devices and pla
 - Корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.23:
+ReleaseNotes,3,Text,,"2.25:
+- Updated to KeePass 2.55.
+
+2.24:
+- Service update. 
+
+2.23:
 - Service update.
 
 2.22:
@@ -46,16 +52,13 @@ ReleaseNotes,3,Text,,"2.23:
 
 2.16:
 - Updated to KeePass 2.49.
-- Fixed some bugs.
+- Fixed some bugs.","2.25:
+- Обновлено до KeePass 2.55.
 
-2.15:
-- Fixed iOS badge number after notification.
-- Fixed group icon selection.
-- Fixed crash on trying to get data from OneDrive.
+2.24:
+- Сервисное обновление.
 
-2.14:
-- Added remote file download/upload request dialogs.
-- Fixed broken search on navigating back at the entities page.","2.23:
+2.23:
 - Сервисное обновление. 
 
 2.22:
@@ -83,16 +86,7 @@ ReleaseNotes,3,Text,,"2.23:
 
 2.16:
 - Обновлено до KeePass 2.49.
-- Исправление ошибок.
-
-2.15:
-- Исправлен номер над иконкой iOS после получения уведомления.
-- Исправлен выбор иконки для группы.
-- Исправлена ошибка при попытке получить данные из OneDrive.
-
-2.14:
-- Добавлены диалоговые окна запроса на загрузку/отправку файлов.
-- Исправлена ошибка поиска при переходе обратно на страницу сущностей."
+- Исправление ошибок."
 Title,4,Text,,pt.KeePass Pro,pt.KeePass Pro
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,
