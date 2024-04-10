@@ -1,0 +1,8 @@
+<en-US>
+2.25:
+- Add moving entities (cut & paste) between groups.
+</en-US>
+<ru-RU>
+2.25:
+- Добавлено перемещение записей (вырезать/вставить) между группами.
+</ru-RU>

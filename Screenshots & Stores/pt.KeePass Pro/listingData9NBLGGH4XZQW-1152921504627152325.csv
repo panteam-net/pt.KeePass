@@ -18,7 +18,10 @@ Password database is encrypted and can be shared among different devices and pla
 - Корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.25:
+ReleaseNotes,3,Text,,"2.26:
+- Add moving entities (cut & paste) between groups.
+
+2.25:
 - Updated to KeePass 2.55.
 
 2.24:
@@ -48,11 +51,10 @@ ReleaseNotes,3,Text,,"2.25:
 
 2.17:
 - Fixed searching bug.
-- Added browsing OneDrive files.
+- Added browsing OneDrive files.","2.26:
+- Добавлено перемещение записей (вырезать/вставить) между группами.
 
-2.16:
-- Updated to KeePass 2.49.
-- Fixed some bugs.","2.25:
+2.25:
 - Обновлено до KeePass 2.55.
 
 2.24:
@@ -82,11 +84,7 @@ ReleaseNotes,3,Text,,"2.25:
 
 2.17:
 - Исправлена ошибка поиска.
-- Добавлен просмотр файлов OneDrive.
-
-2.16:
-- Обновлено до KeePass 2.49.
-- Исправление ошибок."
+- Добавлен просмотр файлов OneDrive."
 Title,4,Text,,pt.KeePass Pro,pt.KeePass Pro
 ShortTitle,5,Text,,,
 SortTitle,6,Text,,,
