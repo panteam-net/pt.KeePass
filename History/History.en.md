@@ -1,3 +1,6 @@
+2.27:
+- Service update.
+
 2.26:
 - Add moving entities (cut & paste) between groups.
 
