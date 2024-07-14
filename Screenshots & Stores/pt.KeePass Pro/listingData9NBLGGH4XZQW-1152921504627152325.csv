@@ -18,7 +18,10 @@ Password database is encrypted and can be shared among different devices and pla
 - Корзина
 - Оставьте свой отзыв.
 База данных паролей зашифрована и может совместно использоваться различными устройствами и платформами."
-ReleaseNotes,3,Text,,"2.26:
+ReleaseNotes,3,Text,,"2.27:
+- Service update.
+
+2.26:
 - Add moving entities (cut & paste) between groups.
 
 2.25:
@@ -51,7 +54,10 @@ ReleaseNotes,3,Text,,"2.26:
 
 2.17:
 - Fixed searching bug.
-- Added browsing OneDrive files.","2.26:
+- Added browsing OneDrive files.","2.27:
+- Сервисное обновление.
+
+2.26:
 - Добавлено перемещение записей (вырезать/вставить) между группами.
 
 2.25:
